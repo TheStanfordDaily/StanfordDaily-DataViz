@@ -1,2 +1,2 @@
 # StanfordDailyDataViz
-The public Stanford Daily Data Viz team repository 
+This is the public Stanford Daily Data Viz team repository 
