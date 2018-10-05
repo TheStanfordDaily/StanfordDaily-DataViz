@@ -1,5 +1,4 @@
-console.clear();
-const OPACITY_TRANSITION_TIME = 0
+console.clear()
 const offenseNames = [
   "Rape",
   "Fondling",
@@ -7,8 +6,8 @@ const offenseNames = [
   "Dating Violence",
   "Domestic Violence",
   "Stalking"
-];
-const years = ["2013", "2014", "2015", "2016"];
+]
+const years = ["2013", "2014", "2015", "2016"]
 const offensesByYear = [
   { // 2013
     "Rape": 16,
@@ -42,37 +41,37 @@ const offensesByYear = [
     "Domestic Violence": 9,
     "Stalking": 21,
   }
-];
+]
 
 const generateClassStr = str => {
-  return str.replace(/\s+/g, '-').toLowerCase();
+  return str.replace(/\s+/g, '-').toLowerCase()
 }
 
 let n     = offenseNames.length, // number of layers
     m     = offensesByYear.length, // number of samples per layer
-    stack = d3.stack().keys(offenseNames);
+    stack = d3.stack().keys(offenseNames)
 
-let layers = stack(offensesByYear); // calculate the stack layout
+let layers = stack(offensesByYear) // calculate the stack layout
 
 layers.forEach(function(d, i) {
   // add keys to every datapoint
   d.forEach(function(dd, j) {
-    dd.year = years[j];
-    dd.offenseName = offenseNames[i];
-    dd.class = generateClassStr(dd.offenseName);
+    dd.year = years[j]
+    dd.offenseName = offenseNames[i]
+    dd.class = generateClassStr(dd.offenseName)
     dd.value =  dd.data[dd.offenseName]
-  });
-});
+  })
+})
 
 let yStackMax = d3.max(layers, function(layer) {
     return d3.max(layer, function(d) {
-      return d[1];
-    });
-  });
+      return d[1]
+    })
+  })
 let margin = { top: 70, right: 120, bottom: 40, left: 50 },
   fullChartWidth = fullChartHeight = 700,
   width  = fullChartWidth  - margin.left - margin.right,
-  height = fullChartHeight - margin.top  - margin.bottom;
+  height = fullChartHeight - margin.top  - margin.bottom
 
 d3.select("#stacked-bar-chart-container")
   .style("width",  fullChartWidth)
@@ -82,17 +81,27 @@ let x = d3
   .scaleBand()
   .domain(years)
   .rangeRound([0, width])
-  .padding(0.3);
+  .padding(0.3)
 
 let y = d3
   .scaleLinear()
   .domain([0, yStackMax])
-  .range([height, 0]);
+  .range([height, 0])
 let z = d3
   .scaleBand()
   .domain(offenseNames)
-  .rangeRound([0, x.bandwidth()]);
-let color = ["#7fc97f", "#beaed4", "#fdc086", "blanchedalmond", "skyblue", "darkred"]
+  .rangeRound([0, x.bandwidth()])
+
+const colorPalette = {
+	paloAlto: '#175e54',
+	gold: '#b26f16',
+	sandhill: '#b3995d',
+	cardinalRed: '#8c1515',
+  purple: '#53284f',
+  lagunita: '#007c92',
+}
+
+const colors = Object.values(colorPalette)
 
 let svg = d3
   .select("#stacked-bar-chart-container")
@@ -100,7 +109,7 @@ let svg = d3
   .attr("width", width + margin.left + margin.right + 20)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  .attr("transform", "translate(" + (margin.left + 20) + "," + margin.top + ")");
+  .attr("transform", "translate(" + (margin.left + 20) + "," + margin.top + ")")
 
 let layer = svg
   .selectAll(".layer")
@@ -109,13 +118,13 @@ let layer = svg
   .append("g")
   .attr("class", "layer")
   .style("fill", function(d, i) {
-    return color[i];
-  });
+    return colors[i]
+  })
 
 // Define the div for the tooltip
 let tooltip = d3.select("body").append("div") 
     .attr("class", "tooltip")       
-    .style("opacity", 0);
+    .style("opacity", 0)
 
 const focusBar = (_class) => {
   d3.selectAll(".bar")
@@ -125,13 +134,13 @@ const focusBar = (_class) => {
 let rect = layer
   .selectAll(".bar")
   .data(function(d) {
-    return d;
+    return d
   })
   .enter()
   .append("rect")
   .attr("class", d => generateClassStr(d.offenseName) + " bar")
   .attr("x", function(d) {
-    return x(d.year);
+    return x(d.year)
   })
   .attr("y", height)
   .attr("width", x.bandwidth() / m - 8)
@@ -144,30 +153,30 @@ let rect = layer
       .style("opacity", .9) 
       .html("<b>" + d.value + "</b> reports of " + d.offenseName + " in " + d.year)  
       .style("left", (d3.mouse(this)[0]) + "px")   
-      .style("top",  (d3.mouse(this)[1]) + 40 + "px");  
+      .style("top",  (d3.mouse(this)[1]) + 40 + "px")
     })          
   .on("mouseout", function(d) {  
     d3.selectAll(".bar").style("opacity", 1) 
-    tooltip.style("opacity", 0); 
-  });
+    tooltip.style("opacity", 0)
+  })
 
 rect
   .transition()
   .delay(function(d, i) {
-    return i * 10;
+    return i * 10
   })
   .attr("y", function(d) {
-    return y(d[1]);
+    return y(d[1])
   })
   .attr("height", function(d) {
-    return y(d[0]) - y(d[1]);
-  });
+    return y(d[0]) - y(d[1])
+  })
 
 svg
   .append("g")
   .attr("class", "x axis")
   .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x).tickSizeOuter(0));
+  .call(d3.axisBottom(x).tickSizeOuter(0))
 
   // add the Y gridlines
 svg.append("g")     
@@ -180,7 +189,7 @@ svg.append("g")
 
 // Add the y Axis
 svg.append("g")
-  .call(d3.axisLeft(y));
+  .call(d3.axisLeft(y))
 
 // text label for the y axis
 svg.append("text")
@@ -189,7 +198,7 @@ svg.append("text")
   .attr("x", 0 - (height / 2))
   .attr("dy", "3em")
   .style("text-anchor", "middle")
-  .text("Offenses per Year"); 
+  .text("Offenses per Year")
 
 const legendGroup = svg.append('g')
   .attr("transform", `translate(${0.85*width}, 10)`)
@@ -201,14 +210,14 @@ let legend = legendGroup
   .append("g")
   .attr("class", d => "legend " + generateClassStr(d))
   .attr("transform", function(d, i) {
-    return "translate(0," + i * 20 + ")";
+    return "translate(0," + i * 20 + ")"
   })
   .on("mouseover", d => {
     focusBar(generateClassStr(d))
   })       
   .on("mouseout", function(d) {  
     d3.selectAll(".bar").style("opacity", 1) 
-  });
+  })
 
 legend
   .append("rect")
@@ -216,8 +225,8 @@ legend
   .attr("width", 20)
   .attr("height", 20)
   .style("fill", function(d, i) {
-    return color[offenseNames.length - 1 - i]; // match stack order
-  });
+    return colors[offenseNames.length - 1 - i] // match stack order
+  })
 
 legend
   .append("text")
@@ -226,13 +235,13 @@ legend
   .attr("dy", ".35em")
   .style("text-anchor", "start")
   .text(function(d) {
-    return d;
-  });
+    return d
+  })
 
-d3.selectAll("input").on("change", change);
+d3.selectAll("input").on("change", change)
 
 function change() {
-  (this.value === "grouped") ? transitionGrouped() : transitionStacked();
+  (this.value === "grouped") ? transitionGrouped() : transitionStacked()
 }
 
 function transitionGrouped() {
@@ -240,18 +249,18 @@ function transitionGrouped() {
     .transition()
     .duration(500)
     .delay(function(d, i) {
-      return i * 10;
+      return i * 10
     })
     .attr("x", function(d) {
-      return x(d.year) + z(d.offenseName);
+      return x(d.year) + z(d.offenseName)
     })
     .transition()
     .attr("y", function(d) {
-      return y(d.data[d.offenseName]);
+      return y(d.data[d.offenseName])
     })
     .attr("height", function(d) {
-      return height - y(d.data[d.offenseName]);
-    });
+      return height - y(d.data[d.offenseName])
+    })
 }
 
 function transitionStacked() {
@@ -259,16 +268,16 @@ function transitionStacked() {
     .transition()
     .duration(500)
     .delay(function(d, i) {
-      return i * 10;
+      return i * 10
     })
     .attr("y", function(d) {
-      return y(d[1]);
+      return y(d[1])
     })
     .attr("height", function(d) {
-      return y(d[0]) - y(d[1]);
+      return y(d[0]) - y(d[1])
     })
     .transition()
     .attr("x", function(d) {
-      return x(d.year);
+      return x(d.year)
     })
 }
