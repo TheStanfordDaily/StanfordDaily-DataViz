@@ -1,0 +1,64 @@
+body {
+    font-family: "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.slice:hover {
+    opacity: 0.9;
+}
+
+.slice .main-arc {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.slice .hidden-arc {
+    fill: none;
+}
+
+.slice.invisible-root-node {
+    display: none;
+}
+
+.slice.policy-violations text {
+    fill: white;
+}
+
+
+.slice text {
+    pointer-events: none;
+    dominant-baseline: middle;
+    text-anchor: middle;
+    fill: black;
+}
+
+/* Tooltip */
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 400px;
+    max-width: 400px;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+    text-align: left;
+}
+
+.toolTip > .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.toolTip > .value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toolTip > .info {
+    font-size: 18px;
+}
