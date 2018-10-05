@@ -1,0 +1,54 @@
+body {
+  font-family: "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  cursor: default;
+  font-size: 18px;
+}
+
+text {
+  font: 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#stacked-bar-chart-container {
+  position: relative;
+}
+
+form {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+div.tooltip { 
+  position: absolute;     
+  min-width: 60px;          
+  font: 12px sans-serif;        
+  pointer-events: none;  
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+  text-align: left;
+}
+
+.grid line {
+  stroke: white;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+  pointer-events: none; /* Otherwise the tooltip disappears as you pass over them */
+}
+
+g.grid {
+  stroke-opacity: 0;
+}
