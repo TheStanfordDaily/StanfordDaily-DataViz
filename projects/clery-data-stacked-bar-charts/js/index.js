@@ -69,7 +69,7 @@ let yStackMax = d3.max(layers, function(layer) {
       return d[1];
     });
   });
-let margin = { top: 70, right: 15, bottom: 40, left: 50 },
+let margin = { top: 70, right: 120, bottom: 40, left: 50 },
   fullChartWidth = fullChartHeight = 700,
   width  = fullChartWidth  - margin.left - margin.right,
   height = fullChartHeight - margin.top  - margin.bottom;
@@ -118,10 +118,8 @@ let tooltip = d3.select("body").append("div")
     .style("opacity", 0);
 
 const focusBar = (_class) => {
-  d3.selectAll(".bar").transition()
-    .ease(d3.easeQuad)
-    .duration(OPACITY_TRANSITION_TIME)
-    .filter(dd => dd.class != _class)
+  d3.selectAll(".bar")
+    .filter(dd => dd.class !== _class)
     .style("opacity", 0.25)
 }
 let rect = layer
@@ -193,7 +191,10 @@ svg.append("text")
   .style("text-anchor", "middle")
   .text("Offenses per Year"); 
 
-let legend = svg
+const legendGroup = svg.append('g')
+  .attr("transform", `translate(${0.85*width}, 10)`)
+
+let legend = legendGroup
   .selectAll(".legend")
   .data(offenseNames.reverse()) // match stack order
   .enter()
@@ -211,7 +212,7 @@ let legend = svg
 
 legend
   .append("rect")
-  .attr("x", width - 20)
+  .attr("x", 0)
   .attr("width", 20)
   .attr("height", 20)
   .style("fill", function(d, i) {
@@ -220,10 +221,10 @@ legend
 
 legend
   .append("text")
-  .attr("x", width - 24)
+  .attr("x", 30)
   .attr("y", 9)
   .attr("dy", ".35em")
-  .style("text-anchor", "end")
+  .style("text-anchor", "start")
   .text(function(d) {
     return d;
   });

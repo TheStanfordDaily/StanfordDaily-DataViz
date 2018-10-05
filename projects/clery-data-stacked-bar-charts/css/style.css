@@ -7,7 +7,7 @@ body {
 }
 
 text {
-  font: 15px sans-serif;
+  font-size: 15px;
 }
 
 .axis path,
@@ -30,8 +30,7 @@ form {
 div.tooltip { 
   position: absolute;     
   min-width: 60px;          
-  font: 12px sans-serif;        
-  pointer-events: none;  
+  pointer-events: none;
   background: none repeat scroll 0 0 white;
   border: 0 none;
   border-radius: 8px 8px 8px 8px;
@@ -51,4 +50,9 @@ div.tooltip {
 
 g.grid {
   stroke-opacity: 0;
+}
+
+.legend>text:hover {
+  font-weight: bold;
+
 }
