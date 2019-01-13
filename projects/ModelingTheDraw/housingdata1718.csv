@@ -1,0 +1,751 @@
+﻿res_code,area,res_name_raw,res_name_edited,sex,individual,group_2,group_3,group_4,year
+7,DRW,Any CCTH,"Any,CCTH",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+1,DRW,Any Dorm,"Any,Dorm",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+2,DRW,Any East,"Any,East Campus",m,2854 (1 of 2) (pool G),2774,2745,2745,2018
+6,DRW,Any Res,"Any,Residence",m,2854 (1 of 2) (pool G),n/a,n/a,n/a,2018
+3,DRW,Any West,"Any,West Campus",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+31,BRN,Any Branner,"Any,Branner",m,1508,1363,1346,1346,2018
+282,BRN,Bran1rmDbl,"1 Room Double,Branner",m,1508,1363,1346,1172,2018
+281,BRN,Bran1rmSgl,"1 Room Single,Branner",m,286,200,199,199,2018
+284,BRN,Bran2rmDbl,"2 Room Double,Branner",m,1035,811,800,800,2018
+283,BRN,BrannerTrp,"Triple,Branner",m,1508,1363,1346,no room,2018
+309,CRO,Any Cro,"Any,Crothers",m,2854 (1 of 2) (pool G),2774,2745,2745,2018
+329,CRO,Cro1rmDbl,"1 Room Double,Crothers",m,2854 (1 of 2) (pool G),2774,2745,2745,2018
+319,CRO,Cro1rmSgl,"1 Room Single,Crothers",m,1006,968,940,940,2018
+61,FLO,Alondra,"Any,Alondra",m,no room,no room,no room,no room,2018
+62,FLO,Any Cardenal,"Any,Cardenal",m,2597,2597,2597,2597,2018
+397,FLO,Any E FloMo,"Any,East FloMo",m,2597,2597,2597,2597,2018
+63,FLO,Any Faisan,"Any,Faisan",m,2597,2597,2597,2474,2018
+60,FLO,Any FloMo,"Any,FloMo",m,2597,2597,2597,2597,2018
+64,FLO,Any Gavilan,"Any,Gavilan",m,2285,1804,1804,1706,2018
+65,FLO,Any Loro,"Any,Loro",m,2505,2299,2299,2194,2018
+66,FLO,Any Mirlo,"Any,Mirlo",m,2512,2512,2476 (1 of 4),2418,2018
+67,FLO,Any Paloma,"Any,Paloma",m,2597,2568,2512,2458,2018
+415,FLO,Any W FloMo,"Any,West FloMo",m,2597,2568,2512,2512,2018
+399,FLO,Card1rmDbl,"1 Room Double,Cardenal",m,2597,2597,2597,2597,2018
+398,FLO,Card1rmSgl,"1 Room Single,Cardenal",m,548,no room,no room,no room,2018
+402,FLO,Fais1rmDbl,"1 Room Double,Faisan",m,2597,2597,2597,2474,2018
+401,FLO,Fais1rmSgl,"1 Room Single,Faisan",m,856,325,no room,no room,2018
+404,FLO,Gav1rmDbl,"1 Room Double,Gavilan",m,2285,1804,1804,1706,2018
+403,FLO,Gav1rmSgl,"1 Room Single,Gavilan",m,901,no room,no room,no room,2018
+406,FLO,Loro1rmDbl,"1 Room Double,Loro",m,2505,2299,2299,2194,2018
+405,FLO,Loro1rmSgl,"1 Room Single,Loro",m,no room,no room,no room,no room,2018
+408,FLO,Mrlo1rmDbl,"1 Room Double,Mirlo",m,2512,2512,2476 (1 of 4),2418,2018
+407,FLO,Mrlo1rmSgl,"1 Room Single,Mirlo",m,no room,no room,no room,no room,2018
+410,FLO,Palo1rmDbl,"1 Room Double,Paloma",m,2597,2568,2512,2458,2018
+409,FLO,Palo1rmSgl,"1 Room Single,Paloma",m,no room,no room,no room,no room,2018
+203,GCQ,Any Castano,"Any,Castano",m,1688,1688,1688,1688,2018
+201,GCQ,Any Kimball,"Any,Kimball",m,1722,1673,1661,1661,2018
+202,GCQ,Any Lantana,"Any,Lantana",m,1755,1755 (1 of 2),1706 (1 of 4),1705,2018
+200,GCQ,AnyGerhard,"Any,Gerhard Casper Quad",m,1755,1755 (1 of 2),1722,1706 (1 of 4),2018
+252,GCQ,Cast1rmDbl,"1 Room Double,Castano",m,1688,1688,1688,1688,2018
+251,GCQ,Cast1rmSgl,"1 Room Single,Castano",m,496,443,386,no room,2018
+254,GCQ,Cast2rmDbl,"2 Room Double,Castano",m,1597,1566,1553,1553,2018
+253,GCQ,CastanoTrp,"Triple,Castano",m,1589,1589,1589,1521,2018
+255,GCQ,Humanities,"Any,Humanities House",m,1475,1375,1355,1355,2018
+262,GCQ,Kim1rmDbl,"1 Room Double,Kimball",m,1722,1673,1661,1661,2018
+261,GCQ,Kim1rmSgl,"1 Room Single,Kimball",m,674,651,628,571,2018
+264,GCQ,Kim2rmDbl,"2 Room Double,Kimball",m,1560,1502,1469,1427,2018
+263,GCQ,KimballTrp,"Triple,Kimball",m,no room,no room,no room,no room,2018
+265,GCQ,KimQuad,"Quad,Kimball",m,1628,1628,1628,1628,2018
+212,GCQ,Lant1rmDbl,"1 Room Double,Lantana",m,1755,1755 (1 of 2),1706 (1 of 4),1705,2018
+211,GCQ,Lant1rmSgl,"1 Room Single,Lantana",m,294,294,294,294,2018
+214,GCQ,Lant2rmDbl,"2 Room Double,Lantana",m,1603,1603,1593,1593,2018
+213,GCQ,LantanaTrp,"Triple,LantanaTrpana",m,no room,no room,no room,no room,2018
+81,GOV,Any EAST,"Any,EAST",m,2777,2777,2696,2696,2018
+450,GOV,Any Gov Co,"Any,Gov Co",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+82,GOV,Any Murray,"Any,Murray",m,2854 (1 of 2) (pool G),2838 (pool G),2707,2707,2018
+92,GOV,Any Potter,"Any,Potter",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+93,GOV,Any Robinson,"Any,Robinson",m,2854 (1 of 2) (pool G),2838 (pool G),2309,2309,2018
+90,GOV,Any SterQuad,"Any,SterQuad",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+87,GOV,Any Suites,"Any,Suites",m,500,500,307,307,2018
+83,GOV,Any Yost,"Any,Yost",m,2854 (1 of 2) (pool G),2699,2699,2565,2018
+442,GOV,EAST1rmDbl,"1 Room Double,EAST",m,2777,2777,2696,2696,2018
+441,GOV,EAST1rmSgl,"1 Room Single,EAST",m,717,no room,no room,no room,2018
+444,GOV,EAST2rmDbl,"2 Room Double,EAST",m,1174,1116,754,754,2018
+443,GOV,EASTTrp,"Triple,EAST",m,no room,no room,no room,no room,2018
+95,GOV,FroSoCo,"Any,FroSoCo",m,2313 (level 1),1544 (level 1),no room,no room,2018
+452,GOV,Murr1rmDbl,"1 Room Double,Murray",m,2854 (1 of 2) (pool G),2838 (pool G),2707,2707,2018
+451,GOV,Murr1rmSgl,"1 Room Single,Murray",m,926,no room,no room,no room,2018
+454,GOV,Murr2rmDbl,"2 Room Double,Murray",m,1697,1619,1619,1580,2018
+85,GOV,Outdoor,",Outdoor House",m,590,509,488,488,2018
+472,GOV,Pott1rmDbl,"1 Room Double,Potter",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+471,GOV,Pott1rmSgl,"1 Room Single,Potter",m,731,115,no room,no room,2018
+474,GOV,Pott2rmDbl,"2 Room Double,Potter",m,1846,1838,1790,1764,2018
+473,GOV,PotterTrp,"Triple,Potter",m,no room,no room,no room,no room,2018
+482,GOV,Robn1rmDbl,"1 Room Double,Robinson",m,2854 (1 of 2) (pool G),2838 (pool G),2309,2309,2018
+481,GOV,Robn1rmSgl,"1 Room Single,Robinson",m,776,525,no room,no room,2018
+484,GOV,Robn2rmDbl,"2 Room Double,Robinson",m,2060,2056,1980,1964,2018
+84,GOV,Suites 4,"4-room,Suites",m,0758 (level 1),0758 (level 1),0758 (level 1),no room,2018
+86,GOV,Suites 6,"6-room,Suites 6",m,500,500,307,307,2018
+462,GOV,Yost1rmDbl,"1 Room Double,Yost",m,2854 (1 of 2) (pool G),2699,2699,2565,2018
+461,GOV,Yost1rmSgl,"1 Room Single,Yost",m,865,no room,no room,no room,2018
+464,GOV,Yost2rmDbl,"2 Room Double,Yost",m,1069 (1 of 2),1062,798,798,2018
+434,LAG,Adel1rmDbl,"1 Room Double,Adelfa",m,1728 (1 of 2),no room,no room,no room,2018
+433,LAG,Adel1rmSgl,"1 Room Single,Adelfa",m,538,537,528,527,2018
+51,LAG,Any Adelfa,"Any,Adelfa",m,1728 (1 of 2),538,537,528,2018
+52,LAG,Any Eucalipto,"Any,Eucalipto",m,1409,675,642,576,2018
+53,LAG,Any Granada,"Any,Granada",m,1694,1694,1694,1096,2018
+50,LAG,Any Lag,"Any,Lagunita",m,1728 (1 of 2),1694,1694,1694,2018
+490,LAG,Any Meier,"Any,Meier",m,1530,369,369,369,2018
+55,LAG,Any Naranja,"Any,Naranja",m,1464,1464,1307,1307,2018
+495,LAG,Any Norcliffe,"Any,Norcliffe",m,445,384,384,213,2018
+54,LAG,Euc 1rmDbl,"1 Room Double,Eucalipto",m,1409,no room,no room,no room,2018
+439,LAG,Euc Trpl,"Triple,Eucalipto",m,no room,no room,no room,no room,2018
+438,LAG,Euc1rmSgl,"1 Room Single,Eucalipto",m,675,642,576,449,2018
+430,LAG,Gran Trpl,"Triple,Granada",m,1694,1694,1694,no room,2018
+437,LAG,Gran1rmDbl,"1 Room Double,Granada",m,1096,1096,no room,no room,2018
+436,LAG,Gran1rmSgl,"1 Room Single,Granada",m,637,637,no room,no room,2018
+492,LAG,Meier1rmDbl,"1 Room Double,Meier",m,1530,369,no room,no room,2018
+492,LAG,Meier1rmDbl (focus),"1 Room Double,Meier",m,room for all,room for all,no room,no room,2018
+491,LAG,Meier1rmSgl,"1 Room Single,Meier",m,164,139,112,101,2018
+493,LAG,Meier2rmDbl,"2 Room Double,Meier",m,369,369,369,no room,2018
+493,LAG,Meier2rmDbl (focus),"2 Room Double,Meier",m,1046 (level 1),1046 (level 1),1046 (level 1),no room,2018
+496,LAG,Norcliffe1rmSgl,"1 Room Single,Norcliffe",m,177,166,166,155,2018
+498,LAG,Norcliffe2rmDbl,"2 Room Double,Norcliffe",m,445,384,384,213,2018
+498,LAG,Norcliffe2rmDbl (focus),"2 Room Double,Norcliffe",m,1311 (level 1),1156 (level 1),1156 (level 1),1120 (level 1),2018
+432,LAG,Nrja1rmDbl,"1 Room Double,Naranja",m,1464,1464,1307,1307,2018
+431,LAG,Nrja1rmSgl,"1 Room Single,Naranja",m,667,667,664,626,2018
+57,LAG,Ujamaa,"Any,Ujamaa",m,840,698,0698 (1 of 2),615,2018
+57,LAG,"Ujamaa (ethnic,B)","Any,Ujamaa",m,1134,573,277,64,2018
+19,MIR,Any Mirr,"Any,Mirrielees",m,no room,no room,no room,no room,2018
+102,MIR,Mirr2brDbl,"Double,Mirrielees",m,no room,no room,no room,no room,2018
+103,MIR,Mirr3brTrp,"Triple,Mirrielees",m,no room,no room,no room,no room,2018
+350,MIR,MirSubFree,"Substance Free Housing,Mirrielees",m,no room,no room,no room,no room,2018
+32,ROB,Any Roble,"Any,Roble",m,2658 (1 of 2),2156,2147,1888,2018
+412,ROB,Robl1rmDbl,"1 Room Double,Roble",m,1798,1728,1641,1591,2018
+411,ROB,Robl1rmSgl,"1 Room Single,Roble",m,969,963,948,944,2018
+414,ROB,Robl2rmDbl,"2 Room Double,Roble",m,878,878,no room,no room,2018
+413,ROB,RobleTrp,"Triple,Roble",m,2658 (1 of 2),2156,2147,1888,2018
+981,ROW,576Alvarado,"Any,576 Alvarado",m,2211,1905,1850,1829,2018
+908,ROW,680Lom Prm,"Premium,680 Lomita",m,546,474,474,474,2018
+909,ROW,680Lom Std,"Standard,680 Lomita",m,906,741,701,656,2018
+922,ROW,Any 680Lomita,"Any,680 Lomita",m,906,741,701,656,2018
+986,ROW,Any BOB,"Any,BOB",m,554,554,542,439,2018
+970,ROW,Any Durand,"Any,Durand",m,1505,1505,1505,1505,2018
+966,ROW,Any French,"Any,French House",m,708,562,553,346,2018
+987,ROW,Any Grove,"Any,Grove",m,1891,950,950,950,2018
+964,ROW,Any HausMit,"Any,Haus Mitteleuropa",m,828,790,790,725,2018
+965,ROW,Any Italian,"Any,La Casa Italiana",m,561,337,0337 (1 of 2),257,2018
+990,ROW,Any Mars,"Any,Mars",m,691,691,691,0691 (1 of 4),2018
+960,ROW,Any Narnia,"Any,Narnia",m,0794 (1 of 3),735,735,735,2018
+968,ROW,Any PhiSig,"Any,Phi Sigma",m,872,872,646,646,2018
+967,ROW,Any Pluto,"Any,Pluto",m,1891,1849,1752,1752,2018
+901,ROW,Any Roth,"Any,Roth",m,no room,no room,no room,no room,2018
+920,ROW,Any SelfOp,"Any,Self Op",m,1891,1860,1849,1752,2018
+923,ROW,Any SelfOpLake,"Any,Self Op Lake",m,0794 (1 of 3),735,735,735,2018
+979,ROW,Any SlavDom,"Any,Slavianskii Dom",m,1153 (2 of 3),994,994,961,2018
+930,ROW,Any Xanadu,"Any,Xanadu",m,913,780,769,769,2018
+912,ROW,BOB Prm,"Premium,BOB",m,228,228,214,214,2018
+913,ROW,BOB Std,"Standard,BOB",m,554,554,542,439,2018
+983,ROW,Columbae,"Any,Columbae",m,2340,2051,2051,1745,2018
+916,ROW,Durand Prm,"Premium,Durand",m,336,no room,no room,no room,2018
+917,ROW,Durand Std,"Standard,Durand",m,1505,1505,1505,1505,2018
+985,ROW,EBF,"Any,EBF",m,858,797,797,584,2018
+924,ROW,French Prm,"Premium,French House",m,no room,no room,no room,no room,2018
+925,ROW,French Std,"Standard,French House",m,708,562,553,346,2018
+926,ROW,Grov Prm,"Premium,Grove",m,no room,no room,no room,no room,2018
+927,ROW,Grov Std,"Standard,Grove",m,1891,950,950,950,2018
+996,ROW,Hammarsk,"Any,Hammarskjold",m,744,744,302,79,2018
+996,ROW,"Hammarsk (ethnic,I)","Any,Hammarskjold",m,room for all,2961,2951,957,2018
+937,ROW,HausMitPrm,"Premium,Haus Mitteleuropa",m,28,no room,no room,no room,2018
+938,ROW,HausMitStd,"Standard,Haus Mitteleuropa",m,828,790,790,725,2018
+939,ROW,ItalianPrm,"Premium,La Casa Italiana",m,187,87,87,82,2018
+940,ROW,ItalianStd,"Standard,La Casa Italiana",m,561,337,0337 (1 of 2),257,2018
+941,ROW,Jerry Prm,"Premium,Jerry",m,610,605,605,591,2018
+976,ROW,Kairos,"Any,Kairos",m,1981,1727,991,911,2018
+907,ROW,LwRwSelfOp,"Any,Lower Row Self Op",m,1356,980,913,906,2018
+946,ROW,Mars Prm,"Premium,Mars",m,54,36,no room,no room,2018
+947,ROW,Mars Std,"Standard,Mars",m,691,691,691,0691 (1 of 4),2018
+978,ROW,Muwekma,"Any,Muwekma",m,954,405,no room,no room,2018
+978,ROW,"Muwekma (ethnic,N)","Any,Muwekma",m,1729,1458,1180,no room,2018
+948,ROW,Narnia Prm,"Premium,Narnia",m,0794 (1 of 3),735,672,672,2018
+949,ROW,Narnia Std,"Standard,Narnia",m,0794 (1 of 3),735,735,no room,2018
+951,ROW,Phi Sg Prm,"Premium,Phi Sigma",m,no room,no room,no room,no room,2018
+952,ROW,Phi Sg Std,"Standard,Phi Sigma",m,872,872,646,646,2018
+943,ROW,Pluto Prm,"Premium,Pluto",m,no room,no room,no room,no room,2018
+944,ROW,Pluto Std,"Standard,Pluto",m,1891,1849,1752,1752,2018
+953,ROW,Roth Prm,"Premium,Roth",m,no room,no room,no room,no room,2018
+954,ROW,Roth Std,"Standard,Roth",m,no room,no room,no room,no room,2018
+956,ROW,SlavDomPrm,"Premium,Slavianskii Dom",m,462,275,86,no room,2018
+957,ROW,SlavDomStd,"Standard,Slavianskii Dom",m,1153 (2 of 3),994,994,961,2018
+993,ROW,Storey,"Any,Storey",m,1356,980,870,870,2018
+997,ROW,Synergy,"Any,Synergy",m,2629,2629,2623,2478,2018
+977,ROW,Terra,"Any,Terra",m,2940,2914,2852,2852,2018
+921,ROW,UpRwSelfOp,"Any,Upper Row Self Op",m,1891,1860,1849,1752,2018
+998,ROW,Xanadu Prm,"Premium,Xanadu",m,125,125,105,105,2018
+999,ROW,Xanadu Std,"Standard,Xanadu",m,913,780,769,769,2018
+994,ROW,ZAP,"Any,ZAP",m,1891,1860,1849,1752,2018
+426,STN,Zapata,"Any,Zapata",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+426,STN,"Zapata (ethnic,C)","Any,Zapata",m,room for all,room for all,room for all,2353,2018
+33,TOY,Any Toyon,"Any,Toyon",m,1542 (level 1),1449 (level 1),1379 (level 1),1379 (level 1),2018
+292,TOY,Toy1rmDbl,"1 Room Double,Toyon",m,1379 (level 1),1379 (level 1),1379 (level 1),1357 (level 1),2018
+291,TOY,Toy1rmSgl,"1 Room Single,Toyon",m,no room,no room,no room,no room,2018
+294,TOY,Toy2rmDbl,"2 Room Double,Toyon",m,1272 (level 1),1272 (level 1),1270 (level 1),1268 (level 1),2018
+295,TOY,ToyonQuad,"Quad,Toyon",m,no room,no room,no room,no room,2018
+293,TOY,ToyonTrp,"Triple,Toyon",m,1542 (level 1),1449 (level 1),1379 (level 1),1269 (level 1),2018
+741,WIL,Any Trancos,"Any,Trancos",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+736,WIL,Okada,"Any,Okada",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2713,2018
+736,WIL,"Okada (ethnic,A)","Any,Okada",m,room for all,room for all,room for all,2838,2018
+744,WIL,Trancos1rmDbl,"1 Room Double,Trancos",m,2854 (1 of 2) (pool G),2838 (pool G),2833 (pool G),2818 (pool G),2018
+743,WIL,Trancos1rmSgl,"1 Room Single,Trancos",m,no room,no room,no room,no room,2018
+7,DRW,Any CCTH,"Any,CCTH",f,2018,2018,2010,2010,2018
+1,DRW,Any Dorm,"Any,Dorm",f,2820 (pool G),2820,2815,2812,2018
+2,DRW,Any East,"Any,East Campus",f,2820 (pool G),2820,2812,2812,2018
+6,DRW,Any Res,"Any,Residence",f,2820 (pool G),n/a,n/a,n/a,2018
+3,DRW,Any West,"Any,West Campus",f,2815,2795,2786,2759,2018
+31,BRN,Any Branner,"Any,Branner",f,1585,1209,1209,1209 (2 of 4),2018
+282,BRN,Bran1rmDbl,"1 Room Double,Branner",f,1209,1209,604,604,2018
+281,BRN,Bran1rmSgl,"1 Room Single,Branner",f,63,57,48,27,2018
+284,BRN,Bran2rmDbl,"2 Room Double,Branner",f,658,595,595,566,2018
+283,BRN,BrannerTrp,"Triple,Branner",f,1585,1209 (2 of 4),1209 (2 of 4),no room,2018
+309,CRO,Any Cro,"Any,Crothers",f,2820 (pool G),2820,2812,2812,2018
+329,CRO,Cro1rmDbl,"1 Room Double,Crothers",f,2820 (pool G),2820,2812,2812,2018
+319,CRO,Cro1rmSgl,"1 Room Single,Crothers",f,928,877,857,850,2018
+61,FLO,Alondra,"Any,Alondra",f,no room,no room,no room,no room,2018
+62,FLO,Any Cardenal,"Any,Cardenal",f,2609,2609,2585,2585,2018
+397,FLO,Any E FloMo,"Any,East FloMo",f,2815,2795,2609,2609,2018
+63,FLO,Any Faisan,"Any,Faisan",f,2815,2795,2609,2609,2018
+60,FLO,Any FloMo,"Any,FloMo",f,2815,2795,2609,2609,2018
+64,FLO,Any Gavilan,"Any,Gavilan",f,2428,2428,2363,2347,2018
+65,FLO,Any Loro,"Any,Loro",f,2512,2259,2259,2259,2018
+66,FLO,Any Mirlo,"Any,Mirlo",f,2512,1943,1943,1857,2018
+67,FLO,Any Paloma,"Any,Paloma",f,2512,2329 (2 of 4),2329 (2 of 4),2291,2018
+415,FLO,Any W FloMo,"Any,West FloMo",f,2512,2443,2443,2329 (2 of 4),2018
+399,FLO,Card1rmDbl,"1 Room Double,Cardenal",f,2609,2609,2585,2585,2018
+398,FLO,Card1rmSgl,"1 Room Single,Cardenal",f,639,no room,no room,no room,2018
+402,FLO,Fais1rmDbl,"1 Room Double,Faisan",f,2815,2795,2609,2609,2018
+401,FLO,Fais1rmSgl,"1 Room Single,Faisan",f,763,no room,no room,no room,2018
+404,FLO,Gav1rmDbl,"1 Room Double,Gavilan",f,2428,2428,2363,2347,2018
+403,FLO,Gav1rmSgl,"1 Room Single,Gavilan",f,no room,no room,no room,no room,2018
+406,FLO,Loro1rmDbl,"1 Room Double,Loro",f,2512,2259,2259,2259,2018
+405,FLO,Loro1rmSgl,"1 Room Single,Loro",f,no room,no room,no room,no room,2018
+408,FLO,Mrlo1rmDbl,"1 Room Double,Mirlo",f,2512,1943,1943,1857,2018
+407,FLO,Mrlo1rmSgl,"1 Room Single,Mirlo",f,620,no room,no room,no room,2018
+410,FLO,Palo1rmDbl,"1 Room Double,Paloma",f,2512,2329 (2 of 4),2329 (2 of 4),2291,2018
+409,FLO,Palo1rmSgl,"1 Room Single,Paloma",f,665,657,no room,no room,2018
+203,GCQ,Any Castano,"Any,Castano",f,1854,1786,1786,1701,2018
+201,GCQ,Any Kimball,"Any,Kimball",f,1612 (1 of 2),1601,1601,1587,2018
+202,GCQ,Any Lantana,"Any,Lantana",f,1604,1604,1604,1592,2018
+200,GCQ,AnyGerhard,"Any,Gerhard Casper Quad",f,1854,1786,1786,1701,2018
+252,GCQ,Cast1rmDbl,"1 Room Double,Castano",f,1701,1671,1671 (1 of 2),1652,2018
+251,GCQ,Cast1rmSgl,"1 Room Single,Castano",f,755,577,507,261,2018
+254,GCQ,Cast2rmDbl,"2 Room Double,Castano",f,1470,1470,1452,1452,2018
+253,GCQ,CastanoTrp,"Triple,Castano",f,1854,1786,1786,no room,2018
+255,GCQ,Humanities,"Any,Humanities House",f,792,582,no room,no room,2018
+262,GCQ,Kim1rmDbl,"1 Room Double,Kimball",f,1612 (1 of 2),1601,1601,1587,2018
+261,GCQ,Kim1rmSgl,"1 Room Single,Kimball",f,225,147,no room,no room,2018
+264,GCQ,Kim2rmDbl,"2 Room Double,Kimball",f,1388,1323,1323,1322,2018
+263,GCQ,KimballTrp,"Triple,Kimball",f,1476,1476,1476,no room,2018
+265,GCQ,KimQuad,"Quad,Kimball",f,1422,1422,1422,1422,2018
+212,GCQ,Lant1rmDbl,"1 Room Double,Lantana",f,1604,1604,1604,1552,2018
+211,GCQ,Lant1rmSgl,"1 Room Single,Lantana",f,0229 (1 of 2),no room,no room,no room,2018
+214,GCQ,Lant2rmDbl,"2 Room Double,Lantana",f,1442,1428,1428,1428,2018
+213,GCQ,LantanaTrp,"Triple,LantanaTrpana",f,1592,1592,1592,no room,2018
+81,GOV,Any EAST,"Any,EAST",f,2560,2560 (2 of 3),2560 (2 of 3),1957,2018
+450,GOV,Any Gov Co,"Any,Gov Co",f,2795,2786,2759,2759,2018
+82,GOV,Any Murray,"Any,Murray",f,2394,2074,2074,2074,2018
+92,GOV,Any Potter,"Any,Potter",f,2795,2786,2759,2350,2018
+93,GOV,Any Robinson,"Any,Robinson",f,2786,2759,2759,2737,2018
+90,GOV,Any SterQuad,"Any,SterQuad",f,2795,2786,2759,2759,2018
+87,GOV,Any Suites,"Any,Suites",f,1453,1387,1342,1342,2018
+83,GOV,Any Yost,"Any,Yost",f,2610,1812,1812,1751,2018
+442,GOV,EAST1rmDbl,"1 Room Double,EAST",f,1957,1803,1803,1803,2018
+441,GOV,EAST1rmSgl,"1 Room Single,EAST",f,no room,no room,no room,no room,2018
+444,GOV,EAST2rmDbl,"2 Room Double,EAST",f,1219,1078,754,754,2018
+443,GOV,EASTTrp,"Triple,EAST",f,2560,2560 (2 of 3),2560 (2 of 3),no room,2018
+95,GOV,FroSoCo,"Any,FroSoCo",f,2820 (pool G),2371,1987 (level 1),1483 (level 1),2018
+452,GOV,Murr1rmDbl,"1 Room Double,Murray",f,2394,2074,2074,2074,2018
+451,GOV,Murr1rmSgl,"1 Room Single,Murray",f,118,no room,no room,no room,2018
+454,GOV,Murr2rmDbl,"2 Room Double,Murray",f,1615,1594,1537,1537,2018
+85,GOV,Outdoor,",Outdoor House",f,903,760,463,463,2018
+472,GOV,Pott1rmDbl,"1 Room Double,Potter",f,2350,2350,2350,2350,2018
+471,GOV,Pott1rmSgl,"1 Room Single,Potter",f,122,no room,no room,no room,2018
+474,GOV,Pott2rmDbl,"2 Room Double,Potter",f,2142,2095,1968,1941,2018
+473,GOV,PotterTrp,"Triple,Potter",f,2795,2786,2759,no room,2018
+482,GOV,Robn1rmDbl,"1 Room Double,Robinson",f,2786,2759,2759,2737,2018
+481,GOV,Robn1rmSgl,"1 Room Single,Robinson",f,1056,1021,no room,no room,2018
+484,GOV,Robn2rmDbl,"2 Room Double,Robinson",f,2583,2576,2573 (1 of 4),2527,2018
+84,GOV,Suites 4,"4-room,Suites",f,168,0758 (level 1),no room,no room,2018
+86,GOV,Suites 6,"6-room,Suites 6",f,1453,1387,1342,1342,2018
+462,GOV,Yost1rmDbl,"1 Room Double,Yost",f,2610,1812,1812,1751,2018
+461,GOV,Yost1rmSgl,"1 Room Single,Yost",f,no room,no room,no room,no room,2018
+464,GOV,Yost2rmDbl,"2 Room Double,Yost",f,1637,1062,989,no room,2018
+434,LAG,Adel1rmDbl,"1 Room Double,Adelfa",f,1529,1529,1254,1254,2018
+433,LAG,Adel1rmSgl,"1 Room Single,Adelfa",f,408,367,352,341,2018
+51,LAG,Any Adelfa,"Any,Adelfa",f,1529,1529,1254,1254,2018
+52,LAG,Any Eucalipto,"Any,Eucalipto",f,1601 (2 of 4),1409,1409,1409,2018
+53,LAG,Any Granada,"Any,Granada",f,1702,1601 (2 of 4),1601 (1 of 4),1529,2018
+50,LAG,Any Lag,"Any,Lagunita",f,1702,1601 (2 of 4),1601 (1 of 4),1529,2018
+490,LAG,Any Meier,"Any,Meier",f,773,773,726,683,2018
+55,LAG,Any Naranja,"Any,Naranja",f,1424,1424,630,629,2018
+495,LAG,Any Norcliffe,"Any,Norcliffe",f,871,838,242,162,2018
+54,LAG,Euc 1rmDbl,"1 Room Double,Eucalipto",f,1601 (2 of 4),no room,no room,no room,2018
+439,LAG,Euc Trpl,"Triple,Eucalipto",f,1601 (2 of 4),1409,1409,no room,2018
+438,LAG,Euc1rmSgl,"1 Room Single,Eucalipto",f,705,695,675,673,2018
+430,LAG,Gran Trpl,"Triple,Granada",f,1702,1601 (2 of 4),1601 (1 of 4),no room,2018
+437,LAG,Gran1rmDbl,"1 Room Double,Granada",f,1601 (1 of 4),1096,no room,no room,2018
+436,LAG,Gran1rmSgl,"1 Room Single,Granada",f,839,787,719,696,2018
+492,LAG,Meier1rmDbl,"1 Room Double,Meier",f,no room,no room,no room,no room,2018
+492,LAG,Meier1rmDbl (focus),"1 Room Double,Meier",f,no room,no room,no room,no room,2018
+491,LAG,Meier1rmSgl,"1 Room Single,Meier",f,201,195,190,133,2018
+493,LAG,Meier2rmDbl,"2 Room Double,Meier",f,773,773,726,683,2018
+493,LAG,Meier2rmDbl (focus),"2 Room Double,Meier",f,1048 (level 1),1046 (level 1),no room,no room,2018
+496,LAG,Norcliffe1rmSgl,"1 Room Single,Norcliffe",f,88,13,8,no room,2018
+498,LAG,Norcliffe2rmDbl,"2 Room Double,Norcliffe",f,871,838,242,162,2018
+498,LAG,Norcliffe2rmDbl (focus),"2 Room Double,Norcliffe",f,no room,no room,no room,no room,2018
+432,LAG,Nrja1rmDbl,"1 Room Double,Naranja",f,1424,1424,no room,no room,2018
+431,LAG,Nrja1rmSgl,"1 Room Single,Naranja",f,630,629,614,589,2018
+57,LAG,Ujamaa,"Any,Ujamaa",f,14,no room,no room,no room,2018
+57,LAG,"Ujamaa (ethnic,B)","Any,Ujamaa",f,no room,no room,no room,no room,2018
+19,MIR,Any Mirr,"Any,Mirrielees",f,no room,no room,no room,no room,2018
+102,MIR,Mirr2brDbl,"Double,Mirrielees",f,no room,no room,no room,no room,2018
+103,MIR,Mirr3brTrp,"Triple,Mirrielees",f,no room,no room,no room,no room,2018
+350,MIR,MirSubFree,"Substance Free Housing,Mirrielees",f,no room,no room,no room,no room,2018
+32,ROB,Any Roble,"Any,Roble",f,2229,2229,1975,1975,2018
+412,ROB,Robl1rmDbl,"1 Room Double,Roble",f,1908,1908,1908,1908,2018
+411,ROB,Robl1rmSgl,"1 Room Single,Roble",f,942,937,934,921,2018
+414,ROB,Robl2rmDbl,"2 Room Double,Roble",f,1377,1377,no room,no room,2018
+413,ROB,RobleTrp,"Triple,Roble",f,2229,2229,1975,1975,2018
+981,ROW,576Alvarado,"Any,576 Alvarado",f,2403,2036,1829,1689,2018
+908,ROW,680Lom Prm,"Premium,680 Lomita",f,262,227,227,216,2018
+909,ROW,680Lom Std,"Standard,680 Lomita",f,585,536,536,501,2018
+922,ROW,Any 680Lomita,"Any,680 Lomita",f,585,536,536,501,2018
+986,ROW,Any BOB,"Any,BOB",f,542,317,309,309,2018
+970,ROW,Any Durand,"Any,Durand",f,952,952,924,924,2018
+966,ROW,Any French,"Any,French House",f,578,438,438,370,2018
+987,ROW,Any Grove,"Any,Grove",f,680,647,647,638,2018
+964,ROW,Any HausMit,"Any,Haus Mitteleuropa",f,703,622,622,594,2018
+965,ROW,Any Italian,"Any,La Casa Italiana",f,258,240,240,212,2018
+990,ROW,Any Mars,"Any,Mars",f,473,473,414,414,2018
+960,ROW,Any Narnia,"Any,Narnia",f,491,444,444,421,2018
+968,ROW,Any PhiSig,"Any,Phi Sigma",f,633,633,633,633,2018
+967,ROW,Any Pluto,"Any,Pluto",f,1350,1191,1191,1191,2018
+901,ROW,Any Roth,"Any,Roth",f,1510,1415,1415,1362,2018
+920,ROW,Any SelfOp,"Any,Self Op",f,1510,1415,1415,1362,2018
+923,ROW,Any SelfOpLake,"Any,Self Op Lake",f,491,444,444,421,2018
+979,ROW,Any SlavDom,"Any,Slavianskii Dom",f,883,772,772,736,2018
+930,ROW,Any Xanadu,"Any,Xanadu",f,567,468,468,458,2018
+912,ROW,BOB Prm,"Premium,BOB",f,65,65,65,65,2018
+913,ROW,BOB Std,"Standard,BOB",f,542,317,309,309,2018
+983,ROW,Columbae,"Any,Columbae",f,1149,1149,955,946,2018
+916,ROW,Durand Prm,"Premium,Durand",f,no room,no room,no room,no room,2018
+917,ROW,Durand Std,"Standard,Durand",f,952,952,924,924,2018
+985,ROW,EBF,"Any,EBF",f,783,697,522,498,2018
+924,ROW,French Prm,"Premium,French House",f,no room,no room,no room,no room,2018
+925,ROW,French Std,"Standard,French House",f,578,438,438,370,2018
+926,ROW,Grov Prm,"Premium,Grove",f,no room,no room,no room,no room,2018
+927,ROW,Grov Std,"Standard,Grove",f,680,647,647,638,2018
+996,ROW,Hammarsk,"Any,Hammarskjold",f,1771,900,768,482,2018
+996,ROW,"Hammarsk (ethnic,I)","Any,Hammarskjold",f,1732,751,283,no room,2018
+937,ROW,HausMitPrm,"Premium,Haus Mitteleuropa",f,no room,no room,no room,no room,2018
+938,ROW,HausMitStd,"Standard,Haus Mitteleuropa",f,703,622,622,594,2018
+939,ROW,ItalianPrm,"Premium,La Casa Italiana",f,18,no room,no room,no room,2018
+940,ROW,ItalianStd,"Standard,La Casa Italiana",f,258,240,240,212,2018
+941,ROW,Jerry Prm,"Premium,Jerry",f,351,351,351,351,2018
+976,ROW,Kairos,"Any,Kairos",f,1461,1246,1009,1009,2018
+907,ROW,LwRwSelfOp,"Any,Lower Row Self Op",f,585,567,542,536,2018
+946,ROW,Mars Prm,"Premium,Mars",f,no room,no room,no room,no room,2018
+947,ROW,Mars Std,"Standard,Mars",f,473,473,414,414,2018
+978,ROW,Muwekma,"Any,Muwekma",f,no room,no room,no room,no room,2018
+978,ROW,"Muwekma (ethnic,N)","Any,Muwekma",f,no room,no room,no room,no room,2018
+948,ROW,Narnia Prm,"Premium,Narnia",f,491,444,444,421,2018
+949,ROW,Narnia Std,"Standard,Narnia",f,no room,no room,no room,no room,2018
+951,ROW,Phi Sg Prm,"Premium,Phi Sigma",f,no room,no room,no room,no room,2018
+952,ROW,Phi Sg Std,"Standard,Phi Sigma",f,633,633,633,633,2018
+943,ROW,Pluto Prm,"Premium,Pluto",f,no room,no room,no room,no room,2018
+944,ROW,Pluto Std,"Standard,Pluto",f,1350,1191,1191,1191,2018
+953,ROW,Roth Prm,"Premium,Roth",f,0275 (1 of 2),135,129,129,2018
+954,ROW,Roth Std,"Standard,Roth",f,1510,1415,1415,1362,2018
+956,ROW,SlavDomPrm,"Premium,Slavianskii Dom",f,no room,no room,no room,no room,2018
+957,ROW,SlavDomStd,"Standard,Slavianskii Dom",f,883,772,772,736,2018
+993,ROW,Storey,"Any,Storey",f,483,483,471,471,2018
+997,ROW,Synergy,"Any,Synergy",f,979,923,882,789,2018
+977,ROW,Terra,"Any,Terra",f,2811,2349,2335,2335,2018
+921,ROW,UpRwSelfOp,"Any,Upper Row Self Op",f,1510,1415,1415,1362,2018
+998,ROW,Xanadu Prm,"Premium,Xanadu",f,124,99,81,72,2018
+999,ROW,Xanadu Std,"Standard,Xanadu",f,567,468,468,458,2018
+994,ROW,ZAP,"Any,ZAP",f,1061,1061,983,983,2018
+426,STN,Zapata,"Any,Zapata",f,1939 (2 of 3),1939 (1 of 3),1918,1878,2018
+426,STN,"Zapata (ethnic,C)","Any,Zapata",f,1869,1459,1345,1345,2018
+33,TOY,Any Toyon,"Any,Toyon",f,1606 (level 1),1443 (level 1),1443 (level 1),1443 (level 1),2018
+292,TOY,Toy1rmDbl,"1 Room Double,Toyon",f,1392 (level 1),1392 (level 1),1312 (level 1),1312 (level 1),2018
+291,TOY,Toy1rmSgl,"1 Room Single,Toyon",f,no room,no room,no room,no room,2018
+294,TOY,Toy2rmDbl,"2 Room Double,Toyon",f,1316 (level 1),1263 (level 1),1263 (level 1),1260 (level 1),2018
+295,TOY,ToyonQuad,"Quad,Toyon",f,1606 (level 1),1443 (level 1),1443 (level 1),1443 (level 1),2018
+293,TOY,ToyonTrp,"Triple,Toyon",f,1606 (level 1),1443 (level 1),1443 (level 1),1443 (level 1),2018
+741,WIL,Any Trancos,"Any,Trancos",f,2820 (pool G),2817 (pool G),2817 (pool G),2817 (pool G),2018
+736,WIL,Okada,"Any,Okada",f,2018,2018,2010,2010,2018
+736,WIL,"Okada (ethnic,A)","Any,Okada",f,2674,2600,2075,1970 (1 of 2),2018
+744,WIL,Trancos1rmDbl,"1 Room Double,Trancos",f,2820 (pool G),2817 (pool G),2817 (pool G),2817 (pool G),2018
+743,WIL,Trancos1rmSgl,"1 Room Single,Trancos",f,no room,no room,no room,no room,2018
+31,BRN,Any Branner,"Any,Branner",m,1405,1405,1349,1349,2017
+281,BRN,Bran1rmSgl,"1 Room Single,Branner",m,209,194,156,146,2017
+282,BRN,Bran1rmDbl,"1 Room Double,Branner",m,1349,1349,1054,1054,2017
+283,BRN,BrannerTrp,"Triple,Branner",m,1405,1405,1349,no room,2017
+284,BRN,Bran2rmDbl,"2 Room Double,Branner",m,1269,1269,1265,1261,2017
+309,CRO,Any Cro,"Any,Crothers",m,2939 (pool G),2924,2924,2924,2017
+319,CRO,Cro1rmSgl,"1 Room Single,Crothers",m,1258 (2 of 3),1258 (1 of 3),1253,1186,2017
+329,CRO,Cro1rmDbl,"1 Room Double,Crothers",m,2939 (pool G),2924,2924,2924,2017
+6,DRW,Any Res,"Any,Residence",m,2939 (pool G),n/a,n/a,n/a,2017
+1,DRW,Any Dorm,"Any,Dorm",m,2939 (pool G),2924,2924,2924,2017
+2,DRW,Any East,"Any,East Campus",m,2939 (pool G),2924,2924,2924,2017
+3,DRW,Any West,"Any,West Campus",m,2851,2834,2834,2805,2017
+7,DRW,Any CCTH,"Any,CCTH",m,2939 (pool G),2929 (pool G),2929 (3 of 4) (pool G),2929 (2 of 4) (pool G),2017
+60,FM,Any FloMo,"Any,FloMo",m,2805,2786,2775,2775,2017
+397,FM,Any E FloMo,"Any,East FloMo",m,2684,2684,2684,2684,2017
+61,FM,Alondra,"Any,Alondra",m,no room,no room,no room,no room,2017
+62,FM,Any Cardenal,"Any,Cardenal",m,2684,2684,2684,2675,2017
+398,FM,Card1rmSgl,"1 Room Single,Cardenal",m,no room,no room,no room,no room,2017
+399,FM,Card1rmDbl,"1 Room Double,Cardenal",m,2684,2684,2684,2675,2017
+63,FM,Any Faisan,"Any,Faisan",m,2684,2550,2510,2510 (1 of 2),2017
+401,FM,Fais1rmSgl,"1 Room Single,Faisan",m,504,no room,no room,no room,2017
+402,FM,Fais1rmDbl,"1 Room Double,Faisan",m,2684,2550,2510,2510 (1 of 2),2017
+415,FM,Any W FloMo,"Any,West FloMo",m,2805,2786,2775,2775,2017
+65,FM,Any Loro,"Any,Loro",m,2805,2786,2736,2736,2017
+405,FM,Loro1rmSgl,"1 Room Single,Loro",m,268,no room,no room,no room,2017
+406,FM,Loro1rmDbl,"1 Room Double,Loro",m,2805,2786,2736,2736,2017
+66,FM,Any Mirlo,"Any,Mirlo",m,2545,2545,2545,2545,2017
+407,FM,Mrlo1rmSgl,"1 Room Single,Mirlo",m,no room,no room,no room,no room,2017
+408,FM,Mrlo1rmDbl,"1 Room Double,Mirlo",m,2545,2545,2545,2545,2017
+67,FM,Any Paloma,"Any,Paloma",m,2805,2786,2775,2775,2017
+409,FM,Palo1rmSgl,"1 Room Single,Paloma",m,no room,no room,no room,no room,2017
+410,FM,Palo1rmDbl,"1 Room Double,Paloma",m,2805,2786,2775,2775,2017
+64,FM,Any Gavilan,"Any,Gavilan",m,2819,2819,2158,2158,2017
+403,FM,Gav1rmSgl,"1 Room Single,Gavilan",m,962,no room,no room,no room,2017
+404,FM,Gav1rmDbl,"1 Room Double,Gavilan",m,2819,2819,2158,2158,2017
+450,GC,Any Gov Co,"Any,Gov Co",m,2851,2834,2834,2805,2017
+81,GC,Any EAST,"Any,EAST",m,2577,2577,2577,2577,2017
+441,GC,EAST1rmSgl,"1 Room Single,EAST",m,no room,no room,no room,no room,2017
+442,GC,EAST1rmDbl,"1 Room Double,EAST",m,2577,2577,2577,2577,2017
+443,GC,EASTTrp,"Triple,EAST",m,no room,no room,no room,no room,2017
+444,GC,EAST2rmDbl,"2 Room Double,EAST",m,1487 (3 of 4),1487 (3 of 4),1484,1369,2017
+82,GC,Any Murray,"Any,Murray",m,1915,1915,1843,1843 (2 of 3),2017
+451,GC,Murr1rmSgl,"1 Room Single,Murray",m,no room,no room,no room,no room,2017
+452,GC,Murr1rmDbl,"1 Room Double,Murray",m,1915,1915,1843,1843 (2 of 3),2017
+454,GC,Murr2rmDbl,"2 Room Double,Murray",m,no room,no room,no room,no room,2017
+83,GC,Any Yost,"Any,Yost",m,2851,2834,2834,2805,2017
+461,GC,Yost1rmSgl,"1 Room Single,Yost",m,501,451,199,20,2017
+462,GC,Yost1rmDbl,"1 Room Double,Yost",m,2851,2834,2834,2805,2017
+464,GC,Yost2rmDbl,"2 Room Double,Yost",m,1345,1324,1324,1324,2017
+87,GC,Any Suites,"Any,Suites",m,1923 (level 1),1923 (level 1),1923 (level 1),1771 (level 1),2017
+84,GC,Suites 4,"4-room,Suites",m,1431 (level 1),0549 (level 1),0549 (level 1),0549 (level 1),2017
+86,GC,Suites 6,"6-room,Suites 6",m,1923 (level 1),1923 (level 1),1923 (level 1),1771 (level 1),2017
+90,GC,Any SterQuad,"Any,SterQuad",m,2657,2657,2657,2374,2017
+92,GC,Any Potter,"Any,Potter",m,2657,2657,2657,2175,2017
+471,GC,Pott1rmSgl,"1 Room Single,Potter",m,844,no room,no room,no room,2017
+472,GC,Pott1rmDbl,"1 Room Double,Potter",m,1121,no room,no room,no room,2017
+473,GC,PotterTrp,"Triple,Potter",m,2657,2657,2657,no room,2017
+474,GC,Pott2rmDbl,"2 Room Double,Potter",m,2175,2140,2086,2030,2017
+93,GC,Any Robinson,"Any,Robinson",m,2374,2374,2348,2343,2017
+481,GC,Robn1rmSgl,"1 Room Single,Robinson",m,1063,288,198,no room,2017
+482,GC,Robn1rmDbl,"1 Room Double,Robinson",m,2374,2374,2348,1831,2017
+484,GC,Robn2rmDbl,"2 Room Double,Robinson",m,2343,2343 (1 of 2),2334,2334,2017
+95,GC,FroSoCo,"Any,FroSoCo",m,1590 (level 1),no room,no room,no room,2017
+85,GC,Jenkins,",Outdoor House",m,759,733,721,0721 (1 of 2),2017
+42,HOP,Belden,#N/A,m,no room,no room,no room,no room,2017
+50,LAG,Any Lag,"Any,Lagunita",m,2095,1993,1993,1981,2017
+51,LAG,Any Adelfa,"Any,Adelfa",m,1426,1426,1217,1141,2017
+433,LAG,Adel1rmSgl,"1 Room Single,Adelfa",m,192,192,no room,no room,2017
+434,LAG,Adel1rmDbl,"1 Room Double,Adelfa",m,1426,1426,1217,1141,2017
+52,LAG,Any Eucalipto,"Any,Eucalipto",m,2095,1993,1993,1800,2017
+54,LAG,Euc 1rmDbl,"1 Room Double,Eucalipto",m,1993,1993,1800,1334,2017
+430,LAG,Gran Trpl,"Triple,Granada",m,1394,1394,1394,no room,2017
+438,LAG,Euc1rmSgl,"1 Room Single,Eucalipto",m,712,712,628,543,2017
+439,LAG,Euc Trpl,"Triple,Eucalipto",m,2095,1576,1576,no room,2017
+53,LAG,Any Granada,"Any,Granada",m,2095,1849,617,no room,2017
+436,LAG,Gran1rmSgl,"1 Room Single,Granada",m,617,no room,no room,no room,2017
+437,LAG,Gran1rmDbl,"1 Room Double,Granada",m,2095,1849,no room,no room,2017
+55,LAG,Any Naranja,"Any,Naranja",m,1926,1429,1429,714,2017
+431,LAG,Nrja1rmSgl,"1 Room Single,Naranja",m,714,668,668,509,2017
+432,LAG,Nrja1rmDbl,"1 Room Double,Naranja",m,1926,1429,1429,no room,2017
+491,LAG,Meier1rmSgl,"1 Room Single,Meier",m,1,no room,no room,no room,2017
+493,LAG,Meier2rmDbl,"2 Room Double,Meier",m,898,898,898,898,2017
+496,LAG,Norcliffe1rmSgl,"1 Room Single,Norcliffe",m,225,173,148,148,2017
+498,LAG,Norcliffe2rmDbl,"2 Room Double,Norcliffe",m,809,809,809,662,2017
+492,LAG,Meier1rmDbl,"1 Room Double,Meier",m,no room,no room,no room,no room,2017
+497,LAG,Norcliffe1rmDbl,#N/A,m,no room,no room,no room,no room,2017
+57,LAG,Ujamaa,"Any,Ujamaa",m,999,802,749,652,2017
+57,LAG,"Ujamaa (ethnic,B)","Any,Ujamaa",m,1258,1245,903,877,2017
+200,MAN,Any Manz,"Any,Gerhard Casper Quad",m,1760,1760,1760,1760,2017
+201,MAN,Any Kimball,"Any,Kimball",m,1682,1682,1682,1682,2017
+261,MAN,Kim1rmSgl,"1 Room Single,Kimball",m,737,570,540,511,2017
+262,MAN,Kim1rmDbl,"1 Room Double,Kimball",m,1682,1682,1682,1682,2017
+263,MAN,KimballTrp,"Triple,Kimball",m,no room,no room,no room,no room,2017
+264,MAN,Kim2rmDbl,"2 Room Double,Kimball",m,1579,1552,1515,1494,2017
+265,MAN,KimQuad,"Quad,Kimball",m,1354,1354,1354,1354,2017
+202,MAN,Any Lantana,"Any,Lantana",m,1760,1609 (3 of 4),1609 (3 of 4),1609 (1 of 4),2017
+211,MAN,Lant1rmSgl,"1 Room Single,Lantana",m,820,655,591,250,2017
+212,MAN,Lant1rmDbl,"1 Room Double,Lantana",m,1609 (3 of 4),1609 (3 of 4),1609 (1 of 4),1567,2017
+213,MAN,LantanaTrp,"Triple,LantanaTrpana",m,1760,1532,1532,no room,2017
+214,MAN,Lant2rmDbl,"2 Room Double,Lantana",m,1479,1479,1479,1479,2017
+203,MAN,Any Castano,"Any,Castano",m,1760,1760,1760,1760,2017
+251,MAN,Cast1rmSgl,"1 Room Single,Castano",m,823,812,810,579,2017
+252,MAN,Cast1rmDbl,"1 Room Double,Castano",m,1760,1760,1760,1760 (1 of 6),2017
+253,MAN,CastanoTrp,"Triple,Castano",m,1760,1760,1760,no room,2017
+254,MAN,Cast2rmDbl,"2 Room Double,Castano",m,1599,1599,1599,1599,2017
+255,MAN,Humanities,"Any,Humanities House",m,1287,1287,1287,1287,2017
+19,MIR,Any Mirr,"Any,Mirrielees",m,10,10,no room,no room,2017
+102,MIR,Mirr2brDbl,"Double,Mirrielees",m,10,no room,no room,no room,2017
+103,MIR,Mirr3brTrp,"Triple,Mirrielees",m,10,no room,no room,no room,2017
+350,MIR,MirSubFree,"Substance Free Housing,Mirrielees",m,no room,no room,no room,no room,2017
+32,ROB,Any Roble,"Any,Roble",m,1989,1989,1989 (1 of 3),1984,2017
+411,ROB,Robl1rmSgl,"1 Room Single,Roble",m,1105 (2 of 4),1105 (1 of 4),1074 (1 of 2),1027,2017
+412,ROB,Robl1rmDbl,"1 Room Double,Roble",m,1956,1862,1862,1792,2017
+413,ROB,RobleTrp,"Triple,Roble",m,1989,1989,1989 (1 of 3),1984,2017
+414,ROB,Robl2rmDbl,"2 Room Double,Roble",m,1018,1018,no room,no room,2017
+978,ROW,Muwekma,"Any,Muwekma",m,1167,1167,853,218,2017
+978,ROW,"Muwekma (ethnic,N)","Any,Muwekma",m,1562,1562,no room,no room,2017
+920,ROW,Any SelfOp,"Any,Self Op",m,1251,1173,1103,1051,2017
+907,ROW,LwRwSelfOp,"Any,Lower Row Self Op",m,835,835,756,723,2017
+922,ROW,Any 680Lomita,"Any,680 Lomita",m,605,605,494,494,2017
+908,ROW,680Lom Prm,"Premium,680 Lomita",m,494,494,487,487,2017
+909,ROW,680Lom Std,"Standard,680 Lomita",m,605,605,no room,no room,2017
+930,ROW,Any Xanadu,"Any,Xanadu",m,571,571,550,550,2017
+998,ROW,Xanadu Prm,"Premium,Xanadu",m,145,95,80,80,2017
+999,ROW,Xanadu Std,"Standard,Xanadu",m,571,571,550,550,2017
+965,ROW,Any Italian,"Any,La Casa Italiana",m,324,287,149,149,2017
+939,ROW,ItalianPrm,"Premium,La Casa Italiana",m,63,63,63,59,2017
+940,ROW,ItalianStd,"Standard,La Casa Italiana",m,324,287,149,149,2017
+986,ROW,Any BOB,"Any,BOB",m,409,329,320,260,2017
+912,ROW,BOB Prm,"Premium,BOB",m,170,110,100,100,2017
+913,ROW,BOB Std,"Standard,BOB",m,409,329,320,260,2017
+990,ROW,Any Mars,"Any,Mars",m,756,687,648,609,2017
+946,ROW,Mars Prm,"Premium,Mars",m,29,no room,no room,no room,2017
+947,ROW,Mars Std,"Standard,Mars",m,756,687,648,609,2017
+993,ROW,Storey,"Any,Storey",m,835,835,723,723,2017
+921,ROW,UpRwSelfOp,"Any,Upper Row Self Op",m,1251,1173,1103,1051,2017
+901,ROW,Any Roth,"Any,Roth",m,no room,no room,no room,no room,2017
+953,ROW,Roth Prm,"Premium,Roth",m,no room,no room,no room,no room,2017
+954,ROW,Roth Std,"Standard,Roth",m,no room,no room,no room,no room,2017
+955,ROW,Any 717Dolores,#N/A,m,1251,1173,1103,1051,2017
+910,ROW,717Dol Prm,#N/A,m,no room,no room,no room,no room,2017
+911,ROW,717Dol Std,#N/A,m,1251,1173,1103,1051,2017
+964,ROW,Any HausMit,"Any,Haus Mitteleuropa",m,665,637,627,610,2017
+937,ROW,HausMitPrm,"Premium,Haus Mitteleuropa",m,no room,no room,no room,no room,2017
+938,ROW,HausMitStd,"Standard,Haus Mitteleuropa",m,665,637,627,610,2017
+966,ROW,Any French,"Any,French House",m,532,465,465,376,2017
+924,ROW,French Prm,"Premium,French House",m,no room,no room,no room,no room,2017
+925,ROW,French Std,"Standard,French House",m,532,465,465,376,2017
+968,ROW,Any PhiSig,"Any,Phi Sigma",m,895,895,836,800,2017
+951,ROW,Phi Sg Prm,"Premium,Phi Sigma",m,201,no room,no room,no room,2017
+952,ROW,Phi Sg Std,"Standard,Phi Sigma",m,895,895,836,800,2017
+970,ROW,Any Durand,"Any,Durand",m,981,981,977,977,2017
+916,ROW,Durand Prm,"Premium,Durand",m,no room,no room,no room,no room,2017
+917,ROW,Durand Std,"Standard,Durand",m,981,981,977,977,2017
+979,ROW,Any SlavDom,"Any,Slavianskii Dom",m,926,858,821,821,2017
+956,ROW,SlavDomPrm,"Premium,Slavianskii Dom",m,200,200,124,no room,2017
+957,ROW,SlavDomStd,"Standard,Slavianskii Dom",m,926,858,821,821,2017
+987,ROW,Any Grove,"Any,Grove",m,961,932,932,931,2017
+926,ROW,Grov Prm,"Premium,Grove",m,no room,no room,no room,no room,2017
+927,ROW,Grov Std,"Standard,Grove",m,961,932,932,931,2017
+923,ROW,Any SelfOpLake,"Any,Self Op Lake",m,634,634,630,630,2017
+941,ROW,Jerry Prm,"Premium,Jerry",m,486,418,418,405,2017
+960,ROW,Any Narnia,"Any,Narnia",m,634,634,630,630,2017
+948,ROW,Narnia Prm,"Premium,Narnia",m,634,634,630,630,2017
+949,ROW,Narnia Std,"Standard,Narnia",m,no room,no room,no room,no room,2017
+994,ROW,ZAP,"Any,ZAP",m,908,908,878,878,2017
+800,ROW,Greek,#N/A,m,no room,no room,no room,no room,2017
+976,ROW,Kairos,"Any,Kairos",m,946,946,914,914,2017
+977,ROW,Terra,"Any,Terra",m,2888,2885,2856,2788,2017
+981,ROW,576Alvarado,"Any,576 Alvarado",m,1028,919,840,694,2017
+983,ROW,Columbae,"Any,Columbae",m,1538,1337,1242,966,2017
+985,ROW,EBF,"Any,EBF",m,874,741,740,740,2017
+996,ROW,Hammarsk,"Any,Hammarskjold",m,1224,1139,957,943,2017
+996,ROW,"Hammarsk (ethnic,I)","Any,Hammarskjold",m,1911,986,801,322,2017
+997,ROW,Synergy,"Any,Synergy",m,948,918,918,883,2017
+426,STN,Zapata,"Any,Zapata",m,2939 (pool G),2929 (pool G),2929 (3 of 4) (pool G),2929 (2 of 4) (pool G),2017
+426,STN,"Zapata (ethnic,C)","Any,Zapata",m,2891,2557,1799,1722,2017
+33,TOY,Any Toyon,"Any,Toyon",m,1740 (level 1),1530 (level 1),1432 (level 1),1400 (level 1),2017
+291,TOY,Toy1rmSgl,"1 Room Single,Toyon",m,no room,no room,no room,no room,2017
+292,TOY,Toy1rmDbl,"1 Room Double,Toyon",m,1432 (level 1),1285 (level 1),1285 (level 1),1285 (level 1),2017
+293,TOY,ToyonTrp,"Triple,Toyon",m,1740 (level 1),1530 (level 1),1400 (level 1),1400 (level 1),2017
+294,TOY,Toy2rmDbl,"2 Room Double,Toyon",m,1247 (level 1),1247 (level 1),1247 (level 1),1247 (level 1),2017
+295,TOY,ToyonQuad,"Quad,Toyon",m,no room,no room,no room,no room,2017
+736,WIL,Okada,"Any,Okada",m,2939 (pool G),2929 (pool G),2929 (3 of 4) (pool G),2779,2017
+736,WIL,"Okada (ethnic,A)","Any,Okada",m,2864,2569,2224,2159,2017
+741,WIL,TrancosAny,"Any,Trancos",m,2939 (pool G),2929 (pool G),2929 (3 of 4) (pool G),2929 (2 of 4) (pool G),2017
+743,WIL,Trancos1rmSgl,"1 Room Single,Trancos",m,no room,no room,no room,no room,2017
+744,WIL,Trancos1rmDbl,"1 Room Double,Trancos",m,2939 (pool G),2929 (pool G),2929 (3 of 4) (pool G),2929 (2 of 4) (pool G),2017
+31,BRN,Any Branner,"Any,Branner",f,1526,1256,1256,1175,2017
+281,BRN,Bran1rmSgl,"1 Room Single,Branner",f,212,188,184,151,2017
+282,BRN,Bran1rmDbl,"1 Room Double,Branner",f,1526,1256,1256,1175,2017
+283,BRN,BrannerTrp,"Triple,Branner",f,no room,no room,no room,no room,2017
+284,BRN,Bran2rmDbl,"2 Room Double,Branner",f,830,no room,no room,no room,2017
+309,CRO,Any Cro,"Any,Crothers",f,2900 (1 of 5),2897,2860,2860,2017
+319,CRO,Cro1rmSgl,"1 Room Single,Crothers",f,956,941,939,939,2017
+329,CRO,Cro1rmDbl,"1 Room Double,Crothers",f,2900 (1 of 5),2897,2860,2860,2017
+6,DRW,Any Res,"Any,Residence",f,2935 (1 of 2) (pool G),n/a,n/a,n/a,2017
+1,DRW,Any Dorm,"Any,Dorm",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+2,DRW,Any East,"Any,East Campus",f,2900 (1 of 5),2897,2860,2860,2017
+3,DRW,Any West,"Any,West Campus",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+7,DRW,Any CCTH,"Any,CCTH",f,2935 (1 of 2) (pool G),2916 (pool G),2909 (pool G),2909 (pool G),2017
+60,FM,Any FloMo,"Any,FloMo",f,2658,2641,2641 (1 of 2),2616,2017
+397,FM,Any E FloMo,"Any,East FloMo",f,2658,2641,2641 (1 of 2),2616,2017
+61,FM,Alondra,"Any,Alondra",f,no room,no room,no room,no room,2017
+62,FM,Any Cardenal,"Any,Cardenal",f,2616,2616,2605,2605,2017
+398,FM,Card1rmSgl,"1 Room Single,Cardenal",f,no room,no room,no room,no room,2017
+399,FM,Card1rmDbl,"1 Room Double,Cardenal",f,2616,2616,2605,2605,2017
+63,FM,Any Faisan,"Any,Faisan",f,2658,2641,2641 (1 of 2),2616,2017
+401,FM,Fais1rmSgl,"1 Room Single,Faisan",f,831,817,504,no room,2017
+402,FM,Fais1rmDbl,"1 Room Double,Faisan",f,2658,2641,2641 (1 of 2),2616,2017
+415,FM,Any W FloMo,"Any,West FloMo",f,2509,2494,2494,2494,2017
+65,FM,Any Loro,"Any,Loro",f,2509,2387,2387,2387,2017
+405,FM,Loro1rmSgl,"1 Room Single,Loro",f,no room,no room,no room,no room,2017
+406,FM,Loro1rmDbl,"1 Room Double,Loro",f,2509,2387,2387,2387,2017
+66,FM,Any Mirlo,"Any,Mirlo",f,1999,1568,1568,1568,2017
+407,FM,Mrlo1rmSgl,"1 Room Single,Mirlo",f,730,no room,no room,no room,2017
+408,FM,Mrlo1rmDbl,"1 Room Double,Mirlo",f,1999,1568,1568,1568,2017
+67,FM,Any Paloma,"Any,Paloma",f,2509,2494,2494,2494,2017
+409,FM,Palo1rmSgl,"1 Room Single,Paloma",f,no room,no room,no room,no room,2017
+410,FM,Palo1rmDbl,"1 Room Double,Paloma",f,2509,2494,2494,2494,2017
+64,FM,Any Gavilan,"Any,Gavilan",f,2566,2540,2540,2340,2017
+403,FM,Gav1rmSgl,"1 Room Single,Gavilan",f,no room,no room,no room,no room,2017
+404,FM,Gav1rmDbl,"1 Room Double,Gavilan",f,2566,2540,2540,2340,2017
+450,GC,Any Gov Co,"Any,Gov Co",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+81,GC,Any EAST,"Any,EAST",f,2475,2392,2392,2392,2017
+441,GC,EAST1rmSgl,"1 Room Single,EAST",f,no room,no room,no room,no room,2017
+442,GC,EAST1rmDbl,"1 Room Double,EAST",f,2475,2392,2392,2392,2017
+443,GC,EASTTrp,"Triple,EAST",f,no room,no room,no room,no room,2017
+444,GC,EAST2rmDbl,"2 Room Double,EAST",f,1629,1598,1574 (1 of 5),1378,2017
+82,GC,Any Murray,"Any,Murray",f,2678,2678,2586,2199,2017
+451,GC,Murr1rmSgl,"1 Room Single,Murray",f,752,no room,no room,no room,2017
+452,GC,Murr1rmDbl,"1 Room Double,Murray",f,2678,2678,2586,2199,2017
+454,GC,Murr2rmDbl,"2 Room Double,Murray",f,1363,1351,1348,1348,2017
+83,GC,Any Yost,"Any,Yost",f,1881,1240,1240,1240,2017
+461,GC,Yost1rmSgl,"1 Room Single,Yost",f,758,488,399,no room,2017
+462,GC,Yost1rmDbl,"1 Room Double,Yost",f,1881,1240,1240,1240,2017
+464,GC,Yost2rmDbl,"2 Room Double,Yost",f,1046,1046,803,no room,2017
+87,GC,Any Suites,"Any,Suites",f,1277,1143,963,963,2017
+84,GC,Suites 4,"4-room,Suites",f,1143,0837 (1 of 4),585,1431 (level 1),2017
+86,GC,Suites 6,"6-room,Suites 6",f,1277,963,963,2718 (level 1),2017
+90,GC,Any SterQuad,"Any,SterQuad",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+92,GC,Any Potter,"Any,Potter",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+471,GC,Pott1rmSgl,"1 Room Single,Potter",f,964,890,867,850,2017
+472,GC,Pott1rmDbl,"1 Room Double,Potter",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+473,GC,PotterTrp,"Triple,Potter",f,no room,no room,no room,no room,2017
+474,GC,Pott2rmDbl,"2 Room Double,Potter",f,2201,2201,2101,2101,2017
+93,GC,Any Robinson,"Any,Robinson",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+481,GC,Robn1rmSgl,"1 Room Single,Robinson",f,947,947,no room,no room,2017
+482,GC,Robn1rmDbl,"1 Room Double,Robinson",f,2935 (1 of 2) (pool G),2916 (pool G),2909,2909,2017
+484,GC,Robn2rmDbl,"2 Room Double,Robinson",f,2414,2337,2337 (3 of 4),2337 (2 of 4),2017
+95,GC,FroSoCo,"Any,FroSoCo",f,2935 (1 of 2) (pool G),2916 (pool G),1631 (level 1),no room,2017
+85,GC,Jenkins,",Outdoor House",f,976,921,841,618,2017
+50,LAG,Any Lag,"Any,Lagunita",f,1885,1717,1699,1697,2017
+51,LAG,Any Adelfa,"Any,Adelfa",f,1435,1435,1426,1426,2017
+433,LAG,Adel1rmSgl,"1 Room Single,Adelfa",f,672,671,670,645,2017
+434,LAG,Adel1rmDbl,"1 Room Double,Adelfa",f,1435,1435,1426,1426,2017
+52,LAG,Any Eucalipto,"Any,Eucalipto",f,1885,1717,1699,1394,2017
+54,LAG,Euc 1rmDbl,"1 Room Double,Eucalipto",f,1717,1699,1334,1334,2017
+430,LAG,Gran Trpl,"Triple,Granada",f,1885,1394,1394,no room,2017
+438,LAG,Euc1rmSgl,"1 Room Single,Eucalipto",f,704,704,704,704,2017
+439,LAG,Euc Trpl,"Triple,Eucalipto",f,no room,no room,no room,no room,2017
+53,LAG,Any Granada,"Any,Granada",f,1697,1697,no room,no room,2017
+436,LAG,Gran1rmSgl,"1 Room Single,Granada",f,no room,no room,no room,no room,2017
+437,LAG,Gran1rmDbl,"1 Room Double,Granada",f,1697,1697,no room,no room,2017
+55,LAG,Any Naranja,"Any,Naranja",f,574,568,527,493,2017
+431,LAG,Nrja1rmSgl,"1 Room Single,Naranja",f,574,568,527,493,2017
+432,LAG,Nrja1rmDbl,"1 Room Double,Naranja",f,no room,no room,no room,no room,2017
+491,LAG,Meier1rmSgl,"1 Room Single,Meier",f,360,335,279,246,2017
+493,LAG,Meier2rmDbl,"2 Room Double,Meier",f,747,747,520,520,2017
+496,LAG,Norcliffe1rmSgl,"1 Room Single,Norcliffe",f,524,497,475,456,2017
+498,LAG,Norcliffe2rmDbl,"2 Room Double,Norcliffe",f,1244,1244,1192,1192,2017
+492,LAG,Meier1rmDbl,"1 Room Double,Meier",f,no room,no room,no room,no room,2017
+57,LAG,Ujamaa,"Any,Ujamaa",f,no room,no room,no room,no room,2017
+57,LAG,"Ujamaa (ethnic,B)","Any,Ujamaa",f,425,107,no room,no room,2017
+200,MAN,Any Manz,"Any,Gerhard Casper Quad",f,1971,1869,1869,1869 (3 of 5),2017
+201,MAN,Any Kimball,"Any,Kimball",f,1861,1861,1745,1745,2017
+261,MAN,Kim1rmSgl,"1 Room Single,Kimball",f,635,635,586,570,2017
+262,MAN,Kim1rmDbl,"1 Room Double,Kimball",f,1698,1698,1698,1698,2017
+263,MAN,KimballTrp,"Triple,Kimball",f,1403,1403,1403,no room,2017
+264,MAN,Kim2rmDbl,"2 Room Double,Kimball",f,1434,1434,1434,1434,2017
+265,MAN,KimQuad,"Quad,Kimball",f,1861,1861,1745,1745,2017
+202,MAN,Any Lantana,"Any,Lantana",f,1849 (2 of 3),1849 (2 of 3),1845,1845,2017
+211,MAN,Lant1rmSgl,"1 Room Single,Lantana",f,614,591,no room,no room,2017
+212,MAN,Lant1rmDbl,"1 Room Double,Lantana",f,1849 (2 of 3),1849 (2 of 3),1845,1845,2017
+213,MAN,LantanaTrp,"Triple,LantanaTrpana",f,no room,no room,no room,no room,2017
+214,MAN,Lant2rmDbl,"2 Room Double,Lantana",f,1560,1544,1544,1542,2017
+203,MAN,Any Castano,"Any,Castano",f,1971,1869,1869,1869 (3 of 5),2017
+251,MAN,Cast1rmSgl,"1 Room Single,Castano",f,631,442,163,14,2017
+252,MAN,Cast1rmDbl,"1 Room Double,Castano",f,1971,1869,1869,1869 (3 of 5),2017
+253,MAN,CastanoTrp,"Triple,Castano",f,1869 (3 of 5),1869 (3 of 5),1869 (3 of 5),1667,2017
+254,MAN,Cast2rmDbl,"2 Room Double,Castano",f,1554,1506 (3 of 4),1506 (3 of 4),1506 (3 of 4),2017
+255,MAN,Humanities,"Any,Humanities House",f,443,443,298,no room,2017
+19,MIR,Any Mirr,"Any,Mirrielees",f,261,261,254,no room,2017
+102,MIR,Mirr2brDbl,"Double,Mirrielees",f,261,254,no room,no room,2017
+103,MIR,Mirr3brTrp,"Triple,Mirrielees",f,261,no room,no room,no room,2017
+350,MIR,MirSubFree,"Substance Free Housing,Mirrielees",f,400,400,no room,no room,2017
+32,ROB,Any Roble,"Any,Roble",f,1968,1917,1917,1917,2017
+411,ROB,Robl1rmSgl,"1 Room Single,Roble",f,1298,1281,1281,1243,2017
+412,ROB,Robl1rmDbl,"1 Room Double,Roble",f,1874,1792,1521,1521,2017
+413,ROB,RobleTrp,"Triple,Roble",f,1968,1917,1917,1917,2017
+414,ROB,Robl2rmDbl,"2 Room Double,Roble",f,no room,no room,no room,no room,2017
+978,ROW,Muwekma,"Any,Muwekma",f,922,724,578,no room,2017
+978,ROW,"Muwekma (ethnic,N)","Any,Muwekma",f,room for all,no room,no room,no room,2017
+920,ROW,Any SelfOp,"Any,Self Op",f,1823,1811,1811,1807,2017
+907,ROW,LwRwSelfOp,"Any,Lower Row Self Op",f,904,705,691,571,2017
+922,ROW,Any 680Lomita,"Any,680 Lomita",f,691,386,266,266,2017
+908,ROW,680Lom Prm,"Premium,680 Lomita",f,386,266,266,263,2017
+909,ROW,680Lom Std,"Standard,680 Lomita",f,691,no room,no room,no room,2017
+930,ROW,Any Xanadu,"Any,Xanadu",f,571,546,325,316,2017
+998,ROW,Xanadu Prm,"Premium,Xanadu",f,no room,no room,no room,no room,2017
+999,ROW,Xanadu Std,"Standard,Xanadu",f,571,546,325,316,2017
+965,ROW,Any Italian,"Any,La Casa Italiana",f,144,144,79,18,2017
+939,ROW,ItalianPrm,"Premium,La Casa Italiana",f,18,no room,no room,no room,2017
+940,ROW,ItalianStd,"Standard,La Casa Italiana",f,144,144,79,no room,2017
+986,ROW,Any BOB,"Any,BOB",f,499,450,450,373,2017
+912,ROW,BOB Prm,"Premium,BOB",f,67,49,49,47,2017
+913,ROW,BOB Std,"Standard,BOB",f,499,450,450,373,2017
+990,ROW,Any Mars,"Any,Mars",f,904,560,560,557,2017
+946,ROW,Mars Prm,"Premium,Mars",f,no room,no room,no room,no room,2017
+947,ROW,Mars Std,"Standard,Mars",f,904,560,560,557,2017
+993,ROW,Storey,"Any,Storey",f,705,411,411,397,2017
+921,ROW,UpRwSelfOp,"Any,Upper Row Self Op",f,1823,1811,1811,1807,2017
+901,ROW,Any Roth,"Any,Roth",f,1823,1811,1811,1807,2017
+953,ROW,Roth Prm,"Premium,Roth",f,125,125,61,61,2017
+954,ROW,Roth Std,"Standard,Roth",f,1823,1811,1811,1807,2017
+964,ROW,Any HausMit,"Any,Haus Mitteleuropa",f,507,507,483,483,2017
+937,ROW,HausMitPrm,"Premium,Haus Mitteleuropa",f,no room,no room,no room,no room,2017
+938,ROW,HausMitStd,"Standard,Haus Mitteleuropa",f,507,507,483,483,2017
+966,ROW,Any French,"Any,French House",f,474,247,226,226,2017
+924,ROW,French Prm,"Premium,French House",f,no room,no room,no room,no room,2017
+925,ROW,French Std,"Standard,French House",f,474,247,226,226,2017
+968,ROW,Any PhiSig,"Any,Phi Sigma",f,798,798,720,485,2017
+951,ROW,Phi Sg Prm,"Premium,Phi Sigma",f,221,no room,no room,no room,2017
+952,ROW,Phi Sg Std,"Standard,Phi Sigma",f,798,798,720,485,2017
+970,ROW,Any Durand,"Any,Durand",f,916,916,905,899,2017
+916,ROW,Durand Prm,"Premium,Durand",f,no room,no room,no room,no room,2017
+917,ROW,Durand Std,"Standard,Durand",f,916,916,905,899,2017
+979,ROW,Any SlavDom,"Any,Slavianskii Dom",f,764,748,729,678,2017
+956,ROW,SlavDomPrm,"Premium,Slavianskii Dom",f,103,16,no room,no room,2017
+957,ROW,SlavDomStd,"Standard,Slavianskii Dom",f,764,748,729,678,2017
+987,ROW,Any Grove,"Any,Grove",f,881,827,827,813,2017
+926,ROW,Grov Prm,"Premium,Grove",f,no room,no room,no room,no room,2017
+927,ROW,Grov Std,"Standard,Grove",f,881,827,827,813,2017
+923,ROW,Any SelfOpLake,"Any,Self Op Lake",f,1302,762,0747 (1 of 3),533,2017
+941,ROW,Jerry Prm,"Premium,Jerry",f,315,296,284,284,2017
+960,ROW,Any Narnia,"Any,Narnia",f,1302,762,0747 (1 of 3),533,2017
+948,ROW,Narnia Prm,"Premium,Narnia",f,533,0533 (2 of 3),0533 (2 of 3),454,2017
+949,ROW,Narnia Std,"Standard,Narnia",f,1302,762,0747 (1 of 3),no room,2017
+994,ROW,ZAP,"Any,ZAP",f,1308,1222,1222,955,2017
+976,ROW,Kairos,"Any,Kairos",f,657,657,551,513,2017
+977,ROW,Terra,"Any,Terra",f,2303,2303,2162,1994,2017
+981,ROW,576Alvarado,"Any,576 Alvarado",f,728,622,388,no room,2017
+983,ROW,Columbae,"Any,Columbae",f,612,597,558,558,2017
+985,ROW,EBF,"Any,EBF",f,673,625,555,555,2017
+996,ROW,Hammarsk,"Any,Hammarskjold",f,367,no room,no room,no room,2017
+996,ROW,"Hammarsk (ethnic,I)","Any,Hammarskjold",f,1652,1388,286,180,2017
+997,ROW,Synergy,"Any,Synergy",f,589,519,291,167,2017
+426,STN,Zapata,"Any,Zapata",f,2935 (1 of 2) (pool G),2916 (pool G),2909 (pool G),2909 (pool G),2017
+426,STN,"Zapata (ethnic,C)","Any,Zapata",f,room for all,room for all,room for all,room for all,2017
+33,TOY,Any Toyon,"Any,Toyon",f,1350 (level 1),1350 (level 1),1304 (level 1),1254 (level 1),2017
+291,TOY,Toy1rmSgl,"1 Room Single,Toyon",f,no room,no room,no room,no room,2017
+292,TOY,Toy1rmDbl,"1 Room Double,Toyon",f,1350 (level 1),1239 (level 1),1239 (level 1),1239 (level 1),2017
+293,TOY,ToyonTrp,"Triple,Toyon",f,1181 (level 1),1181 (level 1),1181 (level 1),no room,2017
+294,TOY,Toy2rmDbl,"2 Room Double,Toyon",f,1304 (level 1),1190 (level 1),1188 (level 1),1188 (level 1),2017
+295,TOY,ToyonQuad,"Quad,Toyon",f,1350 (level 1),1254 (level 1),1254 (level 1),1254 (level 1),2017
+736,WIL,Okada,"Any,Okada",f,2499,2198,2163,2163,2017
+736,WIL,"Okada (ethnic,A)","Any,Okada",f,2313,2188,2012,2012,2017
+741,WIL,TrancosAny,"Any,Trancos",f,2935 (1 of 2) (pool G),2916 (pool G),2909 (pool G),2909 (pool G),2017
+743,WIL,Trancos1rmSgl,"1 Room Single,Trancos",f,no room,no room,no room,no room,2017
+744,WIL,Trancos1rmDbl,"1 Room Double,Trancos",f,2935 (1 of 2) (pool G),2916 (pool G),2909 (pool G),2909 (pool G),2017
