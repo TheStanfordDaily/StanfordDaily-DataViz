@@ -1,0 +1,512 @@
+<!-- Import D3 -->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+	<style>
+	/******* Text *******/
+	.heatmap {
+	  font-family: 'PT Sans', sans-serif;
+	}
+	.heatmap text {
+	  font-family: 'PT Sans', sans-serif; 
+	}
+
+	.bold {
+	  font-weight: 700;
+	}
+
+	.title {
+	  font-weight: 600;
+	  font-size: 24px;
+	}
+
+	.subtitle {
+	  font-size: 16px;
+	}
+
+	.legend {
+	  font-size: 14px;
+	}
+
+	/******* Tooltip *******/
+	div.tooltip {	
+	  position: absolute;
+	  text-align: center;
+	  width: 120px;
+	  padding: 0px 0px;
+	  background: #FCFCFC;
+	  border: 0.5px #DBDBDB solid;
+	  border-radius: 1px;
+	  box-shadow: 0px 0px 2px rgba(83, 78, 77, .25);
+	  pointer-events: none;
+	}
+
+	div.tooltip p {
+	  font-size: 12px;
+	  font-family: 'PT Sans', sans-serif; 
+	  margin: 0px;
+	}
+
+	rect.heatmap {
+	  rx: 1;
+	}
+
+	
+	div#residents-per-machine-table .header-cell {
+	  text-transform: capitalize;
+	}
+
+	div#residents-per-machine-table table {
+	  font-size: 14px;
+	  font-family: 'PT Sans', sans-serif; 
+	  border-collapse: collapse;
+	}
+
+	div#residents-per-machine-table th, td {
+	    border-bottom: 1px solid #eee;
+	    text-align: left;
+		padding: 2px 15px 2px 0;
+	}​
+
+	div#residents-per-machine-table tr:last-child { 
+	    border-bottom: none; 
+	}
+
+	div#residents-per-machine-table th {
+	    border-bottom: 1px solid #ccc;
+	}​
+
+	</style>
+
+
+<!-- Data initialization and processing -->
+<script type="text/javascript">
+	// Constants
+	DAY_TO_STR = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+	HOUR_TO_STR = [
+		"12a", "1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12p",
+		"1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p"
+	];
+	const width = 550;
+	const legend_height = 10;
+	const legend_width = width * 3/8;
+	const cell_pad = 1;
+
+
+	// Data loading
+	var residents_per_machine = {};
+	var data_by_residence = [];
+
+	// Raw laundry usage data
+	d3.csv("https://gist.githubusercontent.com/16chuang/5b164b35d889d76f9bd77ae6e47dcca0/raw/67d7431a0d4dbae8c8b96bbcfa4affdbf4d72e6b/valid_laundry.csv").then((data) => {
+		laundry_raw = data;
+
+		// Add derived fields
+		laundry_raw.forEach((d) => {
+			var parsed_date = new Date(d.datetime);
+			if (d.residence == "Lambda Nu") d.residence = "Jerry"
+			d.day_of_week = parsed_date.getDay();
+			d.hour = parsed_date.getHours();
+			d.quarter_of_hour = Math.round(parsed_date.getMinutes() / 15) * 15;
+			d.total_machines = +d.busy_washers + +d.busy_dryers + +d.free_dryers + +d.free_washers;
+			d.busy_machines = +d.busy_washers + +d.busy_dryers;
+			d.prop_busy = +d.busy_machines / +d.total_machines;
+		});
+
+		// Pull out residence names
+		var residences = d3.map(laundry_raw, d => d.residence).keys();
+		var undergrad_residences = d3.map(
+			laundry_raw.filter(d => d.type == 'undergrad'), d => d.residence
+		).keys();
+		var grad_residences = d3.map(
+			laundry_raw.filter(d => d.type == 'grad'), d => d.residence
+		).keys();
+
+		// Group raw usage data by residence
+		var data_by_residence = [];
+		residences.forEach((residence) => {
+			var raw = laundry_raw.filter((d) => d.residence == residence);
+			var flat = flattenData(groupData(raw));
+			data_by_residence.push({'residence': residence, 'data': flat});
+		});
+
+		makeHeatmap(
+		  d3.select("div#total-heatmap"),
+		  flattenData(groupData(laundry_raw)),
+		  25,
+		  "Laundry machine usage by day and hour",
+		  "Averaged over all available residences, 10/19/19-11/22/19"
+		)
+
+		makeAllHeatmaps(
+		  d3.select("div#all-heatmaps"), 
+		  undergrad_residences, 
+		  grad_residences,
+		  data_by_residence
+		)
+	});
+
+	// Resident-to-laundry-machine ratio per residence
+	d3.csv("https://gist.githubusercontent.com/16chuang/5b164b35d889d76f9bd77ae6e47dcca0/raw/a9a8aac5bd097341f87364d17969cdfc407d7943/residents_per_machine.csv").then((data) => {
+		makeResidentsPerMachineTable(data);
+	})
+
+
+
+	// Helper data loading functions
+	const groupData = (data) => {
+	  return d3.nest()
+	  .key((d) => d.day_of_week)
+	  .key((d) => d.hour)
+	  .rollup((v) => ({
+	    'prop_busy': d3.mean(v, (d) => d.prop_busy),
+	    'busy_machines': d3.mean(v, (d) => d.busy_machines)
+	  }))
+	  .entries(data)
+	}
+
+	const flattenData = ((data) => {
+	  var flattened = [];
+	  data.forEach((day_dict) => {
+	    day_dict.values.forEach((hour_dict) => {
+	      flattened.push({
+	        day: DAY_TO_STR[day_dict.key],
+	        hour: HOUR_TO_STR[hour_dict.key],
+	        prop_busy: hour_dict.value.prop_busy,
+	        busy_machines: hour_dict.value.busy_machines,
+	      });
+	    });
+	  });
+	  return flattened;
+	})
+
+
+	// Data visualization helper functions
+	const makeColorScale = (data) => {
+	  var props = data.map((d) => d.prop_busy);
+	  return d3.scaleSequential()
+	    .interpolator(d3.interpolateOrRd)
+	    .domain([d3.min(props), d3.max(props)]);
+	}
+
+	const makeManualColorScale = (domain) => {
+	  return d3.scaleSequential()
+	    .interpolator(d3.interpolateOrRd)
+	    .domain(domain);
+	}
+
+	const makeHourScale = (range) => {
+	  return d3.scaleBand()
+	    .domain(HOUR_TO_STR)
+	    .range(range)
+	    .padding(0.05);
+	}
+
+	const makeDayScale = (range) => {
+	  return d3.scaleBand()
+	  .domain(DAY_TO_STR)
+	  .range(range)
+	  .padding(0.05);
+	}
+	
+	const makeColorLegend = (svg, color_scale, ticks, heatmap_height, heatmap_margin) => {
+	  // Define gradient for rectangle
+	  svg.append("defs")
+	    .append("linearGradient")
+	    .attr("id", "linear-gradient")
+	    .selectAll("stop")
+	    .data(color_scale.ticks().map((t, i, n) => ({ offset: `${100*i/n.length}%`, color: color_scale(t) })))
+	    .enter().append("stop")
+	    .attr("offset", d => d.offset)
+	    .attr("stop-color", d => d.color);
+	  
+	  // Draw rectangle
+	  svg.append("g")
+	    .attr("transform", `translate(${(width - legend_width)/2},${heatmap_height - heatmap_margin.bottom/2})`)
+	    .append("rect")
+	    .attr("width", legend_width)
+	    .attr("height", legend_height)
+	    .attr("fill", "url(#linear-gradient)")
+	    .attr("rx", 2)
+	  
+	  // Create number scale for labels
+	  var axis_scale = d3.scaleLinear()
+	    .domain(color_scale.domain())
+	    .range([0, legend_width])
+	  
+	  // Draw labels
+	  var formatPercent = d3.format(".0%");
+	  
+	  svg.append("g")
+	    .attr("transform", `translate(${(width - legend_width)/2},${heatmap_height - heatmap_margin.bottom/2 + legend_height + 4})`)
+	    .call(d3.axisBottom(axis_scale)
+	      // .ticks(4)
+	      .tickValues(ticks)
+	      .tickFormat(formatPercent)
+	      .tickSize(0))
+	    .select(".domain").remove();
+	  
+	  // Draw legend title
+	  svg.append("text")
+	    .attr("text-anchor", "middle")
+	    .attr("x", (width / 2))
+	    .attr("y", (heatmap_height - heatmap_margin.bottom/2 - 7))
+	    .attr("class", "legend")
+	    .text("Percentage of machines in use");
+	};
+
+
+	// Single heatmap
+	const makeHeatmap = (div, laundry_flat, grid_size, title, subtitle) => {
+	  var heatmap_width = grid_size * HOUR_TO_STR.length;
+	  var heatmap_margin = ({ top: 90, right: 0, bottom: 80, left: 25 });
+	  var heatmap_height = grid_size * DAY_TO_STR.length + heatmap_margin.top + heatmap_margin.bottom;
+
+	  const svg = div.append("svg")
+	  	.attr("width", width)
+	  	.attr("height", heatmap_height);
+	  svg.attr("class", "heatmap");
+	  
+	  var color_scale = makeColorScale(laundry_flat);
+	  
+	  // X axis (hours)
+	  var x = makeHourScale([
+	    heatmap_margin.left, 
+	    heatmap_margin.left + grid_size * HOUR_TO_STR.length 
+	  ]);
+	  svg.append("g")
+	    .attr("transform", `translate(0,${heatmap_margin.top})`)
+	    .call(d3.axisTop(x).tickSize(0))
+	    .select(".domain").remove();
+	  
+	  // Y axis (days)
+	  var y = makeDayScale([ 
+	    heatmap_margin.top, 
+	    heatmap_margin.top + grid_size * DAY_TO_STR.length 
+	  ]);
+	  svg.append("g")
+	    .attr("transform", `translate(${heatmap_margin.left},0)`)
+	    .call(d3.axisLeft(y).tickSize(0))
+	    .select(".domain").remove();
+	  
+	  // Mouseover
+	  var tooltip = d3.select("body").append("div")
+	    .attr("class", "tooltip")
+	    .style("opacity", 0)
+	  var tooltip_datetime = tooltip.append("p")
+	    .attr("class", "bold")
+	  var tooltip_busy = tooltip.append("p")
+	  
+	  var mouseover = function(d) {
+	    tooltip.style("opacity", 1)
+	    d3.select(this)
+	      .style("stroke", "#4D4F53")
+	      .style("stroke-width", "1.5")
+	  }
+	  var mousemove = function(d) {
+	    tooltip.style("top", (d3.event.pageY - 28) + "px");
+	    if (d3.event.pageX < width / 2) {
+	      tooltip.style("left", (d3.event.pageX + 20) + "px")
+	    } else {
+	      tooltip.style("left", (d3.event.pageX - 160) + "px")
+	    }
+	    tooltip_datetime
+	      .html(d.day + ", " + d.hour + "m")
+	    tooltip_busy
+	      .html("<span class='bold'>" + (d.prop_busy * 100).toFixed(0) + "%</span> of machines in use")
+	  }
+	  var mouseleave = function(d) {
+	    tooltip.style("opacity", 0)
+	    d3.select(this).style("stroke", "none")
+	  }
+	  
+	  // Heatmap rectangles
+	  svg.append("g")
+	    .selectAll("rect")
+	    .data(laundry_flat)
+	    .join("rect")
+	      .attr("width", grid_size - cell_pad * 2)
+	      .attr("height", grid_size - cell_pad * 2)
+	      .attr("x", (d) => x(d.hour))
+	      .attr("y", (d) => y(d.day))
+	      .attr("fill", (d) => color_scale(d.prop_busy))
+	      .attr("class", "heatmap")
+	      .on("mouseover", mouseover)
+	      .on("mousemove", mousemove)
+	      .on("mouseleave", mouseleave)
+	  
+	  // Color legend: gradient, rect, and labels
+	  makeColorLegend(svg, color_scale, [0.1, 0.2], heatmap_height, heatmap_margin);
+	  
+	  // Title
+	  svg.append("text")
+	    .attr("text-anchor", "middle")
+	    .attr("x", (width / 2))
+	    .attr("y", (heatmap_margin.top / 3))
+	    .attr("class", "title")
+	    .text(title);
+	  
+	  // Subtitle
+	  svg.append("text")
+	    .attr("text-anchor", "middle")
+	    .attr("x", (width / 2))
+	    .attr("y", (heatmap_margin.top * 5/8))
+	    .attr("class", "subtitle")
+	    .text(subtitle);
+	}
+
+
+	// All undergrad and grad heatmaps
+	const makeAllHeatmaps = (div, undergrad_residences, grad_residences, data_by_residence) => {
+	  var num_residences = undergrad_residences.length + grad_residences.length;
+	  var num_cols = 2; 
+	  var num_undergrad_rows = Math.ceil(undergrad_residences.length / num_cols);
+	  var num_grad_rows = Math.ceil(grad_residences.length / num_cols);
+	  var num_rows = num_undergrad_rows + num_grad_rows;
+	  var grid_size = 8;  
+	  
+	  var title_margin = 40;
+	  var color_scale_margin = 60;
+	  var col_margin = width - (grid_size * HOUR_TO_STR.length * num_cols);
+	  var heatmap_margin = ({ top: 20, 
+	                         right: 20, 
+	                         bottom: 10, 
+	                         left: 10 });
+	  var heatmap_height = grid_size * DAY_TO_STR.length + heatmap_margin.top + heatmap_margin.bottom;
+	  var heatmap_width = grid_size * HOUR_TO_STR.length + heatmap_margin.left + heatmap_margin.right;
+	  var full_height = heatmap_height * num_rows + title_margin * 2 + color_scale_margin;
+	  
+	  const svg = div.append("svg")
+	  	.attr("width", width)
+	  	.attr("height", full_height)
+	    .attr("class", "heatmap");
+	  
+	  var color_scale = makeManualColorScale([0, 0.6]);
+	  const translate_x = i => heatmap_width * (i % num_cols);
+	  const translate_y = i => title_margin + heatmap_height * Math.floor(i / num_cols);
+	  
+	  const undergrad_svg = svg.append('svg')
+	    .attr('width', width)
+	    .attr('height', title_margin + num_undergrad_rows * heatmap_height);
+	  
+	  const grad_svg = svg.append('svg')
+	    .attr('width', width)
+	    .attr('height', title_margin + num_grad_rows * heatmap_height)
+	    .attr('y', title_margin + num_undergrad_rows * heatmap_height);
+	  
+	  const drawMiniHeatmaps = (heatmaps_svg, title, data) => {
+	    // Section title
+	    heatmaps_svg.append('text')
+	      .text(title)
+	      .attr('x', width / 2)
+	      .attr('y', title_margin * 2/3)
+	      .attr("text-anchor", "middle")
+	      .attr('class', 'title')
+
+	    let heatmaps = heatmaps_svg.append('g')
+	      .selectAll('g')
+	      .data(data)
+	      .enter().append('g')
+	      .attr('class', 'residence-heatmap')
+	      .attr('transform', (d, i) => `translate(${translate_x(i)}, ${translate_y(i)})`);
+
+	    heatmaps.each(function(obj, i) {
+	      let container = d3.select(this);
+	      let x0 = translate_x(i);
+	      let y0 = translate_y(i);
+
+	      var x_scale = makeHourScale([
+	        x0, 
+	        x0 + grid_size * HOUR_TO_STR.length
+	      ]);
+	      var y_scale = makeDayScale([
+	        y0 + heatmap_margin.top, 
+	        y0 + heatmap_margin.top + grid_size * DAY_TO_STR.length
+	      ]);
+
+	      // Heatmap rectangles
+	      heatmaps_svg.append("g")
+	        .selectAll("rect")
+	        .data(obj.data)
+	        .join("rect")
+	          .attr("width", grid_size - cell_pad)
+	          .attr("height", grid_size - cell_pad)
+	          .attr("x", (d) => x_scale(d.hour))
+	          .attr("y", (d) => y_scale(d.day))
+	          .attr("fill", (d) => color_scale(d.prop_busy))
+	          .attr("class", "heatmap")
+
+	      // Residence titles
+	      heatmaps_svg.append("text")
+	        .attr("text-anchor", "middle")
+	        .attr("x", (x0 + heatmap_width / 2 - heatmap_margin.left))
+	        .attr("y", (y0 + heatmap_margin.top / 2))
+	        .attr("font-size", "14px")
+	        // .attr("font-weight", 600)
+	        .text(obj.residence);
+	    });
+	  }
+	  
+	  drawMiniHeatmaps(undergrad_svg, 'Undergraduate', 
+	                   data_by_residence.filter((d) => undergrad_residences.includes(d.residence)));
+	  drawMiniHeatmaps(grad_svg, 'Graduate', 
+	                   data_by_residence.filter((d) => grad_residences.includes(d.residence)));
+	  
+	  // Color legend: gradient, rect, and labels
+	  makeColorLegend(svg, color_scale, [.1, .3, .5], full_height, {'bottom': color_scale_margin});
+	}
+
+
+	// Table viz
+	const makeResidentsPerMachineTable = (residents_per_machine) => {
+	  const div = d3.select("div#residents-per-machine-table");
+	  const table = div.append("table");
+	  const header = table.append("thead").append("tr").attr('id', 'header');
+	  
+	  // Header
+	  header.selectAll('.header-cell')
+	    .data(Object.keys(residents_per_machine[0]))
+	  .enter().append("th")
+	    .attr('class', 'header-cell')
+	    .text(d => d.split('_').join(' '));
+	  
+	  // Text cells
+	  const rows = table.append("tbody").selectAll('.row')
+	    .data(residents_per_machine)
+	  .enter().append("tr")
+	    .attr("class", "row")
+	  
+	  const cells = rows.selectAll('.cell')
+	    .data(d => Object.values(d).slice(0, -1))
+	  .enter().append('td')
+	    .attr('class', 'cell')
+	    .text(d => d)
+	  
+	  // Bar cells
+	  let max_bar_width = 100; let min_bar_width = 20; let bar_height = 12;
+	  var x = d3.scaleLinear()
+	    .domain([
+	      d3.min(residents_per_machine, (d) => +d.residents_per_machine), 
+	      d3.max(residents_per_machine, (d) => +d.residents_per_machine)])
+	    .range([min_bar_width, max_bar_width]);
+
+	  const decimal_format = d3.format('.1f')
+	  
+	  const bar_cells = rows.append('td').append('svg')
+	    .attr('class', 'bar-chart')
+	    .attr('width', max_bar_width + 30)
+	    .attr('height', bar_height);
+	  
+	  bar_cells.append('rect')
+	    .attr('width', d => x(d.residents_per_machine))
+	    .attr('height', bar_height)
+	    .attr('y', '0.1em')
+	    .attr('fill', '#B1040E')
+	  
+	  bar_cells.append('text')
+	    .attr('x', (d) => x(d.residents_per_machine) + 5)
+	    .attr('y', bar_height)
+	    .text((d) => decimal_format(d.residents_per_machine))
+	};
+
+</script>
+<div style="margin: auto" id="total-heatmap"></div>
