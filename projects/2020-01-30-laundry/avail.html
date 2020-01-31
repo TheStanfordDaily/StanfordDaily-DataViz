@@ -254,6 +254,105 @@
 	    .attr("class", "legend")
 	    .text("Percentage of machines in use");
 	};
+	
+	// Single heatmap
+	const makeHeatmap = (div, laundry_flat, grid_size, title, subtitle) => {
+	  var heatmap_width = grid_size * HOUR_TO_STR.length;
+	  var heatmap_margin = ({ top: 90, right: 0, bottom: 80, left: (width - heatmap_width) / 2 });
+	  var heatmap_height = grid_size * DAY_TO_STR.length + heatmap_margin.top + heatmap_margin.bottom;
+
+	  const svg = div.append("svg")
+	  	.attr("width", width)
+	  	.attr("height", heatmap_height);
+	  svg.attr("class", "heatmap");
+	  
+	  var color_scale = makeColorScale(laundry_flat);
+	  
+	  // X axis (hours)
+	  var x = makeHourScale([
+	    heatmap_margin.left, 
+	    heatmap_margin.left + grid_size * HOUR_TO_STR.length 
+	  ]);
+	  svg.append("g")
+	    .attr("transform", `translate(0,${heatmap_margin.top})`)
+	    .call(d3.axisTop(x).tickSize(0))
+	    .select(".domain").remove();
+	  
+	  // Y axis (days)
+	  var y = makeDayScale([ 
+	    heatmap_margin.top, 
+	    heatmap_margin.top + grid_size * DAY_TO_STR.length 
+	  ]);
+	  svg.append("g")
+	    .attr("transform", `translate(${heatmap_margin.left},0)`)
+	    .call(d3.axisLeft(y).tickSize(0))
+	    .select(".domain").remove();
+	  
+	  // Mouseover
+	  var tooltip = d3.select("body").append("div")
+	    .attr("class", "tooltip")
+	    .style("opacity", 0)
+	  var tooltip_datetime = tooltip.append("p")
+	    .attr("class", "bold")
+	  var tooltip_busy = tooltip.append("p")
+	  
+	  var mouseover = function(d) {
+	    tooltip.style("opacity", 1)
+	    d3.select(this)
+	      .style("stroke", "#4D4F53")
+	      .style("stroke-width", "1.5")
+	  }
+	  var mousemove = function(d) {
+	    tooltip.style("top", (d3.event.pageY - 28) + "px");
+	    if (d3.event.pageX < width / 2) {
+	      tooltip.style("left", (d3.event.pageX + 20) + "px")
+	    } else {
+	      tooltip.style("left", (d3.event.pageX - 160) + "px")
+	    }
+	    tooltip_datetime
+	      .html(d.day + ", " + d.hour + "m")
+	    tooltip_busy
+	      .html("<span class='bold'>" + (d.prop_busy * 100).toFixed(0) + "%</span> of machines in use")
+	  }
+	  var mouseleave = function(d) {
+	    tooltip.style("opacity", 0)
+	    d3.select(this).style("stroke", "none")
+	  }
+	  
+	  // Heatmap rectangles
+	  svg.append("g")
+	    .selectAll("rect")
+	    .data(laundry_flat)
+	    .join("rect")
+	      .attr("width", grid_size - cell_pad * 2)
+	      .attr("height", grid_size - cell_pad * 2)
+	      .attr("x", (d) => x(d.hour))
+	      .attr("y", (d) => y(d.day))
+	      .attr("fill", (d) => color_scale(d.prop_busy))
+	      .attr("class", "heatmap")
+	      .on("mouseover", mouseover)
+	      .on("mousemove", mousemove)
+	      .on("mouseleave", mouseleave)
+	  
+	  // Color legend: gradient, rect, and labels
+	  makeColorLegend(svg, color_scale, [0.1, 0.2], heatmap_height, heatmap_margin);
+	  
+	  // Title
+	  svg.append("text")
+	    .attr("text-anchor", "middle")
+	    .attr("x", (width / 2))
+	    .attr("y", (heatmap_margin.top / 3))
+	    .attr("class", "title")
+	    .text(title);
+	  
+	  // Subtitle
+	  svg.append("text")
+	    .attr("text-anchor", "middle")
+	    .attr("x", (width / 2))
+	    .attr("y", (heatmap_margin.top * 5/8))
+	    .attr("class", "subtitle")
+	    .text(subtitle);
+	}
 
 
 	// All undergrad and grad heatmaps
