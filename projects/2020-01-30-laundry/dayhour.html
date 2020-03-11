@@ -208,7 +208,7 @@
 	  .padding(0.05);
 	}
 	
-	const makeColorLegend = (svg, color_scale, ticks, heatmap_height, heatmap_margin) => {
+	const makeColorLegend = (svg, color_scale, ticks, heatmap_width, heatmap_height, heatmap_margin) => {
 	  // Define gradient for rectangle
 	  svg.append("defs")
 	    .append("linearGradient")
@@ -221,7 +221,7 @@
 	  
 	  // Draw rectangle
 	  svg.append("g")
-	    .attr("transform", `translate(${(width - legend_width)/2},${heatmap_height - heatmap_margin.bottom/2})`)
+	    .attr("transform", `translate(${(heatmap_width - legend_width)/2},${heatmap_height - heatmap_margin.bottom/2})`)
 	    .append("rect")
 	    .attr("width", legend_width)
 	    .attr("height", legend_height)
@@ -237,7 +237,7 @@
 	  var formatPercent = d3.format(".0%");
 	  
 	  svg.append("g")
-	    .attr("transform", `translate(${(width - legend_width)/2},${heatmap_height - heatmap_margin.bottom/2 + legend_height + 4})`)
+	    .attr("transform", `translate(${(heatmap_width - legend_width)/2},${heatmap_height - heatmap_margin.bottom/2 + legend_height + 4})`)
 	    .call(d3.axisBottom(axis_scale)
 	      // .ticks(4)
 	      .tickValues(ticks)
@@ -248,7 +248,7 @@
 	  // Draw legend title
 	  svg.append("text")
 	    .attr("text-anchor", "middle")
-	    .attr("x", (width / 2))
+	    .attr("x", (heatmap_width / 2))
 	    .attr("y", (heatmap_height - heatmap_margin.bottom/2 - 7))
 	    .attr("class", "legend")
 	    .text("Percentage of machines in use");
@@ -257,7 +257,7 @@
 
 	// Single heatmap
 	const makeHeatmap = (div, laundry_flat, grid_size, title, subtitle) => {
-	  var heatmap_width = grid_size * HOUR_TO_STR.length;
+	  var heatmap_width = grid_size * (HOUR_TO_STR.length + 1);
 	  var heatmap_margin = ({ top: 90, right: 0, bottom: 80, left: 25 });
 	  var heatmap_height = grid_size * DAY_TO_STR.length + heatmap_margin.top + heatmap_margin.bottom;
 
@@ -335,12 +335,12 @@
 	      .on("mouseleave", mouseleave)
 	  
 	  // Color legend: gradient, rect, and labels
-	  makeColorLegend(svg, color_scale, [0.1, 0.2], heatmap_height, heatmap_margin);
+	  makeColorLegend(svg, color_scale, [0.1, 0.2], heatmap_width, heatmap_height, heatmap_margin);
 	  
 	  // Title
 	  svg.append("text")
 	    .attr("text-anchor", "middle")
-	    .attr("x", (width / 2))
+	    .attr("x", (heatmap_width / 2))
 	    .attr("y", (heatmap_margin.top / 3))
 	    .attr("class", "title")
 	    .text(title);
@@ -348,7 +348,7 @@
 	  // Subtitle
 	  svg.append("text")
 	    .attr("text-anchor", "middle")
-	    .attr("x", (width / 2))
+	    .attr("x", (heatmap_width / 2))
 	    .attr("y", (heatmap_margin.top * 5/8))
 	    .attr("class", "subtitle")
 	    .text(subtitle);
@@ -452,7 +452,7 @@
 	                   data_by_residence.filter((d) => grad_residences.includes(d.residence)));
 	  
 	  // Color legend: gradient, rect, and labels
-	  makeColorLegend(svg, color_scale, [.1, .3, .5], full_height, {'bottom': color_scale_margin});
+	  makeColorLegend(svg, color_scale, [.1, .3, .5], width, full_height, {'bottom': color_scale_margin});
 	}
 
 
