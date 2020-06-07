@@ -1,5 +1,6 @@
 body {
   position: absolute;
+  width: 100vw;
 }
 .tsd-main {
   position: relative;
@@ -41,30 +42,30 @@ body {
 .tsd-callout dd {
   margin: 0;
 }
-.tsd-callout-p2 {
-  top: 0vw;
-}
-.tsd-callout-p3 {
+#tsd-callout-p2 {
   top: 100vw;
 }
-.tsd-callout-p9 {
+#tsd-callout-p3 {
+  top: 185vw;
+}
+#tsd-callout-p9 {
   top: 700vw;
 }
-.tsd-callout-p15 {
-  top: 1300vw;
+#tsd-callout-p15 {
+  top: 1200vw;
 }
-.tsd-callout-p20 {
-  top: 1800vw;
+#tsd-callout-p20 {
+  top: 1620vw;
 }
-.tsd-callout-p25 {
-  top: 2300vw;
+#tsd-callout-p25 {
+  top: 2050vw;
 }
-.tsd-callout-p27 {
-  top: 2500vw;
+#tsd-callout-p27 {
+  top: 2150vw;
 }
-.tsd-callout-p30 {
-  top: 2800vw;
+#tsd-callout-p30 {
+  top: 2250vw;
 }
-.tsd-callout-end {
-  top: 3000vw;
+#tsd-callout-end {
+  top: 2360vw;
 }
