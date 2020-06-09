@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: absolute;
   width: 100vw;
@@ -14,19 +18,18 @@ body {
 .tsd-intro-container {
   position: relative;
 }
-.tsd-intro {
+#tsd-intro {
   position: absolute;
   top: 20px;
   left: 20px;
-  background: rgba(214, 214, 214, 0.74);
   width: 70%;
-  height: calc(100% - 80px);
+  height: calc(100% - 100px);
 }
-.tsd-intro, .tsd-callout {
+.tsd-callout {
   font-family: 'PT Serif',serif;
   font-size: 1.2em;
   line-height: 1.5;
-  padding: 10px;
+  padding: 30px;
 }
 .tsd-callout {
   position: absolute;
@@ -68,4 +71,27 @@ body {
 }
 #tsd-callout-end {
   top: 2360vw;
+}
+
+/* ARROWS */
+.arrows {
+  margin: auto;
+  text-align: center;
+}
+.arrow {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 20px;
+}
+.arrow-previous {
+  background-color: #f1f1f1;
+  color: #8C1515;
+}
+.arrow-next {
+  background-color: #8C1515;
+  color: white;
+}
+.arrow-next:hover {
+  color: #eee;
 }
