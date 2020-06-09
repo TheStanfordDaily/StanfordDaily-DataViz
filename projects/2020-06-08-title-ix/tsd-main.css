@@ -26,8 +26,10 @@ body {
   width: 70%;
   height: calc(100% - 100px);
 }
-.tsd-callout {
+.tsd-callout, .tsd-text {
   font-family: 'PT Serif',serif;
+}
+.tsd-callout{
   font-size: 1.2em;
   line-height: 1.5;
   padding: 30px;
