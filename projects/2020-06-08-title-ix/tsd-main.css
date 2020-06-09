@@ -12,6 +12,7 @@ body {
 .tsd-main img {
   pointer-events: none;
   background-color: #fff;
+  width: 100%;
   /* filter: alpha(opacity=40); */
   filter: brightness(90%) opacity(40%);
 }
