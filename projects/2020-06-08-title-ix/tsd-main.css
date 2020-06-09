@@ -11,6 +11,9 @@ body {
 }
 .tsd-main img {
   pointer-events: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
   background-color: #fff;
   width: 100%;
   /* filter: alpha(opacity=40); */
