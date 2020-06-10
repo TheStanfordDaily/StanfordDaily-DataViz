@@ -109,6 +109,11 @@ body {
   color: #eee;
 }
 
+.tsd-authors-end-mobile-only {
+  margin-top: 20px;
+  display: none;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1440px) {
   .tsd-intro-container, .tsd-intro-image {
@@ -121,6 +126,12 @@ body {
   }
   #tsd-callout-end {
     top: 97%;
+  }
+  #sidebar-first {
+    display: none;
+  }
+  .tsd-authors-end-mobile-only {
+    display: block !important;
   }
 }
 @media only screen and (max-width: 425px) {
