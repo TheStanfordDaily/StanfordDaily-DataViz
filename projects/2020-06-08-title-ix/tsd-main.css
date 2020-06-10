@@ -111,7 +111,7 @@ body {
 
 .tsd-authors-end-mobile-only {
   margin-top: 20px;
-  display: none;
+  display: none !important;
 }
 
 /* RESPONSIVE */
