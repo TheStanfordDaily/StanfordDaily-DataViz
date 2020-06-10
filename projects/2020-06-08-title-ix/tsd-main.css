@@ -9,7 +9,7 @@ body {
 .tsd-main {
   position: relative;
 }
-.tsd-main img {
+.tsd-main img#tsd-long-img {
   pointer-events: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -48,6 +48,15 @@ body {
 }
 .tsd-callout dd {
   margin: 0;
+}
+.tsd-callout figure {
+  float: right;
+  width: 200px;
+}
+.tsd-callout figure figcaption {
+  font-style: italic;
+  font-size: 14px;
+  color: #4D4F53;
 }
 #tsd-callout-p2 {
   top: 5%;
