@@ -1,6 +1,17 @@
 # Title IX project
 
-Deployed at https://thestanforddaily.github.io/StanfordDaily-DataViz/projects/2020-06-08-title-ix/index.html.
+Deployed at .
+
+Embedding:
+
+```
+<style>
+#main-article-text2 {
+margin: 0 !important; width: 100% !important;
+}
+</style>
+<iframe id="tsd-custom-iframe" src="https://thestanforddaily.github.io/StanfordDaily-DataViz/projects/2020-06-08-title-ix/index.html" style="border: 0; width: 100%; min-height: 100vh;"></iframe>
+```
 
 ## Local setup
 
