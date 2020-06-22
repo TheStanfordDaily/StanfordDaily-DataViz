@@ -1,35 +1,34 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>OpenSeadragon SVG Overlay Demo</title>
-        <script src="https://cdn.jsdelivr.net/npm/openseadragon/build/openseadragon/openseadragon.min.js"></script>
-        <style type="text/css">
 
-            html,
-            body,
-            .openseadragon1 {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-            }
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/openseadragon/build/openseadragon/openseadragon.min.js"></script>
+  <style type="text/css">
+    html,
+    body,
+    .openseadragon1 {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+  </style>
+</head>
 
-        </style>
-    </head>
-    <body>
-        <div id="contentDiv" class="openseadragon1"></div>
-        <script>
+<body>
+  <div id="contentDiv" class="openseadragon1"></div>
+  <script>
 
-          OpenSeadragon({
-                                  id: "contentDiv",
-                                  prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
-                                  tileSources: {
-                                      type: 'image',
-                                      url:  'cartoon.jpg'
-                                  },
-                                  // maxZoomPixelRatio: 10
-                              });
-          
-                  </script>
-    </body>
+    OpenSeadragon({
+      id: "contentDiv",
+      prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+      tileSources: {
+        type: 'image',
+        url: 'cartoon.jpg'
+      },
+      maxZoomPixelRatio: 5
+    });
+
+  </script>
+</body>
+
 </html>
