@@ -145,13 +145,13 @@ body {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 9000px) {
-  .tsd-callout, .tsd-intro {
+  .tsd-callout, #tsd-intro {
     font-size: 1.3em;
     line-height: 1.5em;
   }
 }
 @media only screen and (max-width: 768px) {
-  .tsd-callout, .tsd-intro {
+  .tsd-callout, #tsd-intro {
     font-size: 1.1em;
     line-height: 1.3em;
   }
