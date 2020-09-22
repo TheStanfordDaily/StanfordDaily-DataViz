@@ -161,6 +161,12 @@ body {
     font-size: 1.1em;
     line-height: 1.3em;
   }
+  #sidebar-first {
+    display: none;
+  }
+  .tsd-authors-end-mobile-only {
+    display: block !important;
+  }
 }
 @media only screen and (max-width: 425px) {
   .tsd-intro-container, .tsd-intro-image {
