@@ -55,7 +55,7 @@ body {
 }
 .tsd-callout #figure-graph {
   float: right;
-  width: 500px;
+  width: 80%;
 }
 .tsd-callout figure figcaption {
   font-style: italic;
