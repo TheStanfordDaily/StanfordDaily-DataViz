@@ -19,3 +19,6 @@ df['roll_new_cases'] = df.groupby('county')['new_cases'].transform(lambda x: x.r
 df['roll_new_deaths'] = df.groupby('county')['new_deaths'].transform(lambda x: x.rolling(7, 1).mean())
 
 df.to_csv('bay_area_cases_deaths_clean.csv')
+
+scc = df[df['county'] == 'Santa Clara']
+scc.to_csv('scc_cases_deaths_clean.csv')
