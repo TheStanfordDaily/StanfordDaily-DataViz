@@ -17,9 +17,9 @@ library(zoo)
 #######################################
 
 # read in stanford cases
-stanf <- read_csv("~/Dropbox/Stanford/Clubs/Daily/COVID/stanford_cases.csv")
+stanf <- read_csv("stanford_cases.csv")
 # read in santa clara county cases
-sc <- read_csv("~/Dropbox/Stanford/Clubs/Daily/COVID/sc_cases.csv")
+sc <- read_csv("sc_cases.csv")
 # read in Cali cases
 url <- url("https://covidtracking.com/api/states/daily.csv")
 covid <- read_csv(url)
@@ -38,11 +38,12 @@ sc_to_graph <- sc %>% select(date, tested_ind, positive_ind, negative_ind) %>%
   mutate_all(~replace(., is.na(.), 0))
 
 # process stanford for graphs
-stanf_to_graph <- stanf %>% select(date, unique_patients, unique_positive, unique_negative) %>% 
+stanf_to_graph <- stanf %>% select(Date, UniquePatients, UniquePositive, UniqueNegative) %>% 
   rename(
-    tested_stanf = unique_patients, 
-    positive_stanf = unique_positive, 
-    negative_stanf = unique_negative
+    date = Date,
+    tested_stanf = UniquePatients, 
+    positive_stanf = UniquePositive, 
+    negative_stanf = UniqueNegative
   )
 
 # change date format
@@ -89,7 +90,7 @@ to_graph %>%
   pivot_longer(c(perc_rate_stanf, perc_rate_sc, roll_avg_sc, roll_avg_stanf, perc_rate_ca, roll_avg_ca), 
                names_to = "name", values_to = "val") %>% 
   mutate(
-    loc = ifelse(str_detect(name, "stanf"), "Stanford", ifelse(str_detect(name, "sc"), "Santa Clara", "Cali")), 
+    loc = ifelse(str_detect(name, "stanf"), "Stanford", ifelse(str_detect(name, "sc"), "Santa Clara County", "Cali")), 
     emph = ifelse(substr(name, 1, 8) == "roll_avg", "b", "s")
     ) %>% 
   dplyr::filter(name != "perc_rate_ca") %>% 
@@ -101,13 +102,13 @@ to_graph %>%
   geom_hline(yintercept = 10, lty = 2)+
   annotate(geom = "text", x = as.Date('2020-05-15'), y = 12, label = "CDC Benchmark", size = 8)+
   scale_colour_manual(values = c(yellow, black, cardinal), 
-                      labels = c("California", "Santa Clara", "Stanford")
+                      labels = c("California", "Santa Clara County", "Stanford")
   )+
   scale_size_manual(values = c(1.5, 0.5), guide="none")+
   scale_alpha_manual(values = c(1, 0.8), guide="none")+
   scale_linetype_manual(values = c("solid", "dashed"), 
                         labels = c("Weekly Average", "Daily Amount"))+
-  labs(title = "Stanford & Santa Clara Percent Tests Positive", 
+  labs(title = "Stanford & Santa Clara County Percent Tests Positive", 
        x  = "Date (daily)", 
        y = "Percent", 
        linetype = "Type",
@@ -138,7 +139,7 @@ to_graph %>% select(date, positive_stanf, positive_sc) %>%
     ) %>% 
   pivot_longer(c(positive_stanf, positive_sc, avg_stanf, avg_sc), 
                names_to = "place", values_to = "positive") %>% 
-  mutate(loc = ifelse(str_detect(place, "stanf"), "Stanford", "Santa Clara"), 
+  mutate(loc = ifelse(str_detect(place, "stanf"), "Stanford", "Santa Clara County"), 
          avg = ifelse(substr(place, 1, 3) == "avg", 1, 0)) %>% 
   ggplot(aes(
     x = date, y = as.integer(positive), color = loc, 
@@ -147,7 +148,7 @@ to_graph %>% select(date, positive_stanf, positive_sc) %>%
   geom_line()+
   ylim(0, 100)+
   scale_colour_manual(values = c(black, cardinal), 
-                      labels = c("Santa Clara", "Stanford"))+
+                      labels = c("Santa Clara County", "Stanford"))+
   scale_size_manual(values = c(1, 2), guide="none")+
   scale_alpha_manual(values = c(0.8, 1), guide = "none")+
   scale_linetype_manual(values = c("dashed", "solid"), 
@@ -182,7 +183,7 @@ to_graph %>% select(date, tested_stanf, tested_sc) %>%
     ) %>% 
   pivot_longer(c(tested_stanf, tested_sc, avg_stanf, avg_sc), 
                names_to = "place", values_to = "tested") %>% 
-  mutate(loc = ifelse(str_detect(place, "stanf"), "Stanford", "Santa Clara"), 
+  mutate(loc = ifelse(str_detect(place, "stanf"), "Stanford", "Santa Clara County"), 
          avg = ifelse(substr(place, 1, 3) == "avg", 1, 0)) %>% 
   ggplot(aes(
     x = date, y = as.integer(tested), color = loc, 
@@ -190,7 +191,7 @@ to_graph %>% select(date, tested_stanf, tested_sc) %>%
     ))+
   geom_line()+
   scale_colour_manual(values = c(black, cardinal), 
-                      labels = c("Santa Clara", "Stanford"))+
+                      labels = c("Santa Clara County", "Stanford"))+
   scale_size_manual(values = c(1, 2), guide="none")+
   scale_alpha_manual(values = c(0.8, 1), guide = "none")+
   scale_linetype_manual(values = c("dashed", "solid"), 
@@ -215,7 +216,7 @@ to_graph %>% select(date, tested_stanf, tested_sc) %>%
   )+
   guides(color = guide_legend(order = 1), linetype = guide_legend(order = 2))
 
-## Graph 3. 
+## Graph 4. 
 ## Positive tests daily California
 to_graph %>% mutate(roll_avg = zoo::rollmean(positive_ca, 7, na.pad = T)) %>%
   pivot_longer(c(roll_avg, positive_ca), names_to = "nam", values_to = "val") %>%
