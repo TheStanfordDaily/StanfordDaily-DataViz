@@ -20,5 +20,12 @@ df['roll_new_deaths'] = df.groupby('county')['new_deaths'].transform(lambda x: x
 
 df.to_csv('bay_area_cases_deaths_clean.csv')
 
+#####Santa Clara county
 scc = df[df['county'] == 'Santa Clara']
+
+
+####Paste new stuff here####
+
+
 scc.to_csv('scc_cases_deaths_clean.csv')
+
