@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: absolute;
+  width: 100vw;
+}
+.tsd-main {
+  position: relative;
+}
+.tsd-main img#tsd-long-img {
+  pointer-events: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #fff;
+  width: 100%;
+  /* filter: alpha(opacity=40); */
+  filter: brightness(90%) opacity(40%);
+}
+.tsd-intro-container {
+  position: relative;
+}
+#tsd-intro {
+  position: absolute;
+  top: 20px !important;
+  left: 20px;
+  width: 70%;
+  height: calc(100% - 100px);
+}
+.tsd-callout, .tsd-text {
+  font-family: 'PT Serif',serif;
+}
+.tsd-callout, #tsd-intro {
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  background: white;
+  box-shadow: 2px 2px 7px 0px rgba(40,40,40,0.75);
+}
+.tsd-callout dt {
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+.tsd-callout dd {
+  margin: 0;
+}
+.tsd-callout figure {
+  float: right;
+  width: 200px;
+}
+.tsd-callout #figure-graph {
+  float: right;
+  width: 90%;
+}
+.tsd-callout figure figcaption {
+  font-style: italic;
+  font-size: 14px;
+  color: #4D4F53;
+}
+#tsd-callout-1 {
+  top: 5.88%;
+}
+#tsd-callout-2 {
+  top: 19%;
+}
+#tsd-callout-3 {
+  top: 27%;
+}
+#tsd-callout-4 {
+  top: 36%;
+}
+#tsd-callout-5 {
+  top: 45%;
+}
+/* #tsd-callout-6 {
+  top: 30%;
+} */
+#tsd-callout-7 {
+  top: 54%;
+}
+#tsd-callout-8 {
+  top: 64%;
+}
+#tsd-callout-9 {
+  top: 73%;
+}
+#tsd-callout-10 {
+  top: 82%;
+}
+#tsd-callout-11 {
+  top: 91%;
+}
+#tsd-callout-12 {
+  top: 100%;
+}
+
+/* ARROWS */
+.arrows {
+  margin: auto;
+  text-align: center;
+}
+.arrow {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 20px;
+}
+.arrow-previous {
+  background-color: #f1f1f1;
+  color: #8C1515;
+}
+.arrow-next {
+  background-color: #8C1515;
+  color: white;
+}
+.arrow-next:hover {
+  color: #eee;
+}
+
+.tsd-authors-end-mobile-only {
+  margin-top: 20px;
+  display: none !important;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 9000px) {
+  .tsd-intro-container, .tsd-intro-image {
+    min-height: 350px;
+  }
+  .tsd-callout, #tsd-intro {
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tsd-intro-container, .tsd-intro-image {
+    min-height: 400px;
+  }
+  .tsd-callout, #tsd-intro {
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+  #sidebar-first {
+    display: none;
+  }
+  .tsd-authors-end-mobile-only {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .tsd-intro-container, .tsd-intro-image {
+    min-height: 550px;
+  }
+}
