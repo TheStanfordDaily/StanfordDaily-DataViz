@@ -7,7 +7,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-const heatmapData = [
+var heatmapData = [
     [37.42793, -122.16355, 6.06],
     [37.42512, -122.17022, 218.65],
     [37.42817, -122.17411, 124.71],
