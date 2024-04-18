@@ -1,0 +1,1673 @@
+School,Department,Number of Courses,Requirement,Department Code
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYAII,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYCE,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYEDP,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYER,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYFR,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYAQR,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYSMA,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Athletics and Club Sports,0,filter-ger-WAYSI,ATHLETIC
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYAII,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYCE,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYEDP,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYER,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYFR,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYAQR,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYSMA,KIN
+"Department of Athletics, Physical Education and Recreation",Kinesiology,0,filter-ger-WAYSI,KIN
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYAII,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYCE,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYEDP,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYER,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYFR,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYAQR,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYSMA,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Outdoor Education,0,filter-ger-WAYSI,OUTDOOR
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYAII,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYCE,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYEDP,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYER,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYFR,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYAQR,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYSMA,PHYSWELL
+"Department of Athletics, Physical Education and Recreation",Physical Wellness,0,filter-ger-WAYSI,PHYSWELL
+Doerr School of Sustainability,Earth Systems,0,filter-ger-WAYAII,EARTHSYS
+Doerr School of Sustainability,Earth Systems,3,filter-ger-WAYCE,EARTHSYS
+Doerr School of Sustainability,Earth Systems,7,filter-ger-WAYEDP,EARTHSYS
+Doerr School of Sustainability,Earth Systems,3,filter-ger-WAYER,EARTHSYS
+Doerr School of Sustainability,Earth Systems,2,filter-ger-WAYFR,EARTHSYS
+Doerr School of Sustainability,Earth Systems,15,filter-ger-WAYAQR,EARTHSYS
+Doerr School of Sustainability,Earth Systems,34,filter-ger-WAYSMA,EARTHSYS
+Doerr School of Sustainability,Earth Systems,14,filter-ger-WAYSI,EARTHSYS
+Doerr School of Sustainability,Energy Science and Engineering,0,filter-ger-WAYAII,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,0,filter-ger-WAYCE,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,0,filter-ger-WAYEDP,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,1,filter-ger-WAYER,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,2,filter-ger-WAYFR,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,5,filter-ger-WAYAQR,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,14,filter-ger-WAYSMA,ENERGY
+Doerr School of Sustainability,Energy Science and Engineering,1,filter-ger-WAYSI,ENERGY
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYAII,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYCE,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYEDP,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYER,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYFR,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYAQR,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYSMA,ENVRES
+Doerr School of Sustainability,Environment and Resources,0,filter-ger-WAYSI,ENVRES
+Doerr School of Sustainability,Earth and Planetary Sciences,0,filter-ger-WAYAII,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,0,filter-ger-WAYCE,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,0,filter-ger-WAYEDP,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,1,filter-ger-WAYER,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,0,filter-ger-WAYFR,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,4,filter-ger-WAYAQR,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,21,filter-ger-WAYSMA,EPS
+Doerr School of Sustainability,Earth and Planetary Sciences,0,filter-ger-WAYSI,EPS
+Doerr School of Sustainability,Earth System Science,0,filter-ger-WAYAII,ESS
+Doerr School of Sustainability,Earth System Science,0,filter-ger-WAYCE,ESS
+Doerr School of Sustainability,Earth System Science,0,filter-ger-WAYEDP,ESS
+Doerr School of Sustainability,Earth System Science,2,filter-ger-WAYER,ESS
+Doerr School of Sustainability,Earth System Science,0,filter-ger-WAYFR,ESS
+Doerr School of Sustainability,Earth System Science,5,filter-ger-WAYAQR,ESS
+Doerr School of Sustainability,Earth System Science,13,filter-ger-WAYSMA,ESS
+Doerr School of Sustainability,Earth System Science,3,filter-ger-WAYSI,ESS
+Doerr School of Sustainability,Oceans,3,filter-ger-WAYAII,OCEANS
+Doerr School of Sustainability,Oceans,3,filter-ger-WAYCE,OCEANS
+Doerr School of Sustainability,Oceans,0,filter-ger-WAYEDP,OCEANS
+Doerr School of Sustainability,Oceans,0,filter-ger-WAYER,OCEANS
+Doerr School of Sustainability,Oceans,2,filter-ger-WAYFR,OCEANS
+Doerr School of Sustainability,Oceans,8,filter-ger-WAYAQR,OCEANS
+Doerr School of Sustainability,Oceans,34,filter-ger-WAYSMA,OCEANS
+Doerr School of Sustainability,Oceans,3,filter-ger-WAYSI,OCEANS
+Doerr School of Sustainability,Geophysics,0,filter-ger-WAYAII,GEOPHYS
+Doerr School of Sustainability,Geophysics,0,filter-ger-WAYCE,GEOPHYS
+Doerr School of Sustainability,Geophysics,0,filter-ger-WAYEDP,GEOPHYS
+Doerr School of Sustainability,Geophysics,0,filter-ger-WAYER,GEOPHYS
+Doerr School of Sustainability,Geophysics,1,filter-ger-WAYFR,GEOPHYS
+Doerr School of Sustainability,Geophysics,8,filter-ger-WAYAQR,GEOPHYS
+Doerr School of Sustainability,Geophysics,15,filter-ger-WAYSMA,GEOPHYS
+Doerr School of Sustainability,Geophysics,0,filter-ger-WAYSI,GEOPHYS
+Doerr School of Sustainability,Sustainability,2,filter-ger-WAYAII,SUSTAIN
+Doerr School of Sustainability,Sustainability,0,filter-ger-WAYCE,SUSTAIN
+Doerr School of Sustainability,Sustainability,1,filter-ger-WAYEDP,SUSTAIN
+Doerr School of Sustainability,Sustainability,2,filter-ger-WAYER,SUSTAIN
+Doerr School of Sustainability,Sustainability,0,filter-ger-WAYFR,SUSTAIN
+Doerr School of Sustainability,Sustainability,1,filter-ger-WAYAQR,SUSTAIN
+Doerr School of Sustainability,Sustainability,4,filter-ger-WAYSMA,SUSTAIN
+Doerr School of Sustainability,Sustainability,3,filter-ger-WAYSI,SUSTAIN
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYAII,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYCE,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYEDP,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYER,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYFR,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYAQR,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYSMA,SUST
+Doerr School of Sustainability,Sustainability Science and Practice,0,filter-ger-WAYSI,SUST
+Graduate School of Business,Accounting,0,filter-ger-WAYAII,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYCE,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYEDP,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYER,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYFR,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYAQR,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYSMA,ACCT
+Graduate School of Business,Accounting,0,filter-ger-WAYSI,ACCT
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYAII,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYCE,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYEDP,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYER,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYFR,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYAQR,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYSMA,ALP
+Graduate School of Business,Action Learning Programs,0,filter-ger-WAYSI,ALP
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYAII,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYCE,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYEDP,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYER,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYFR,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYAQR,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYSMA,BUSGEN
+Graduate School of Business,Business General Pathways,0,filter-ger-WAYSI,BUSGEN
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYAII,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYCE,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYEDP,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYER,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYFR,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYAQR,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYSMA,MGTECON
+Graduate School of Business,Economic Analysis & Policy,0,filter-ger-WAYSI,MGTECON
+Graduate School of Business,Finance,0,filter-ger-WAYAII,FINANCE
+Graduate School of Business,Finance,0,filter-ger-WAYCE,FINANCE
+Graduate School of Business,Finance,5,filter-ger-WAYEDP,FINANCE
+Graduate School of Business,Finance,2,filter-ger-WAYER,FINANCE
+Graduate School of Business,Finance,0,filter-ger-WAYFR,FINANCE
+Graduate School of Business,Finance,6,filter-ger-WAYAQR,FINANCE
+Graduate School of Business,Finance,0,filter-ger-WAYSMA,FINANCE
+Graduate School of Business,Finance,17,filter-ger-WAYSI,FINANCE
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYAII,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYCE,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYEDP,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYER,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYFR,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYAQR,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYSMA,GSBGEN
+Graduate School of Business,GSB General & Interdisciplinary,0,filter-ger-WAYSI,GSBGEN
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYAII,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYCE,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYEDP,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYER,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYFR,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYAQR,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYSMA,GSBGID
+Graduate School of Business,GSB Interdisciplinary,0,filter-ger-WAYSI,GSBGID
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYAII,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYCE,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYEDP,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYER,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYFR,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYAQR,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYSMA,HRMGT
+Graduate School of Business,Human Resource Management,0,filter-ger-WAYSI,HRMGT
+Graduate School of Business,Marketing,0,filter-ger-WAYAII,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYCE,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYEDP,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYER,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYFR,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYAQR,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYSMA,MKTG
+Graduate School of Business,Marketing,0,filter-ger-WAYSI,MKTG
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYAII,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYCE,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYEDP,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYER,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYFR,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYAQR,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYSMA,OIT
+Graduate School of Business,Operations Information & Technology,0,filter-ger-WAYSI,OIT
+Graduate School of Business,Organizational Behavior,0,filter-ger-WAYAII,OB
+Graduate School of Business,Organizational Behavior,0,filter-ger-WAYCE,OB
+Graduate School of Business,Organizational Behavior,1,filter-ger-WAYEDP,OB
+Graduate School of Business,Organizational Behavior,0,filter-ger-WAYER,OB
+Graduate School of Business,Organizational Behavior,0,filter-ger-WAYFR,OB
+Graduate School of Business,Organizational Behavior,0,filter-ger-WAYAQR,OB
+Graduate School of Business,Organizational Behavior,0,filter-ger-WAYSMA,OB
+Graduate School of Business,Organizational Behavior,2,filter-ger-WAYSI,OB
+Graduate School of Business,Political Economics,0,filter-ger-WAYAII,POLECON
+Graduate School of Business,Political Economics,0,filter-ger-WAYCE,POLECON
+Graduate School of Business,Political Economics,0,filter-ger-WAYEDP,POLECON
+Graduate School of Business,Political Economics,0,filter-ger-WAYER,POLECON
+Graduate School of Business,Political Economics,0,filter-ger-WAYFR,POLECON
+Graduate School of Business,Political Economics,0,filter-ger-WAYAQR,POLECON
+Graduate School of Business,Political Economics,0,filter-ger-WAYSMA,POLECON
+Graduate School of Business,Political Economics,2,filter-ger-WAYSI,POLECON
+Graduate School of Business,Strategic Management,0,filter-ger-WAYAII,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYCE,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYEDP,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYER,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYFR,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYAQR,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYSMA,STRAMGT
+Graduate School of Business,Strategic Management,0,filter-ger-WAYSI,STRAMGT
+School of Education,Education,25,filter-ger-WAYAII,EDUC
+School of Education,Education,1,filter-ger-WAYCE,EDUC
+School of Education,Education,43,filter-ger-WAYEDP,EDUC
+School of Education,Education,13,filter-ger-WAYER,EDUC
+School of Education,Education,0,filter-ger-WAYFR,EDUC
+School of Education,Education,1,filter-ger-WAYAQR,EDUC
+School of Education,Education,2,filter-ger-WAYSMA,EDUC
+School of Education,Education,32,filter-ger-WAYSI,EDUC
+School of Engineering,Aeronautics & Astronautics,0,filter-ger-WAYAII,AA
+School of Engineering,Aeronautics & Astronautics,0,filter-ger-WAYCE,AA
+School of Engineering,Aeronautics & Astronautics,0,filter-ger-WAYEDP,AA
+School of Engineering,Aeronautics & Astronautics,0,filter-ger-WAYER,AA
+School of Engineering,Aeronautics & Astronautics,0,filter-ger-WAYFR,AA
+School of Engineering,Aeronautics & Astronautics,13,filter-ger-WAYAQR,AA
+School of Engineering,Aeronautics & Astronautics,6,filter-ger-WAYSMA,AA
+School of Engineering,Aeronautics & Astronautics,0,filter-ger-WAYSI,AA
+School of Engineering,Bioengineering,0,filter-ger-WAYAII,BIOE
+School of Engineering,Bioengineering,1,filter-ger-WAYCE,BIOE
+School of Engineering,Bioengineering,0,filter-ger-WAYEDP,BIOE
+School of Engineering,Bioengineering,1,filter-ger-WAYER,BIOE
+School of Engineering,Bioengineering,2,filter-ger-WAYFR,BIOE
+School of Engineering,Bioengineering,6,filter-ger-WAYAQR,BIOE
+School of Engineering,Bioengineering,8,filter-ger-WAYSMA,BIOE
+School of Engineering,Bioengineering,1,filter-ger-WAYSI,BIOE
+School of Engineering,Chemical Engineering,0,filter-ger-WAYAII,CHEMENG
+School of Engineering,Chemical Engineering,1,filter-ger-WAYCE,CHEMENG
+School of Engineering,Chemical Engineering,1,filter-ger-WAYEDP,CHEMENG
+School of Engineering,Chemical Engineering,0,filter-ger-WAYER,CHEMENG
+School of Engineering,Chemical Engineering,0,filter-ger-WAYFR,CHEMENG
+School of Engineering,Chemical Engineering,4,filter-ger-WAYAQR,CHEMENG
+School of Engineering,Chemical Engineering,3,filter-ger-WAYSMA,CHEMENG
+School of Engineering,Chemical Engineering,0,filter-ger-WAYSI,CHEMENG
+School of Engineering,Civil & Environmental Engineering,0,filter-ger-WAYAII,CEE
+School of Engineering,Civil & Environmental Engineering,0,filter-ger-WAYCE,CEE
+School of Engineering,Civil & Environmental Engineering,0,filter-ger-WAYEDP,CEE
+School of Engineering,Civil & Environmental Engineering,0,filter-ger-WAYER,CEE
+School of Engineering,Civil & Environmental Engineering,1,filter-ger-WAYFR,CEE
+School of Engineering,Civil & Environmental Engineering,3,filter-ger-WAYAQR,CEE
+School of Engineering,Civil & Environmental Engineering,2,filter-ger-WAYSMA,CEE
+School of Engineering,Civil & Environmental Engineering,3,filter-ger-WAYSI,CEE
+School of Engineering,Computational & Mathematical Engineering,0,filter-ger-WAYAII,CME
+School of Engineering,Computational & Mathematical Engineering,0,filter-ger-WAYCE,CME
+School of Engineering,Computational & Mathematical Engineering,0,filter-ger-WAYEDP,CME
+School of Engineering,Computational & Mathematical Engineering,0,filter-ger-WAYER,CME
+School of Engineering,Computational & Mathematical Engineering,1,filter-ger-WAYFR,CME
+School of Engineering,Computational & Mathematical Engineering,1,filter-ger-WAYAQR,CME
+School of Engineering,Computational & Mathematical Engineering,0,filter-ger-WAYSMA,CME
+School of Engineering,Computational & Mathematical Engineering,0,filter-ger-WAYSI,CME
+School of Engineering,Computer Science,0,filter-ger-WAYAII,CS
+School of Engineering,Computer Science,3,filter-ger-WAYCE,CS
+School of Engineering,Computer Science,1,filter-ger-WAYEDP,CS
+School of Engineering,Computer Science,4,filter-ger-WAYER,CS
+School of Engineering,Computer Science,15,filter-ger-WAYFR,CS
+School of Engineering,Computer Science,5,filter-ger-WAYAQR,CS
+School of Engineering,Computer Science,1,filter-ger-WAYSMA,CS
+School of Engineering,Computer Science,0,filter-ger-WAYSI,CS
+School of Engineering,Design,30,filter-ger-WAYAII,DESIGN
+School of Engineering,Design,64,filter-ger-WAYCE,DESIGN
+School of Engineering,Design,11,filter-ger-WAYEDP,DESIGN
+School of Engineering,Design,7,filter-ger-WAYER,DESIGN
+School of Engineering,Design,10,filter-ger-WAYFR,DESIGN
+School of Engineering,Design,47,filter-ger-WAYAQR,DESIGN
+School of Engineering,Design,37,filter-ger-WAYSMA,DESIGN
+School of Engineering,Design,75,filter-ger-WAYSI,DESIGN
+School of Engineering,Design Institute,0,filter-ger-WAYAII,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYCE,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYEDP,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYER,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYFR,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYAQR,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYSMA,DESINST
+School of Engineering,Design Institute,0,filter-ger-WAYSI,DESINST
+School of Engineering,Electrical Engineering,0,filter-ger-WAYAII,EE
+School of Engineering,Electrical Engineering,0,filter-ger-WAYCE,EE
+School of Engineering,Electrical Engineering,0,filter-ger-WAYEDP,EE
+School of Engineering,Electrical Engineering,0,filter-ger-WAYER,EE
+School of Engineering,Electrical Engineering,5,filter-ger-WAYFR,EE
+School of Engineering,Electrical Engineering,8,filter-ger-WAYAQR,EE
+School of Engineering,Electrical Engineering,16,filter-ger-WAYSMA,EE
+School of Engineering,Electrical Engineering,0,filter-ger-WAYSI,EE
+School of Engineering,Engineering,7,filter-ger-WAYAII,ENGR
+School of Engineering,Engineering,12,filter-ger-WAYCE,ENGR
+School of Engineering,Engineering,2,filter-ger-WAYEDP,ENGR
+School of Engineering,Engineering,4,filter-ger-WAYER,ENGR
+School of Engineering,Engineering,31,filter-ger-WAYFR,ENGR
+School of Engineering,Engineering,51,filter-ger-WAYAQR,ENGR
+School of Engineering,Engineering,53,filter-ger-WAYSMA,ENGR
+School of Engineering,Engineering,11,filter-ger-WAYSI,ENGR
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYAII,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYCE,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYEDP,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYER,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYFR,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYAQR,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYSMA,MS&E
+School of Engineering,Management Science & Engineering,0,filter-ger-WAYSI,MS&E
+School of Engineering,Materials Science & Engineer,0,filter-ger-WAYAII,MATSCI
+School of Engineering,Materials Science & Engineer,0,filter-ger-WAYCE,MATSCI
+School of Engineering,Materials Science & Engineer,0,filter-ger-WAYEDP,MATSCI
+School of Engineering,Materials Science & Engineer,0,filter-ger-WAYER,MATSCI
+School of Engineering,Materials Science & Engineer,0,filter-ger-WAYFR,MATSCI
+School of Engineering,Materials Science & Engineer,4,filter-ger-WAYAQR,MATSCI
+School of Engineering,Materials Science & Engineer,19,filter-ger-WAYSMA,MATSCI
+School of Engineering,Materials Science & Engineer,1,filter-ger-WAYSI,MATSCI
+School of Engineering,Mechanical Engineering,0,filter-ger-WAYAII,ME
+School of Engineering,Mechanical Engineering,2,filter-ger-WAYCE,ME
+School of Engineering,Mechanical Engineering,0,filter-ger-WAYEDP,ME
+School of Engineering,Mechanical Engineering,0,filter-ger-WAYER,ME
+School of Engineering,Mechanical Engineering,0,filter-ger-WAYFR,ME
+School of Engineering,Mechanical Engineering,5,filter-ger-WAYAQR,ME
+School of Engineering,Mechanical Engineering,5,filter-ger-WAYSMA,ME
+School of Engineering,Mechanical Engineering,0,filter-ger-WAYSI,ME
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYAII,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYCE,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYEDP,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYER,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYFR,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYAQR,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYSMA,SCCM
+School of Engineering,Scientific Computing & Comput'l Math,0,filter-ger-WAYSI,SCCM
+School of Humanities & Sciences,African & African American Studies,8,filter-ger-WAYAII,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,1,filter-ger-WAYCE,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,20,filter-ger-WAYEDP,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,0,filter-ger-WAYER,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,0,filter-ger-WAYFR,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,0,filter-ger-WAYAQR,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,0,filter-ger-WAYSMA,AFRICAAM
+School of Humanities & Sciences,African & African American Studies,8,filter-ger-WAYSI,AFRICAAM
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYAII,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYCE,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYEDP,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYER,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYFR,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYAQR,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYSMA,AMELANG
+School of Humanities & Sciences,African & Middle Eastern Languages,0,filter-ger-WAYSI,AMELANG
+School of Humanities & Sciences,African Studies,10,filter-ger-WAYAII,AFRICAST
+School of Humanities & Sciences,African Studies,0,filter-ger-WAYCE,AFRICAST
+School of Humanities & Sciences,African Studies,13,filter-ger-WAYEDP,AFRICAST
+School of Humanities & Sciences,African Studies,0,filter-ger-WAYER,AFRICAST
+School of Humanities & Sciences,African Studies,0,filter-ger-WAYFR,AFRICAST
+School of Humanities & Sciences,African Studies,0,filter-ger-WAYAQR,AFRICAST
+School of Humanities & Sciences,African Studies,0,filter-ger-WAYSMA,AFRICAST
+School of Humanities & Sciences,African Studies,13,filter-ger-WAYSI,AFRICAST
+School of Humanities & Sciences,American Studies,57,filter-ger-WAYAII,AMSTUD
+School of Humanities & Sciences,American Studies,3,filter-ger-WAYCE,AMSTUD
+School of Humanities & Sciences,American Studies,54,filter-ger-WAYEDP,AMSTUD
+School of Humanities & Sciences,American Studies,3,filter-ger-WAYER,AMSTUD
+School of Humanities & Sciences,American Studies,0,filter-ger-WAYFR,AMSTUD
+School of Humanities & Sciences,American Studies,0,filter-ger-WAYAQR,AMSTUD
+School of Humanities & Sciences,American Studies,0,filter-ger-WAYSMA,AMSTUD
+School of Humanities & Sciences,American Studies,54,filter-ger-WAYSI,AMSTUD
+School of Humanities & Sciences,Anthropology,10,filter-ger-WAYAII,ANTHRO
+School of Humanities & Sciences,Anthropology,2,filter-ger-WAYCE,ANTHRO
+School of Humanities & Sciences,Anthropology,29,filter-ger-WAYEDP,ANTHRO
+School of Humanities & Sciences,Anthropology,4,filter-ger-WAYER,ANTHRO
+School of Humanities & Sciences,Anthropology,0,filter-ger-WAYFR,ANTHRO
+School of Humanities & Sciences,Anthropology,3,filter-ger-WAYAQR,ANTHRO
+School of Humanities & Sciences,Anthropology,5,filter-ger-WAYSMA,ANTHRO
+School of Humanities & Sciences,Anthropology,49,filter-ger-WAYSI,ANTHRO
+School of Humanities & Sciences,Applied Physics,1,filter-ger-WAYAII,APPPHYS
+School of Humanities & Sciences,Applied Physics,1,filter-ger-WAYCE,APPPHYS
+School of Humanities & Sciences,Applied Physics,0,filter-ger-WAYEDP,APPPHYS
+School of Humanities & Sciences,Applied Physics,0,filter-ger-WAYER,APPPHYS
+School of Humanities & Sciences,Applied Physics,1,filter-ger-WAYFR,APPPHYS
+School of Humanities & Sciences,Applied Physics,1,filter-ger-WAYAQR,APPPHYS
+School of Humanities & Sciences,Applied Physics,5,filter-ger-WAYSMA,APPPHYS
+School of Humanities & Sciences,Applied Physics,0,filter-ger-WAYSI,APPPHYS
+School of Humanities & Sciences,Arabic Language,1,filter-ger-WAYAII,ARABLANG
+School of Humanities & Sciences,Arabic Language,1,filter-ger-WAYCE,ARABLANG
+School of Humanities & Sciences,Arabic Language,0,filter-ger-WAYEDP,ARABLANG
+School of Humanities & Sciences,Arabic Language,0,filter-ger-WAYER,ARABLANG
+School of Humanities & Sciences,Arabic Language,0,filter-ger-WAYFR,ARABLANG
+School of Humanities & Sciences,Arabic Language,0,filter-ger-WAYAQR,ARABLANG
+School of Humanities & Sciences,Arabic Language,0,filter-ger-WAYSMA,ARABLANG
+School of Humanities & Sciences,Arabic Language,0,filter-ger-WAYSI,ARABLANG
+School of Humanities & Sciences,Archaeology,10,filter-ger-WAYAII,ARCHLGY
+School of Humanities & Sciences,Archaeology,1,filter-ger-WAYCE,ARCHLGY
+School of Humanities & Sciences,Archaeology,13,filter-ger-WAYEDP,ARCHLGY
+School of Humanities & Sciences,Archaeology,2,filter-ger-WAYER,ARCHLGY
+School of Humanities & Sciences,Archaeology,0,filter-ger-WAYFR,ARCHLGY
+School of Humanities & Sciences,Archaeology,2,filter-ger-WAYAQR,ARCHLGY
+School of Humanities & Sciences,Archaeology,6,filter-ger-WAYSMA,ARCHLGY
+School of Humanities & Sciences,Archaeology,33,filter-ger-WAYSI,ARCHLGY
+School of Humanities & Sciences,Art History,53,filter-ger-WAYAII,ARTHIST
+School of Humanities & Sciences,Art History,2,filter-ger-WAYCE,ARTHIST
+School of Humanities & Sciences,Art History,16,filter-ger-WAYEDP,ARTHIST
+School of Humanities & Sciences,Art History,0,filter-ger-WAYER,ARTHIST
+School of Humanities & Sciences,Art History,0,filter-ger-WAYFR,ARTHIST
+School of Humanities & Sciences,Art History,0,filter-ger-WAYAQR,ARTHIST
+School of Humanities & Sciences,Art History,0,filter-ger-WAYSMA,ARTHIST
+School of Humanities & Sciences,Art History,5,filter-ger-WAYSI,ARTHIST
+School of Humanities & Sciences,Arts Institute,2,filter-ger-WAYAII,ARTSINST
+School of Humanities & Sciences,Arts Institute,4,filter-ger-WAYCE,ARTSINST
+School of Humanities & Sciences,Arts Institute,1,filter-ger-WAYEDP,ARTSINST
+School of Humanities & Sciences,Arts Institute,0,filter-ger-WAYER,ARTSINST
+School of Humanities & Sciences,Arts Institute,1,filter-ger-WAYFR,ARTSINST
+School of Humanities & Sciences,Arts Institute,0,filter-ger-WAYAQR,ARTSINST
+School of Humanities & Sciences,Arts Institute,1,filter-ger-WAYSMA,ARTSINST
+School of Humanities & Sciences,Arts Institute,0,filter-ger-WAYSI,ARTSINST
+School of Humanities & Sciences,Art Studio,4,filter-ger-WAYAII,ARTSTUDI
+School of Humanities & Sciences,Art Studio,105,filter-ger-WAYCE,ARTSTUDI
+School of Humanities & Sciences,Art Studio,1,filter-ger-WAYEDP,ARTSTUDI
+School of Humanities & Sciences,Art Studio,0,filter-ger-WAYER,ARTSTUDI
+School of Humanities & Sciences,Art Studio,0,filter-ger-WAYFR,ARTSTUDI
+School of Humanities & Sciences,Art Studio,0,filter-ger-WAYAQR,ARTSTUDI
+School of Humanities & Sciences,Art Studio,0,filter-ger-WAYSMA,ARTSTUDI
+School of Humanities & Sciences,Art Studio,0,filter-ger-WAYSI,ARTSTUDI
+School of Humanities & Sciences,Asian American Studies,10,filter-ger-WAYAII,ASNAMST
+School of Humanities & Sciences,Asian American Studies,4,filter-ger-WAYCE,ASNAMST
+School of Humanities & Sciences,Asian American Studies,24,filter-ger-WAYEDP,ASNAMST
+School of Humanities & Sciences,Asian American Studies,0,filter-ger-WAYER,ASNAMST
+School of Humanities & Sciences,Asian American Studies,0,filter-ger-WAYFR,ASNAMST
+School of Humanities & Sciences,Asian American Studies,0,filter-ger-WAYAQR,ASNAMST
+School of Humanities & Sciences,Asian American Studies,0,filter-ger-WAYSMA,ASNAMST
+School of Humanities & Sciences,Asian American Studies,7,filter-ger-WAYSI,ASNAMST
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYAII,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYCE,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYEDP,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYER,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYFR,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYAQR,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYSMA,ASNLANG
+School of Humanities & Sciences,Asian Languages,0,filter-ger-WAYSI,ASNLANG
+School of Humanities & Sciences,Biology,1,filter-ger-WAYAII,BIO
+School of Humanities & Sciences,Biology,5,filter-ger-WAYCE,BIO
+School of Humanities & Sciences,Biology,0,filter-ger-WAYEDP,BIO
+School of Humanities & Sciences,Biology,2,filter-ger-WAYER,BIO
+School of Humanities & Sciences,Biology,1,filter-ger-WAYFR,BIO
+School of Humanities & Sciences,Biology,6,filter-ger-WAYAQR,BIO
+School of Humanities & Sciences,Biology,51,filter-ger-WAYSMA,BIO
+School of Humanities & Sciences,Biology,3,filter-ger-WAYSI,BIO
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYAII,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYCE,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYEDP,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYER,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYFR,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYAQR,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYSMA,BIOHOPK
+School of Humanities & Sciences,Biology/Hopkins Marine,0,filter-ger-WAYSI,BIOHOPK
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYAII,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYCE,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYEDP,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYER,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYFR,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYAQR,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYSMA,BIOPHYS
+School of Humanities & Sciences,Biophysics,0,filter-ger-WAYSI,BIOPHYS
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYAII,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYCE,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYEDP,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYER,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYFR,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYAQR,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYSMA,CATLANG
+School of Humanities & Sciences,Catalan Language Courses,0,filter-ger-WAYSI,CATLANG
+School of Humanities & Sciences,Chemistry,0,filter-ger-WAYAII,CHEM
+School of Humanities & Sciences,Chemistry,0,filter-ger-WAYCE,CHEM
+School of Humanities & Sciences,Chemistry,0,filter-ger-WAYEDP,CHEM
+School of Humanities & Sciences,Chemistry,0,filter-ger-WAYER,CHEM
+School of Humanities & Sciences,Chemistry,0,filter-ger-WAYFR,CHEM
+School of Humanities & Sciences,Chemistry,3,filter-ger-WAYAQR,CHEM
+School of Humanities & Sciences,Chemistry,12,filter-ger-WAYSMA,CHEM
+School of Humanities & Sciences,Chemistry,0,filter-ger-WAYSI,CHEM
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYAII,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYCE,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYEDP,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYER,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYFR,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYAQR,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYSMA,CHILATST
+School of Humanities & Sciences,Chicana/o-Latina/o Studies,0,filter-ger-WAYSI,CHILATST
+School of Humanities & Sciences,Chinese,23,filter-ger-WAYAII,CHINA
+School of Humanities & Sciences,Chinese,0,filter-ger-WAYCE,CHINA
+School of Humanities & Sciences,Chinese,11,filter-ger-WAYEDP,CHINA
+School of Humanities & Sciences,Chinese,5,filter-ger-WAYER,CHINA
+School of Humanities & Sciences,Chinese,0,filter-ger-WAYFR,CHINA
+School of Humanities & Sciences,Chinese,0,filter-ger-WAYAQR,CHINA
+School of Humanities & Sciences,Chinese,0,filter-ger-WAYSMA,CHINA
+School of Humanities & Sciences,Chinese,35,filter-ger-WAYSI,CHINA
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYAII,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYCE,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYEDP,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYER,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYFR,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYAQR,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYSMA,CHINLANG
+School of Humanities & Sciences,Chinese Language,0,filter-ger-WAYSI,CHINLANG
+School of Humanities & Sciences,Classics,57,filter-ger-WAYAII,CLASSICS
+School of Humanities & Sciences,Classics,3,filter-ger-WAYCE,CLASSICS
+School of Humanities & Sciences,Classics,20,filter-ger-WAYEDP,CLASSICS
+School of Humanities & Sciences,Classics,11,filter-ger-WAYER,CLASSICS
+School of Humanities & Sciences,Classics,0,filter-ger-WAYFR,CLASSICS
+School of Humanities & Sciences,Classics,0,filter-ger-WAYAQR,CLASSICS
+School of Humanities & Sciences,Classics,0,filter-ger-WAYSMA,CLASSICS
+School of Humanities & Sciences,Classics,29,filter-ger-WAYSI,CLASSICS
+School of Humanities & Sciences,Communication,3,filter-ger-WAYAII,COMM
+School of Humanities & Sciences,Communication,5,filter-ger-WAYCE,COMM
+School of Humanities & Sciences,Communication,1,filter-ger-WAYEDP,COMM
+School of Humanities & Sciences,Communication,5,filter-ger-WAYER,COMM
+School of Humanities & Sciences,Communication,4,filter-ger-WAYFR,COMM
+School of Humanities & Sciences,Communication,3,filter-ger-WAYAQR,COMM
+School of Humanities & Sciences,Communication,0,filter-ger-WAYSMA,COMM
+School of Humanities & Sciences,Communication,34,filter-ger-WAYSI,COMM
+School of Humanities & Sciences,Comparative Literature,91,filter-ger-WAYAII,COMPLIT
+School of Humanities & Sciences,Comparative Literature,6,filter-ger-WAYCE,COMPLIT
+School of Humanities & Sciences,Comparative Literature,22,filter-ger-WAYEDP,COMPLIT
+School of Humanities & Sciences,Comparative Literature,4,filter-ger-WAYER,COMPLIT
+School of Humanities & Sciences,Comparative Literature,0,filter-ger-WAYFR,COMPLIT
+School of Humanities & Sciences,Comparative Literature,0,filter-ger-WAYAQR,COMPLIT
+School of Humanities & Sciences,Comparative Literature,0,filter-ger-WAYSMA,COMPLIT
+School of Humanities & Sciences,Comparative Literature,5,filter-ger-WAYSI,COMPLIT
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,0,filter-ger-WAYAII,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,0,filter-ger-WAYCE,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,6,filter-ger-WAYEDP,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,0,filter-ger-WAYER,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,0,filter-ger-WAYFR,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,0,filter-ger-WAYAQR,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,0,filter-ger-WAYSMA,CSRE
+School of Humanities & Sciences,Comparative Studies in Race & Ethnicity,6,filter-ger-WAYSI,CSRE
+School of Humanities & Sciences,Dance,42,filter-ger-WAYAII,DANCE
+School of Humanities & Sciences,Dance,42,filter-ger-WAYCE,DANCE
+School of Humanities & Sciences,Dance,12,filter-ger-WAYEDP,DANCE
+School of Humanities & Sciences,Dance,0,filter-ger-WAYER,DANCE
+School of Humanities & Sciences,Dance,0,filter-ger-WAYFR,DANCE
+School of Humanities & Sciences,Dance,0,filter-ger-WAYAQR,DANCE
+School of Humanities & Sciences,Dance,0,filter-ger-WAYSMA,DANCE
+School of Humanities & Sciences,Dance,2,filter-ger-WAYSI,DANCE
+School of Humanities & Sciences,Data Science,0,filter-ger-WAYAII,DATASCI
+School of Humanities & Sciences,Data Science,0,filter-ger-WAYCE,DATASCI
+School of Humanities & Sciences,Data Science,0,filter-ger-WAYEDP,DATASCI
+School of Humanities & Sciences,Data Science,0,filter-ger-WAYER,DATASCI
+School of Humanities & Sciences,Data Science,0,filter-ger-WAYFR,DATASCI
+School of Humanities & Sciences,Data Science,9,filter-ger-WAYAQR,DATASCI
+School of Humanities & Sciences,Data Science,0,filter-ger-WAYSMA,DATASCI
+School of Humanities & Sciences,Data Science,8,filter-ger-WAYSI,DATASCI
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYAII,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYCE,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYEDP,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYER,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYFR,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYAQR,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYSMA,DLCL
+School of Humanities & Sciences,"Division of Literatures, Cultures, & Languages",0,filter-ger-WAYSI,DLCL
+School of Humanities & Sciences,Drama,2,filter-ger-WAYAII,TAPS
+School of Humanities & Sciences,Drama,0,filter-ger-WAYCE,TAPS
+School of Humanities & Sciences,Drama,1,filter-ger-WAYEDP,TAPS
+School of Humanities & Sciences,Drama,2,filter-ger-WAYER,TAPS
+School of Humanities & Sciences,Drama,0,filter-ger-WAYFR,TAPS
+School of Humanities & Sciences,Drama,0,filter-ger-WAYAQR,TAPS
+School of Humanities & Sciences,Drama,0,filter-ger-WAYSMA,TAPS
+School of Humanities & Sciences,Drama,1,filter-ger-WAYSI,TAPS
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYAII,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYCE,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYEDP,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYER,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYFR,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYAQR,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYSMA,EALC
+School of Humanities & Sciences,East Asian Languages & Cultures,0,filter-ger-WAYSI,EALC
+School of Humanities & Sciences,East Asian Studies,1,filter-ger-WAYAII,EASTASN
+School of Humanities & Sciences,East Asian Studies,0,filter-ger-WAYCE,EASTASN
+School of Humanities & Sciences,East Asian Studies,1,filter-ger-WAYEDP,EASTASN
+School of Humanities & Sciences,East Asian Studies,0,filter-ger-WAYER,EASTASN
+School of Humanities & Sciences,East Asian Studies,0,filter-ger-WAYFR,EASTASN
+School of Humanities & Sciences,East Asian Studies,0,filter-ger-WAYAQR,EASTASN
+School of Humanities & Sciences,East Asian Studies,0,filter-ger-WAYSMA,EASTASN
+School of Humanities & Sciences,East Asian Studies,3,filter-ger-WAYSI,EASTASN
+School of Humanities & Sciences,Economics,0,filter-ger-WAYAII,ECON
+School of Humanities & Sciences,Economics,0,filter-ger-WAYCE,ECON
+School of Humanities & Sciences,Economics,0,filter-ger-WAYEDP,ECON
+School of Humanities & Sciences,Economics,0,filter-ger-WAYER,ECON
+School of Humanities & Sciences,Economics,6,filter-ger-WAYFR,ECON
+School of Humanities & Sciences,Economics,16,filter-ger-WAYAQR,ECON
+School of Humanities & Sciences,Economics,0,filter-ger-WAYSMA,ECON
+School of Humanities & Sciences,Economics,53,filter-ger-WAYSI,ECON
+School of Humanities & Sciences,English,292,filter-ger-WAYAII,ENGLISH
+School of Humanities & Sciences,English,99,filter-ger-WAYCE,ENGLISH
+School of Humanities & Sciences,English,90,filter-ger-WAYEDP,ENGLISH
+School of Humanities & Sciences,English,13,filter-ger-WAYER,ENGLISH
+School of Humanities & Sciences,English,9,filter-ger-WAYFR,ENGLISH
+School of Humanities & Sciences,English,11,filter-ger-WAYAQR,ENGLISH
+School of Humanities & Sciences,English,0,filter-ger-WAYSMA,ENGLISH
+School of Humanities & Sciences,English,81,filter-ger-WAYSI,ENGLISH
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYAII,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYCE,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYEDP,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYER,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYFR,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYAQR,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYSMA,EFSLANG
+School of Humanities & Sciences,English for Foreign Students,0,filter-ger-WAYSI,EFSLANG
+School of Humanities & Sciences,Ethics in Society,8,filter-ger-WAYAII,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,0,filter-ger-WAYCE,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,0,filter-ger-WAYEDP,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,27,filter-ger-WAYER,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,0,filter-ger-WAYFR,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,0,filter-ger-WAYAQR,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,0,filter-ger-WAYSMA,ETHICSOC
+School of Humanities & Sciences,Ethics in Society,6,filter-ger-WAYSI,ETHICSOC
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",5,filter-ger-WAYAII,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",5,filter-ger-WAYCE,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",23,filter-ger-WAYEDP,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",0,filter-ger-WAYER,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",0,filter-ger-WAYFR,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",0,filter-ger-WAYAQR,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",0,filter-ger-WAYSMA,FEMGEN
+School of Humanities & Sciences,"Feminist, Gender and Sexuality Studies",16,filter-ger-WAYSI,FEMGEN
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYAII,FILMPROD
+School of Humanities & Sciences,Film Production,8,filter-ger-WAYCE,FILMPROD
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYEDP,FILMPROD
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYER,FILMPROD
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYFR,FILMPROD
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYAQR,FILMPROD
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYSMA,FILMPROD
+School of Humanities & Sciences,Film Production,0,filter-ger-WAYSI,FILMPROD
+School of Humanities & Sciences,Film and Media Studies,30,filter-ger-WAYAII,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,2,filter-ger-WAYCE,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,2,filter-ger-WAYEDP,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,0,filter-ger-WAYER,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,0,filter-ger-WAYFR,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,0,filter-ger-WAYAQR,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,0,filter-ger-WAYSMA,FILMEDIA
+School of Humanities & Sciences,Film and Media Studies,1,filter-ger-WAYSI,FILMEDIA
+School of Humanities & Sciences,French Language,9,filter-ger-WAYAII,FRENLANG
+School of Humanities & Sciences,French Language,0,filter-ger-WAYCE,FRENLANG
+School of Humanities & Sciences,French Language,7,filter-ger-WAYEDP,FRENLANG
+School of Humanities & Sciences,French Language,0,filter-ger-WAYER,FRENLANG
+School of Humanities & Sciences,French Language,0,filter-ger-WAYFR,FRENLANG
+School of Humanities & Sciences,French Language,0,filter-ger-WAYAQR,FRENLANG
+School of Humanities & Sciences,French Language,0,filter-ger-WAYSMA,FRENLANG
+School of Humanities & Sciences,French Language,1,filter-ger-WAYSI,FRENLANG
+School of Humanities & Sciences,French Studies,29,filter-ger-WAYAII,FRENCH
+School of Humanities & Sciences,French Studies,6,filter-ger-WAYCE,FRENCH
+School of Humanities & Sciences,French Studies,13,filter-ger-WAYEDP,FRENCH
+School of Humanities & Sciences,French Studies,0,filter-ger-WAYER,FRENCH
+School of Humanities & Sciences,French Studies,0,filter-ger-WAYFR,FRENCH
+School of Humanities & Sciences,French Studies,0,filter-ger-WAYAQR,FRENCH
+School of Humanities & Sciences,French Studies,0,filter-ger-WAYSMA,FRENCH
+School of Humanities & Sciences,French Studies,8,filter-ger-WAYSI,FRENCH
+School of Humanities & Sciences,German Language,0,filter-ger-WAYAII,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYCE,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYEDP,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYER,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYFR,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYAQR,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYSMA,GERLANG
+School of Humanities & Sciences,German Language,0,filter-ger-WAYSI,GERLANG
+School of Humanities & Sciences,German Studies,42,filter-ger-WAYAII,GERMAN
+School of Humanities & Sciences,German Studies,1,filter-ger-WAYCE,GERMAN
+School of Humanities & Sciences,German Studies,6,filter-ger-WAYEDP,GERMAN
+School of Humanities & Sciences,German Studies,0,filter-ger-WAYER,GERMAN
+School of Humanities & Sciences,German Studies,0,filter-ger-WAYFR,GERMAN
+School of Humanities & Sciences,German Studies,0,filter-ger-WAYAQR,GERMAN
+School of Humanities & Sciences,German Studies,0,filter-ger-WAYSMA,GERMAN
+School of Humanities & Sciences,German Studies,11,filter-ger-WAYSI,GERMAN
+School of Humanities & Sciences,Global Studies,58,filter-ger-WAYAII,GLOBAL
+School of Humanities & Sciences,Global Studies,3,filter-ger-WAYCE,GLOBAL
+School of Humanities & Sciences,Global Studies,71,filter-ger-WAYEDP,GLOBAL
+School of Humanities & Sciences,Global Studies,6,filter-ger-WAYER,GLOBAL
+School of Humanities & Sciences,Global Studies,0,filter-ger-WAYFR,GLOBAL
+School of Humanities & Sciences,Global Studies,4,filter-ger-WAYAQR,GLOBAL
+School of Humanities & Sciences,Global Studies,8,filter-ger-WAYSMA,GLOBAL
+School of Humanities & Sciences,Global Studies,83,filter-ger-WAYSI,GLOBAL
+School of Humanities & Sciences,History,448,filter-ger-WAYAII,HISTORY
+School of Humanities & Sciences,History,64,filter-ger-WAYCE,HISTORY
+School of Humanities & Sciences,History,424,filter-ger-WAYEDP,HISTORY
+School of Humanities & Sciences,History,42,filter-ger-WAYER,HISTORY
+School of Humanities & Sciences,History,2,filter-ger-WAYFR,HISTORY
+School of Humanities & Sciences,History,12,filter-ger-WAYAQR,HISTORY
+School of Humanities & Sciences,History,29,filter-ger-WAYSMA,HISTORY
+School of Humanities & Sciences,History,662,filter-ger-WAYSI,HISTORY
+School of Humanities & Sciences,History & Philosophy of Science,1,filter-ger-WAYAII,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYCE,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYEDP,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYER,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYFR,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYAQR,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYSMA,HPS
+School of Humanities & Sciences,History & Philosophy of Science,0,filter-ger-WAYSI,HPS
+School of Humanities & Sciences,Human Biology,4,filter-ger-WAYAII,HUMBIO
+School of Humanities & Sciences,Human Biology,0,filter-ger-WAYCE,HUMBIO
+School of Humanities & Sciences,Human Biology,12,filter-ger-WAYEDP,HUMBIO
+School of Humanities & Sciences,Human Biology,3,filter-ger-WAYER,HUMBIO
+School of Humanities & Sciences,Human Biology,1,filter-ger-WAYFR,HUMBIO
+School of Humanities & Sciences,Human Biology,7,filter-ger-WAYAQR,HUMBIO
+School of Humanities & Sciences,Human Biology,19,filter-ger-WAYSMA,HUMBIO
+School of Humanities & Sciences,Human Biology,17,filter-ger-WAYSI,HUMBIO
+School of Humanities & Sciences,Human Rights,3,filter-ger-WAYAII,HUMRTS
+School of Humanities & Sciences,Human Rights,1,filter-ger-WAYCE,HUMRTS
+School of Humanities & Sciences,Human Rights,15,filter-ger-WAYEDP,HUMRTS
+School of Humanities & Sciences,Human Rights,15,filter-ger-WAYER,HUMRTS
+School of Humanities & Sciences,Human Rights,0,filter-ger-WAYFR,HUMRTS
+School of Humanities & Sciences,Human Rights,0,filter-ger-WAYAQR,HUMRTS
+School of Humanities & Sciences,Human Rights,0,filter-ger-WAYSMA,HUMRTS
+School of Humanities & Sciences,Human Rights,33,filter-ger-WAYSI,HUMRTS
+School of Humanities & Sciences,Humanities Core,37,filter-ger-WAYAII,HUMCORE
+School of Humanities & Sciences,Humanities Core,0,filter-ger-WAYCE,HUMCORE
+School of Humanities & Sciences,Humanities Core,2,filter-ger-WAYEDP,HUMCORE
+School of Humanities & Sciences,Humanities Core,8,filter-ger-WAYER,HUMCORE
+School of Humanities & Sciences,Humanities Core,0,filter-ger-WAYFR,HUMCORE
+School of Humanities & Sciences,Humanities Core,0,filter-ger-WAYAQR,HUMCORE
+School of Humanities & Sciences,Humanities Core,0,filter-ger-WAYSMA,HUMCORE
+School of Humanities & Sciences,Humanities Core,5,filter-ger-WAYSI,HUMCORE
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYAII,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYCE,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYEDP,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYER,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYFR,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYAQR,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYSMA,HUMSCI
+School of Humanities & Sciences,Humanities & Sciences,0,filter-ger-WAYSI,HUMSCI
+School of Humanities & Sciences,Iberian & Latin American Cultures,17,filter-ger-WAYAII,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,2,filter-ger-WAYCE,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,7,filter-ger-WAYEDP,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,0,filter-ger-WAYER,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,0,filter-ger-WAYFR,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,0,filter-ger-WAYAQR,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,0,filter-ger-WAYSMA,ILAC
+School of Humanities & Sciences,Iberian & Latin American Cultures,3,filter-ger-WAYSI,ILAC
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYAII,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYCE,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYEDP,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYER,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYFR,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYAQR,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYSMA,IIS
+School of Humanities & Sciences,Institute for International Studies (FSI),0,filter-ger-WAYSI,IIS
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYAII,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYCE,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYEDP,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYER,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYFR,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYAQR,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYSMA,INTLPOL
+School of Humanities & Sciences,International Policy,0,filter-ger-WAYSI,INTLPOL
+School of Humanities & Sciences,International Relations,1,filter-ger-WAYAII,INTNLREL
+School of Humanities & Sciences,International Relations,0,filter-ger-WAYCE,INTNLREL
+School of Humanities & Sciences,International Relations,2,filter-ger-WAYEDP,INTNLREL
+School of Humanities & Sciences,International Relations,2,filter-ger-WAYER,INTNLREL
+School of Humanities & Sciences,International Relations,0,filter-ger-WAYFR,INTNLREL
+School of Humanities & Sciences,International Relations,0,filter-ger-WAYAQR,INTNLREL
+School of Humanities & Sciences,International Relations,0,filter-ger-WAYSMA,INTNLREL
+School of Humanities & Sciences,International Relations,50,filter-ger-WAYSI,INTNLREL
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYAII,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYCE,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYEDP,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYER,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYFR,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYAQR,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYSMA,ITALLANG
+School of Humanities & Sciences,Italian Language,0,filter-ger-WAYSI,ITALLANG
+School of Humanities & Sciences,Italian Studies,4,filter-ger-WAYAII,ITALIAN
+School of Humanities & Sciences,Italian Studies,0,filter-ger-WAYCE,ITALIAN
+School of Humanities & Sciences,Italian Studies,2,filter-ger-WAYEDP,ITALIAN
+School of Humanities & Sciences,Italian Studies,0,filter-ger-WAYER,ITALIAN
+School of Humanities & Sciences,Italian Studies,0,filter-ger-WAYFR,ITALIAN
+School of Humanities & Sciences,Italian Studies,0,filter-ger-WAYAQR,ITALIAN
+School of Humanities & Sciences,Italian Studies,0,filter-ger-WAYSMA,ITALIAN
+School of Humanities & Sciences,Italian Studies,2,filter-ger-WAYSI,ITALIAN
+School of Humanities & Sciences,Japanese,23,filter-ger-WAYAII,JAPAN
+School of Humanities & Sciences,Japanese,4,filter-ger-WAYCE,JAPAN
+School of Humanities & Sciences,Japanese,15,filter-ger-WAYEDP,JAPAN
+School of Humanities & Sciences,Japanese,0,filter-ger-WAYER,JAPAN
+School of Humanities & Sciences,Japanese,0,filter-ger-WAYFR,JAPAN
+School of Humanities & Sciences,Japanese,0,filter-ger-WAYAQR,JAPAN
+School of Humanities & Sciences,Japanese,1,filter-ger-WAYSMA,JAPAN
+School of Humanities & Sciences,Japanese,13,filter-ger-WAYSI,JAPAN
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYAII,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYCE,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYEDP,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYER,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYFR,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYAQR,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYSMA,JAPANLNG
+School of Humanities & Sciences,Japanese Language,0,filter-ger-WAYSI,JAPANLNG
+School of Humanities & Sciences,Jewish Studies,21,filter-ger-WAYAII,JEWISHST
+School of Humanities & Sciences,Jewish Studies,1,filter-ger-WAYCE,JEWISHST
+School of Humanities & Sciences,Jewish Studies,24,filter-ger-WAYEDP,JEWISHST
+School of Humanities & Sciences,Jewish Studies,2,filter-ger-WAYER,JEWISHST
+School of Humanities & Sciences,Jewish Studies,0,filter-ger-WAYFR,JEWISHST
+School of Humanities & Sciences,Jewish Studies,0,filter-ger-WAYAQR,JEWISHST
+School of Humanities & Sciences,Jewish Studies,0,filter-ger-WAYSMA,JEWISHST
+School of Humanities & Sciences,Jewish Studies,27,filter-ger-WAYSI,JEWISHST
+School of Humanities & Sciences,Korean,16,filter-ger-WAYAII,KOREA
+School of Humanities & Sciences,Korean,0,filter-ger-WAYCE,KOREA
+School of Humanities & Sciences,Korean,10,filter-ger-WAYEDP,KOREA
+School of Humanities & Sciences,Korean,1,filter-ger-WAYER,KOREA
+School of Humanities & Sciences,Korean,0,filter-ger-WAYFR,KOREA
+School of Humanities & Sciences,Korean,0,filter-ger-WAYAQR,KOREA
+School of Humanities & Sciences,Korean,0,filter-ger-WAYSMA,KOREA
+School of Humanities & Sciences,Korean,10,filter-ger-WAYSI,KOREA
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYAII,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYCE,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYEDP,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYER,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYFR,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYAQR,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYSMA,KORLANG
+School of Humanities & Sciences,Korean Language,0,filter-ger-WAYSI,KORLANG
+School of Humanities & Sciences,Latin American Studies,3,filter-ger-WAYAII,LATINAM
+School of Humanities & Sciences,Latin American Studies,0,filter-ger-WAYCE,LATINAM
+School of Humanities & Sciences,Latin American Studies,9,filter-ger-WAYEDP,LATINAM
+School of Humanities & Sciences,Latin American Studies,0,filter-ger-WAYER,LATINAM
+School of Humanities & Sciences,Latin American Studies,0,filter-ger-WAYFR,LATINAM
+School of Humanities & Sciences,Latin American Studies,0,filter-ger-WAYAQR,LATINAM
+School of Humanities & Sciences,Latin American Studies,0,filter-ger-WAYSMA,LATINAM
+School of Humanities & Sciences,Latin American Studies,10,filter-ger-WAYSI,LATINAM
+School of Humanities & Sciences,Linguistics,0,filter-ger-WAYAII,LINGUIST
+School of Humanities & Sciences,Linguistics,0,filter-ger-WAYCE,LINGUIST
+School of Humanities & Sciences,Linguistics,4,filter-ger-WAYEDP,LINGUIST
+School of Humanities & Sciences,Linguistics,0,filter-ger-WAYER,LINGUIST
+School of Humanities & Sciences,Linguistics,9,filter-ger-WAYFR,LINGUIST
+School of Humanities & Sciences,Linguistics,1,filter-ger-WAYAQR,LINGUIST
+School of Humanities & Sciences,Linguistics,1,filter-ger-WAYSMA,LINGUIST
+School of Humanities & Sciences,Linguistics,3,filter-ger-WAYSI,LINGUIST
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYAII,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYCE,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYEDP,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYER,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYFR,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYAQR,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYSMA,MLA
+School of Humanities & Sciences,Master of Liberal Arts,0,filter-ger-WAYSI,MLA
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYAII,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYCE,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYEDP,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYER,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,1,filter-ger-WAYFR,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYAQR,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYSMA,MCS
+School of Humanities & Sciences,Mathematical & Computational Science,0,filter-ger-WAYSI,MCS
+School of Humanities & Sciences,Mathematics,0,filter-ger-WAYAII,MATH
+School of Humanities & Sciences,Mathematics,0,filter-ger-WAYCE,MATH
+School of Humanities & Sciences,Mathematics,0,filter-ger-WAYEDP,MATH
+School of Humanities & Sciences,Mathematics,0,filter-ger-WAYER,MATH
+School of Humanities & Sciences,Mathematics,59,filter-ger-WAYFR,MATH
+School of Humanities & Sciences,Mathematics,1,filter-ger-WAYAQR,MATH
+School of Humanities & Sciences,Mathematics,8,filter-ger-WAYSMA,MATH
+School of Humanities & Sciences,Mathematics,2,filter-ger-WAYSI,MATH
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYAII,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYCE,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYEDP,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYER,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYFR,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYAQR,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYSMA,MEDVLST
+School of Humanities & Sciences,Medieval Studies,0,filter-ger-WAYSI,MEDVLST
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYAII,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYCE,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYEDP,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYER,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYFR,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYAQR,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYSMA,MTL
+School of Humanities & Sciences,Modern Thought & Literature,0,filter-ger-WAYSI,MTL
+School of Humanities & Sciences,Music,137,filter-ger-WAYAII,MUSIC
+School of Humanities & Sciences,Music,144,filter-ger-WAYCE,MUSIC
+School of Humanities & Sciences,Music,58,filter-ger-WAYEDP,MUSIC
+School of Humanities & Sciences,Music,0,filter-ger-WAYER,MUSIC
+School of Humanities & Sciences,Music,1,filter-ger-WAYFR,MUSIC
+School of Humanities & Sciences,Music,1,filter-ger-WAYAQR,MUSIC
+School of Humanities & Sciences,Music,4,filter-ger-WAYSMA,MUSIC
+School of Humanities & Sciences,Music,31,filter-ger-WAYSI,MUSIC
+School of Humanities & Sciences,Native American Studies,1,filter-ger-WAYAII,NATIVEAM
+School of Humanities & Sciences,Native American Studies,0,filter-ger-WAYCE,NATIVEAM
+School of Humanities & Sciences,Native American Studies,8,filter-ger-WAYEDP,NATIVEAM
+School of Humanities & Sciences,Native American Studies,0,filter-ger-WAYER,NATIVEAM
+School of Humanities & Sciences,Native American Studies,0,filter-ger-WAYFR,NATIVEAM
+School of Humanities & Sciences,Native American Studies,0,filter-ger-WAYAQR,NATIVEAM
+School of Humanities & Sciences,Native American Studies,0,filter-ger-WAYSMA,NATIVEAM
+School of Humanities & Sciences,Native American Studies,2,filter-ger-WAYSI,NATIVEAM
+School of Humanities & Sciences,Philosophy,32,filter-ger-WAYAII,PHIL
+School of Humanities & Sciences,Philosophy,1,filter-ger-WAYCE,PHIL
+School of Humanities & Sciences,Philosophy,1,filter-ger-WAYEDP,PHIL
+School of Humanities & Sciences,Philosophy,25,filter-ger-WAYER,PHIL
+School of Humanities & Sciences,Philosophy,7,filter-ger-WAYFR,PHIL
+School of Humanities & Sciences,Philosophy,0,filter-ger-WAYAQR,PHIL
+School of Humanities & Sciences,Philosophy,1,filter-ger-WAYSMA,PHIL
+School of Humanities & Sciences,Philosophy,3,filter-ger-WAYSI,PHIL
+School of Humanities & Sciences,Physics,3,filter-ger-WAYAII,PHYSICS
+School of Humanities & Sciences,Physics,4,filter-ger-WAYCE,PHYSICS
+School of Humanities & Sciences,Physics,0,filter-ger-WAYEDP,PHYSICS
+School of Humanities & Sciences,Physics,2,filter-ger-WAYER,PHYSICS
+School of Humanities & Sciences,Physics,18,filter-ger-WAYFR,PHYSICS
+School of Humanities & Sciences,Physics,27,filter-ger-WAYAQR,PHYSICS
+School of Humanities & Sciences,Physics,66,filter-ger-WAYSMA,PHYSICS
+School of Humanities & Sciences,Physics,1,filter-ger-WAYSI,PHYSICS
+School of Humanities & Sciences,Political Science,6,filter-ger-WAYAII,POLISCI
+School of Humanities & Sciences,Political Science,0,filter-ger-WAYCE,POLISCI
+School of Humanities & Sciences,Political Science,4,filter-ger-WAYEDP,POLISCI
+School of Humanities & Sciences,Political Science,31,filter-ger-WAYER,POLISCI
+School of Humanities & Sciences,Political Science,3,filter-ger-WAYFR,POLISCI
+School of Humanities & Sciences,Political Science,9,filter-ger-WAYAQR,POLISCI
+School of Humanities & Sciences,Political Science,0,filter-ger-WAYSMA,POLISCI
+School of Humanities & Sciences,Political Science,68,filter-ger-WAYSI,POLISCI
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYAII,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYCE,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYEDP,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYER,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYFR,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYAQR,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYSMA,PORTLANG
+School of Humanities & Sciences,Portuguese Language,0,filter-ger-WAYSI,PORTLANG
+School of Humanities & Sciences,Psychology,1,filter-ger-WAYAII,PSYCH
+School of Humanities & Sciences,Psychology,0,filter-ger-WAYCE,PSYCH
+School of Humanities & Sciences,Psychology,9,filter-ger-WAYEDP,PSYCH
+School of Humanities & Sciences,Psychology,0,filter-ger-WAYER,PSYCH
+School of Humanities & Sciences,Psychology,2,filter-ger-WAYFR,PSYCH
+School of Humanities & Sciences,Psychology,1,filter-ger-WAYAQR,PSYCH
+School of Humanities & Sciences,Psychology,5,filter-ger-WAYSMA,PSYCH
+School of Humanities & Sciences,Psychology,34,filter-ger-WAYSI,PSYCH
+School of Humanities & Sciences,Public Policy,0,filter-ger-WAYAII,PUBLPOL
+School of Humanities & Sciences,Public Policy,0,filter-ger-WAYCE,PUBLPOL
+School of Humanities & Sciences,Public Policy,5,filter-ger-WAYEDP,PUBLPOL
+School of Humanities & Sciences,Public Policy,6,filter-ger-WAYER,PUBLPOL
+School of Humanities & Sciences,Public Policy,0,filter-ger-WAYFR,PUBLPOL
+School of Humanities & Sciences,Public Policy,8,filter-ger-WAYAQR,PUBLPOL
+School of Humanities & Sciences,Public Policy,1,filter-ger-WAYSMA,PUBLPOL
+School of Humanities & Sciences,Public Policy,34,filter-ger-WAYSI,PUBLPOL
+School of Humanities & Sciences,Religious Studies,34,filter-ger-WAYAII,RELIGST
+School of Humanities & Sciences,Religious Studies,0,filter-ger-WAYCE,RELIGST
+School of Humanities & Sciences,Religious Studies,22,filter-ger-WAYEDP,RELIGST
+School of Humanities & Sciences,Religious Studies,3,filter-ger-WAYER,RELIGST
+School of Humanities & Sciences,Religious Studies,0,filter-ger-WAYFR,RELIGST
+School of Humanities & Sciences,Religious Studies,0,filter-ger-WAYAQR,RELIGST
+School of Humanities & Sciences,Religious Studies,0,filter-ger-WAYSMA,RELIGST
+School of Humanities & Sciences,Religious Studies,19,filter-ger-WAYSI,RELIGST
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYAII,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYCE,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYEDP,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYER,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYFR,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYAQR,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYSMA,REES
+School of Humanities & Sciences,"Russian, East European, & Eurasian Studies",0,filter-ger-WAYSI,REES
+School of Humanities & Sciences,"Science, Technology, & Society",2,filter-ger-WAYAII,STS
+School of Humanities & Sciences,"Science, Technology, & Society",0,filter-ger-WAYCE,STS
+School of Humanities & Sciences,"Science, Technology, & Society",1,filter-ger-WAYEDP,STS
+School of Humanities & Sciences,"Science, Technology, & Society",4,filter-ger-WAYER,STS
+School of Humanities & Sciences,"Science, Technology, & Society",0,filter-ger-WAYFR,STS
+School of Humanities & Sciences,"Science, Technology, & Society",1,filter-ger-WAYAQR,STS
+School of Humanities & Sciences,"Science, Technology, & Society",0,filter-ger-WAYSMA,STS
+School of Humanities & Sciences,"Science, Technology, & Society",8,filter-ger-WAYSI,STS
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYAII,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYCE,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYEDP,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYER,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYFR,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYAQR,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYSMA,SLAVLANG
+School of Humanities & Sciences,Slavic Language,0,filter-ger-WAYSI,SLAVLANG
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYAII,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYCE,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYEDP,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYER,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYFR,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYAQR,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYSMA,SLAVIC
+School of Humanities & Sciences,Slavic Studies,0,filter-ger-WAYSI,SLAVIC
+School of Humanities & Sciences,Sociology,2,filter-ger-WAYAII,SOC
+School of Humanities & Sciences,Sociology,0,filter-ger-WAYCE,SOC
+School of Humanities & Sciences,Sociology,24,filter-ger-WAYEDP,SOC
+School of Humanities & Sciences,Sociology,3,filter-ger-WAYER,SOC
+School of Humanities & Sciences,Sociology,0,filter-ger-WAYFR,SOC
+School of Humanities & Sciences,Sociology,4,filter-ger-WAYAQR,SOC
+School of Humanities & Sciences,Sociology,1,filter-ger-WAYSMA,SOC
+School of Humanities & Sciences,Sociology,64,filter-ger-WAYSI,SOC
+School of Humanities & Sciences,Spanish Language,6,filter-ger-WAYAII,SPANLANG
+School of Humanities & Sciences,Spanish Language,0,filter-ger-WAYCE,SPANLANG
+School of Humanities & Sciences,Spanish Language,7,filter-ger-WAYEDP,SPANLANG
+School of Humanities & Sciences,Spanish Language,2,filter-ger-WAYER,SPANLANG
+School of Humanities & Sciences,Spanish Language,0,filter-ger-WAYFR,SPANLANG
+School of Humanities & Sciences,Spanish Language,0,filter-ger-WAYAQR,SPANLANG
+School of Humanities & Sciences,Spanish Language,0,filter-ger-WAYSMA,SPANLANG
+School of Humanities & Sciences,Spanish Language,1,filter-ger-WAYSI,SPANLANG
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYAII,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYCE,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYEDP,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYER,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYFR,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYAQR,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYSMA,ILAC
+School of Humanities & Sciences,"Spanish, Portuguese, & Catalan Literature",0,filter-ger-WAYSI,ILAC
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYAII,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYCE,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYEDP,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYER,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYFR,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYAQR,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYSMA,SPECLANG
+School of Humanities & Sciences,Special Language Program,0,filter-ger-WAYSI,SPECLANG
+School of Humanities & Sciences,Stanford in Washington,1,filter-ger-WAYAII,SIW
+School of Humanities & Sciences,Stanford in Washington,0,filter-ger-WAYCE,SIW
+School of Humanities & Sciences,Stanford in Washington,1,filter-ger-WAYEDP,SIW
+School of Humanities & Sciences,Stanford in Washington,0,filter-ger-WAYER,SIW
+School of Humanities & Sciences,Stanford in Washington,0,filter-ger-WAYFR,SIW
+School of Humanities & Sciences,Stanford in Washington,0,filter-ger-WAYAQR,SIW
+School of Humanities & Sciences,Stanford in Washington,0,filter-ger-WAYSMA,SIW
+School of Humanities & Sciences,Stanford in Washington,0,filter-ger-WAYSI,SIW
+School of Humanities & Sciences,Statistics,0,filter-ger-WAYAII,STATS
+School of Humanities & Sciences,Statistics,0,filter-ger-WAYCE,STATS
+School of Humanities & Sciences,Statistics,0,filter-ger-WAYEDP,STATS
+School of Humanities & Sciences,Statistics,0,filter-ger-WAYER,STATS
+School of Humanities & Sciences,Statistics,5,filter-ger-WAYFR,STATS
+School of Humanities & Sciences,Statistics,8,filter-ger-WAYAQR,STATS
+School of Humanities & Sciences,Statistics,0,filter-ger-WAYSMA,STATS
+School of Humanities & Sciences,Statistics,0,filter-ger-WAYSI,STATS
+School of Humanities & Sciences,Symbolic Systems,1,filter-ger-WAYAII,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,0,filter-ger-WAYCE,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,1,filter-ger-WAYEDP,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,0,filter-ger-WAYER,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,5,filter-ger-WAYFR,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,0,filter-ger-WAYAQR,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,0,filter-ger-WAYSMA,SYMSYS
+School of Humanities & Sciences,Symbolic Systems,1,filter-ger-WAYSI,SYMSYS
+School of Humanities & Sciences,Theater and Performance Studies,32,filter-ger-WAYAII,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,53,filter-ger-WAYCE,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,14,filter-ger-WAYEDP,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,2,filter-ger-WAYER,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,0,filter-ger-WAYFR,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,0,filter-ger-WAYAQR,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,0,filter-ger-WAYSMA,TAPS
+School of Humanities & Sciences,Theater and Performance Studies,3,filter-ger-WAYSI,TAPS
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYAII,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYCE,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYEDP,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYER,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYFR,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYAQR,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYSMA,TIBETLNG
+School of Humanities & Sciences,Tibetan Language,0,filter-ger-WAYSI,TIBETLNG
+School of Humanities & Sciences,Urban Studies,9,filter-ger-WAYAII,URBANST
+School of Humanities & Sciences,Urban Studies,3,filter-ger-WAYCE,URBANST
+School of Humanities & Sciences,Urban Studies,18,filter-ger-WAYEDP,URBANST
+School of Humanities & Sciences,Urban Studies,3,filter-ger-WAYER,URBANST
+School of Humanities & Sciences,Urban Studies,0,filter-ger-WAYFR,URBANST
+School of Humanities & Sciences,Urban Studies,2,filter-ger-WAYAQR,URBANST
+School of Humanities & Sciences,Urban Studies,1,filter-ger-WAYSMA,URBANST
+School of Humanities & Sciences,Urban Studies,43,filter-ger-WAYSI,URBANST
+Law School,Law,23,filter-ger-WAYAII,LAW
+Law School,Law,0,filter-ger-WAYCE,LAW
+Law School,Law,46,filter-ger-WAYEDP,LAW
+Law School,Law,22,filter-ger-WAYER,LAW
+Law School,Law,6,filter-ger-WAYFR,LAW
+Law School,Law,7,filter-ger-WAYAQR,LAW
+Law School,Law,3,filter-ger-WAYSMA,LAW
+Law School,Law,96,filter-ger-WAYSI,LAW
+Law School,"Law, Nonprofessional",0,filter-ger-WAYAII,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYCE,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYEDP,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYER,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYFR,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYAQR,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYSMA,LAWGEN
+Law School,"Law, Nonprofessional",0,filter-ger-WAYSI,LAWGEN
+School of Medicine,Anesthesia,0,filter-ger-WAYAII,ANES
+School of Medicine,Anesthesia,1,filter-ger-WAYCE,ANES
+School of Medicine,Anesthesia,1,filter-ger-WAYEDP,ANES
+School of Medicine,Anesthesia,0,filter-ger-WAYER,ANES
+School of Medicine,Anesthesia,0,filter-ger-WAYFR,ANES
+School of Medicine,Anesthesia,0,filter-ger-WAYAQR,ANES
+School of Medicine,Anesthesia,0,filter-ger-WAYSMA,ANES
+School of Medicine,Anesthesia,0,filter-ger-WAYSI,ANES
+School of Medicine,Biochemistry,0,filter-ger-WAYAII,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYCE,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYEDP,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYER,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYFR,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYAQR,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYSMA,BIOC
+School of Medicine,Biochemistry,0,filter-ger-WAYSI,BIOC
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYAII,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYCE,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYEDP,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYER,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYFR,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYAQR,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYSMA,BIODS
+School of Medicine,Biomedical Data Science,0,filter-ger-WAYSI,BIODS
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYAII,BIOMEDIN
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYCE,BIOMEDIN
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYEDP,BIOMEDIN
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYER,BIOMEDIN
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYFR,BIOMEDIN
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYAQR,BIOMEDIN
+School of Medicine,Biomedical Informatics,0,filter-ger-WAYSMA,BIOMEDIN
+School of Medicine,Biomedical Informatics,1,filter-ger-WAYSI,BIOMEDIN
+School of Medicine,Biomedical Physics,0,filter-ger-WAYAII,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYCE,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYEDP,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYER,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYFR,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYAQR,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYSMA,BMP
+School of Medicine,Biomedical Physics,0,filter-ger-WAYSI,BMP
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYAII,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYCE,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYEDP,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYER,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYFR,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYAQR,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYSMA,BIOS
+School of Medicine,Biosciences Interdisciplinary,0,filter-ger-WAYSI,BIOS
+School of Medicine,Cancer Biology,0,filter-ger-WAYAII,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYCE,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYEDP,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYER,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYFR,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYAQR,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYSMA,CBIO
+School of Medicine,Cancer Biology,0,filter-ger-WAYSI,CBIO
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYAII,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYCE,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYEDP,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYER,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYFR,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYAQR,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYSMA,CTS
+School of Medicine,Cardiothoracic Surgery,0,filter-ger-WAYSI,CTS
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYAII,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYCE,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYEDP,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYER,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYFR,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYAQR,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYSMA,CSB
+School of Medicine,Chemical & Systems Biology,0,filter-ger-WAYSI,CSB
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYAII,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYCE,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYEDP,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYER,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYFR,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYAQR,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYSMA,CHPR
+School of Medicine,Community Health and Prevention Research,0,filter-ger-WAYSI,CHPR
+School of Medicine,Comparative Medicine,0,filter-ger-WAYAII,COMPMED
+School of Medicine,Comparative Medicine,0,filter-ger-WAYCE,COMPMED
+School of Medicine,Comparative Medicine,0,filter-ger-WAYEDP,COMPMED
+School of Medicine,Comparative Medicine,0,filter-ger-WAYER,COMPMED
+School of Medicine,Comparative Medicine,0,filter-ger-WAYFR,COMPMED
+School of Medicine,Comparative Medicine,0,filter-ger-WAYAQR,COMPMED
+School of Medicine,Comparative Medicine,5,filter-ger-WAYSMA,COMPMED
+School of Medicine,Comparative Medicine,0,filter-ger-WAYSI,COMPMED
+School of Medicine,Dermatology,0,filter-ger-WAYAII,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYCE,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYEDP,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYER,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYFR,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYAQR,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYSMA,DERM
+School of Medicine,Dermatology,0,filter-ger-WAYSI,DERM
+School of Medicine,Developmental Biology,0,filter-ger-WAYAII,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYCE,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYEDP,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYER,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYFR,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYAQR,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYSMA,DBIO
+School of Medicine,Developmental Biology,0,filter-ger-WAYSI,DBIO
+School of Medicine,Emergency Medicine,0,filter-ger-WAYAII,EMED
+School of Medicine,Emergency Medicine,1,filter-ger-WAYCE,EMED
+School of Medicine,Emergency Medicine,1,filter-ger-WAYEDP,EMED
+School of Medicine,Emergency Medicine,0,filter-ger-WAYER,EMED
+School of Medicine,Emergency Medicine,0,filter-ger-WAYFR,EMED
+School of Medicine,Emergency Medicine,0,filter-ger-WAYAQR,EMED
+School of Medicine,Emergency Medicine,0,filter-ger-WAYSMA,EMED
+School of Medicine,Emergency Medicine,2,filter-ger-WAYSI,EMED
+School of Medicine,Epidemiology,0,filter-ger-WAYAII,EPI
+School of Medicine,Epidemiology,0,filter-ger-WAYCE,EPI
+School of Medicine,Epidemiology,0,filter-ger-WAYEDP,EPI
+School of Medicine,Epidemiology,0,filter-ger-WAYER,EPI
+School of Medicine,Epidemiology,0,filter-ger-WAYFR,EPI
+School of Medicine,Epidemiology,1,filter-ger-WAYAQR,EPI
+School of Medicine,Epidemiology,0,filter-ger-WAYSMA,EPI
+School of Medicine,Epidemiology,0,filter-ger-WAYSI,EPI
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYAII,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYCE,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYEDP,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYER,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYFR,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYAQR,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYSMA,FAMMED
+School of Medicine,Family and Community Medicine,0,filter-ger-WAYSI,FAMMED
+School of Medicine,Genetics,0,filter-ger-WAYAII,GENE
+School of Medicine,Genetics,0,filter-ger-WAYCE,GENE
+School of Medicine,Genetics,0,filter-ger-WAYEDP,GENE
+School of Medicine,Genetics,1,filter-ger-WAYER,GENE
+School of Medicine,Genetics,0,filter-ger-WAYFR,GENE
+School of Medicine,Genetics,1,filter-ger-WAYAQR,GENE
+School of Medicine,Genetics,2,filter-ger-WAYSMA,GENE
+School of Medicine,Genetics,0,filter-ger-WAYSI,GENE
+School of Medicine,Health Research & Policy,0,filter-ger-WAYAII,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYCE,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYEDP,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYER,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYFR,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYAQR,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYSMA,HRP
+School of Medicine,Health Research & Policy,0,filter-ger-WAYSI,HRP
+School of Medicine,Immunology,0,filter-ger-WAYAII,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYCE,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYEDP,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYER,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYFR,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYAQR,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYSMA,IMMUNOL
+School of Medicine,Immunology,0,filter-ger-WAYSI,IMMUNOL
+School of Medicine,Leadership Innovations,0,filter-ger-WAYAII,LEAD
+School of Medicine,Leadership Innovations,1,filter-ger-WAYCE,LEAD
+School of Medicine,Leadership Innovations,2,filter-ger-WAYEDP,LEAD
+School of Medicine,Leadership Innovations,1,filter-ger-WAYER,LEAD
+School of Medicine,Leadership Innovations,0,filter-ger-WAYFR,LEAD
+School of Medicine,Leadership Innovations,0,filter-ger-WAYAQR,LEAD
+School of Medicine,Leadership Innovations,0,filter-ger-WAYSMA,LEAD
+School of Medicine,Leadership Innovations,0,filter-ger-WAYSI,LEAD
+School of Medicine,Lifeworks,2,filter-ger-WAYAII,LIFE
+School of Medicine,Lifeworks,16,filter-ger-WAYCE,LIFE
+School of Medicine,Lifeworks,9,filter-ger-WAYEDP,LIFE
+School of Medicine,Lifeworks,0,filter-ger-WAYER,LIFE
+School of Medicine,Lifeworks,0,filter-ger-WAYFR,LIFE
+School of Medicine,Lifeworks,0,filter-ger-WAYAQR,LIFE
+School of Medicine,Lifeworks,0,filter-ger-WAYSMA,LIFE
+School of Medicine,Lifeworks,0,filter-ger-WAYSI,LIFE
+School of Medicine,Medicine,1,filter-ger-WAYAII,MED
+School of Medicine,Medicine,4,filter-ger-WAYCE,MED
+School of Medicine,Medicine,12,filter-ger-WAYEDP,MED
+School of Medicine,Medicine,3,filter-ger-WAYER,MED
+School of Medicine,Medicine,0,filter-ger-WAYFR,MED
+School of Medicine,Medicine,0,filter-ger-WAYAQR,MED
+School of Medicine,Medicine,11,filter-ger-WAYSMA,MED
+School of Medicine,Medicine,8,filter-ger-WAYSI,MED
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYAII,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYCE,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYEDP,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYER,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYFR,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYAQR,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYSMA,INDE
+School of Medicine,Medicine Interdisciplinary,0,filter-ger-WAYSI,INDE
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYAII,MI
+School of Medicine,Microbiology & Immunology,1,filter-ger-WAYCE,MI
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYEDP,MI
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYER,MI
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYFR,MI
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYAQR,MI
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYSMA,MI
+School of Medicine,Microbiology & Immunology,0,filter-ger-WAYSI,MI
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYAII,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYCE,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYEDP,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYER,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYFR,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYAQR,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYSMA,MCP
+School of Medicine,Molecular & Cellular Physiology,0,filter-ger-WAYSI,MCP
+School of Medicine,Neurobiology,0,filter-ger-WAYAII,NBIO
+School of Medicine,Neurobiology,0,filter-ger-WAYCE,NBIO
+School of Medicine,Neurobiology,0,filter-ger-WAYEDP,NBIO
+School of Medicine,Neurobiology,1,filter-ger-WAYER,NBIO
+School of Medicine,Neurobiology,0,filter-ger-WAYFR,NBIO
+School of Medicine,Neurobiology,0,filter-ger-WAYAQR,NBIO
+School of Medicine,Neurobiology,0,filter-ger-WAYSMA,NBIO
+School of Medicine,Neurobiology,0,filter-ger-WAYSI,NBIO
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYAII,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYCE,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYEDP,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYER,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYFR,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYAQR,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYSMA,NENS
+School of Medicine,Neurology & Neurological Sciences,0,filter-ger-WAYSI,NENS
+School of Medicine,Neurosciences Program,0,filter-ger-WAYAII,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYCE,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYEDP,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYER,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYFR,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYAQR,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYSMA,NEPR
+School of Medicine,Neurosciences Program,0,filter-ger-WAYSI,NEPR
+School of Medicine,Neurosurgery,0,filter-ger-WAYAII,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYCE,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYEDP,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYER,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYFR,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYAQR,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYSMA,NSUR
+School of Medicine,Neurosurgery,0,filter-ger-WAYSI,NSUR
+School of Medicine,Obstetrics & Gynecology,1,filter-ger-WAYAII,OBGYN
+School of Medicine,Obstetrics & Gynecology,0,filter-ger-WAYCE,OBGYN
+School of Medicine,Obstetrics & Gynecology,1,filter-ger-WAYEDP,OBGYN
+School of Medicine,Obstetrics & Gynecology,0,filter-ger-WAYER,OBGYN
+School of Medicine,Obstetrics & Gynecology,0,filter-ger-WAYFR,OBGYN
+School of Medicine,Obstetrics & Gynecology,0,filter-ger-WAYAQR,OBGYN
+School of Medicine,Obstetrics & Gynecology,0,filter-ger-WAYSMA,OBGYN
+School of Medicine,Obstetrics & Gynecology,1,filter-ger-WAYSI,OBGYN
+School of Medicine,Ophthalmology,0,filter-ger-WAYAII,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYCE,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYEDP,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYER,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYFR,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYAQR,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYSMA,OPHT
+School of Medicine,Ophthalmology,0,filter-ger-WAYSI,OPHT
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYAII,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYCE,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYEDP,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYER,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYFR,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYAQR,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYSMA,ORTHO
+School of Medicine,Orthopedic Surgery,0,filter-ger-WAYSI,ORTHO
+School of Medicine,Otolaryngology,0,filter-ger-WAYAII,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYCE,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYEDP,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYER,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYFR,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYAQR,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYSMA,OTOHNS
+School of Medicine,Otolaryngology,0,filter-ger-WAYSI,OTOHNS
+School of Medicine,Pathology,0,filter-ger-WAYAII,PATH
+School of Medicine,Pathology,0,filter-ger-WAYCE,PATH
+School of Medicine,Pathology,0,filter-ger-WAYEDP,PATH
+School of Medicine,Pathology,0,filter-ger-WAYER,PATH
+School of Medicine,Pathology,0,filter-ger-WAYFR,PATH
+School of Medicine,Pathology,0,filter-ger-WAYAQR,PATH
+School of Medicine,Pathology,1,filter-ger-WAYSMA,PATH
+School of Medicine,Pathology,0,filter-ger-WAYSI,PATH
+School of Medicine,Pediatrics,0,filter-ger-WAYAII,PEDS
+School of Medicine,Pediatrics,0,filter-ger-WAYCE,PEDS
+School of Medicine,Pediatrics,4,filter-ger-WAYEDP,PEDS
+School of Medicine,Pediatrics,0,filter-ger-WAYER,PEDS
+School of Medicine,Pediatrics,0,filter-ger-WAYFR,PEDS
+School of Medicine,Pediatrics,0,filter-ger-WAYAQR,PEDS
+School of Medicine,Pediatrics,0,filter-ger-WAYSMA,PEDS
+School of Medicine,Pediatrics,1,filter-ger-WAYSI,PEDS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYAII,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYCE,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYEDP,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYER,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYFR,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYAQR,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYSMA,PAS
+School of Medicine,Physician Assistant Studies,0,filter-ger-WAYSI,PAS
+School of Medicine,Psychiatry,2,filter-ger-WAYAII,PSYC
+School of Medicine,Psychiatry,1,filter-ger-WAYCE,PSYC
+School of Medicine,Psychiatry,5,filter-ger-WAYEDP,PSYC
+School of Medicine,Psychiatry,3,filter-ger-WAYER,PSYC
+School of Medicine,Psychiatry,0,filter-ger-WAYFR,PSYC
+School of Medicine,Psychiatry,0,filter-ger-WAYAQR,PSYC
+School of Medicine,Psychiatry,6,filter-ger-WAYSMA,PSYC
+School of Medicine,Psychiatry,5,filter-ger-WAYSI,PSYC
+School of Medicine,Radiation Oncology,0,filter-ger-WAYAII,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYCE,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYEDP,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYER,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYFR,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYAQR,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYSMA,RADO
+School of Medicine,Radiation Oncology,0,filter-ger-WAYSI,RADO
+School of Medicine,Radiology,0,filter-ger-WAYAII,RAD
+School of Medicine,Radiology,0,filter-ger-WAYCE,RAD
+School of Medicine,Radiology,0,filter-ger-WAYEDP,RAD
+School of Medicine,Radiology,0,filter-ger-WAYER,RAD
+School of Medicine,Radiology,0,filter-ger-WAYFR,RAD
+School of Medicine,Radiology,0,filter-ger-WAYAQR,RAD
+School of Medicine,Radiology,2,filter-ger-WAYSMA,RAD
+School of Medicine,Radiology,0,filter-ger-WAYSI,RAD
+School of Medicine,School of Medicine General,0,filter-ger-WAYAII,SOMGEN
+School of Medicine,School of Medicine General,0,filter-ger-WAYCE,SOMGEN
+School of Medicine,School of Medicine General,3,filter-ger-WAYEDP,SOMGEN
+School of Medicine,School of Medicine General,1,filter-ger-WAYER,SOMGEN
+School of Medicine,School of Medicine General,0,filter-ger-WAYFR,SOMGEN
+School of Medicine,School of Medicine General,0,filter-ger-WAYAQR,SOMGEN
+School of Medicine,School of Medicine General,1,filter-ger-WAYSMA,SOMGEN
+School of Medicine,School of Medicine General,2,filter-ger-WAYSI,SOMGEN
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYAII,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYCE,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYEDP,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYER,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYFR,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYAQR,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYSMA,STEMREM
+School of Medicine,Stem Cell Biology and Regenerative Medicine,0,filter-ger-WAYSI,STEMREM
+School of Medicine,Structural Biology,0,filter-ger-WAYAII,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYCE,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYEDP,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYER,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYFR,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYAQR,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYSMA,SBIO
+School of Medicine,Structural Biology,0,filter-ger-WAYSI,SBIO
+School of Medicine,Surgery,0,filter-ger-WAYAII,SURG
+School of Medicine,Surgery,1,filter-ger-WAYCE,SURG
+School of Medicine,Surgery,0,filter-ger-WAYEDP,SURG
+School of Medicine,Surgery,0,filter-ger-WAYER,SURG
+School of Medicine,Surgery,0,filter-ger-WAYFR,SURG
+School of Medicine,Surgery,0,filter-ger-WAYAQR,SURG
+School of Medicine,Surgery,0,filter-ger-WAYSMA,SURG
+School of Medicine,Surgery,0,filter-ger-WAYSI,SURG
+School of Medicine,Urology,0,filter-ger-WAYAII,UROL
+School of Medicine,Urology,0,filter-ger-WAYCE,UROL
+School of Medicine,Urology,0,filter-ger-WAYEDP,UROL
+School of Medicine,Urology,0,filter-ger-WAYER,UROL
+School of Medicine,Urology,0,filter-ger-WAYFR,UROL
+School of Medicine,Urology,0,filter-ger-WAYAQR,UROL
+School of Medicine,Urology,0,filter-ger-WAYSMA,UROL
+School of Medicine,Urology,0,filter-ger-WAYSI,UROL
+School of Medicine,Wellness Education,0,filter-ger-WAYAII,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYCE,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYEDP,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYER,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYFR,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYAQR,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYSMA,WELLNESS
+School of Medicine,Wellness Education,0,filter-ger-WAYSI,WELLNESS
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYAII,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYCE,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYEDP,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYER,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYFR,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYAQR,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYSMA,CTL
+Office of Vice Provost for Undergraduate Education,Center for Teaching and Learning,0,filter-ger-WAYSI,CTL
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",2,filter-ger-WAYAII,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYCE,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYEDP,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYER,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYFR,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYAQR,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYSMA,COLLEGE
+Office of Vice Provost for Undergraduate Education,"Civic, Liberal, and Global Education",0,filter-ger-WAYSI,COLLEGE
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYAII,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYCE,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYEDP,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYER,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYFR,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYAQR,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYSMA,ESF
+Office of Vice Provost for Undergraduate Education,Education as Self-Fashioning,0,filter-ger-WAYSI,ESF
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,2,filter-ger-WAYAII,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,3,filter-ger-WAYCE,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,0,filter-ger-WAYEDP,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,0,filter-ger-WAYER,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,0,filter-ger-WAYFR,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,0,filter-ger-WAYAQR,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,0,filter-ger-WAYSMA,ITALIC
+Office of Vice Provost for Undergraduate Education,Immersion in the Arts,0,filter-ger-WAYSI,ITALIC
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYAII,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYCE,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYEDP,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYER,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYFR,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYAQR,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYSMA,SOAR
+Office of Vice Provost for Undergraduate Education,Online Bridge Course,0,filter-ger-WAYSI,SOAR
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYAII,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYCE,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYEDP,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYER,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYFR,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYAQR,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYSMA,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Oral Communications,0,filter-ger-WAYSI,ORALCOMM
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYAII,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYCE,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYEDP,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYER,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYFR,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYAQR,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYSMA,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies General,0,filter-ger-WAYSI,OSPGEN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYAII,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYCE,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYEDP,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYER,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYFR,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYAQR,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYSMA,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Australia,0,filter-ger-WAYSI,OSPAUSTL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYAII,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYCE,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYEDP,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYER,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYFR,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYAQR,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYSMA,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Barcelona (CASB),0,filter-ger-WAYSI,OSPBARCL
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYAII,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYCE,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYEDP,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYER,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYFR,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYAQR,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYSMA,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Beijing,0,filter-ger-WAYSI,OSPBEIJ
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYAII,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYCE,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYEDP,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYER,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYFR,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYAQR,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYSMA,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Berlin,0,filter-ger-WAYSI,OSPBER
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYAII,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYCE,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYEDP,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYER,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYFR,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYAQR,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYSMA,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Cape Town,0,filter-ger-WAYSI,OSPCPTWN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYAII,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYCE,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYEDP,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYER,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYFR,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYAQR,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYSMA,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Florence,0,filter-ger-WAYSI,OSPFLOR
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYAII,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYCE,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYEDP,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYER,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYFR,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYAQR,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYSMA,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Hong Kong,0,filter-ger-WAYSI,OSPHONGK
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYAII,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYCE,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYEDP,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYER,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYFR,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYAQR,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYSMA,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Istanbul,0,filter-ger-WAYSI,OSPISTAN
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYAII,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYCE,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYEDP,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYER,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYFR,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYAQR,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYSMA,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto,0,filter-ger-WAYSI,OSPKYOTO
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYAII,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYCE,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYEDP,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYER,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYFR,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYAQR,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYSMA,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Kyoto (KCJS),0,filter-ger-WAYSI,OSPKYOCT
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYAII,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYCE,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYEDP,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYER,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYFR,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYAQR,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYSMA,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Madrid,0,filter-ger-WAYSI,OSPMADRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYAII,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYCE,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYEDP,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYER,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYFR,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYAQR,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYSMA,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Oxford,0,filter-ger-WAYSI,OSPOXFRD
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYAII,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYCE,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYEDP,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYER,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYFR,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYAQR,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYSMA,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Paris,0,filter-ger-WAYSI,OSPPARIS
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYAII,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYCE,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYEDP,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYER,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYFR,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYAQR,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYSMA,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Overseas Studies in Santiago,0,filter-ger-WAYSI,OSPSANTG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYAII,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYCE,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYEDP,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYER,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYFR,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYAQR,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYSMA,RESPROG
+Office of Vice Provost for Undergraduate Education,Residential Programs,0,filter-ger-WAYSI,RESPROG
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYAII,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYCE,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYEDP,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYER,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYFR,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYAQR,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYSMA,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Air Force,0,filter-ger-WAYSI,ROTCAF
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYAII,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYCE,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYEDP,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYER,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYFR,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYAQR,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYSMA,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Army,0,filter-ger-WAYSI,ROTCARMY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYAII,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYCE,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYEDP,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYER,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYFR,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYAQR,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYSMA,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,ROTC Navy,0,filter-ger-WAYSI,ROTCNAVY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,14,filter-ger-WAYAII,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,8,filter-ger-WAYCE,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,7,filter-ger-WAYEDP,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,0,filter-ger-WAYER,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,0,filter-ger-WAYFR,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,3,filter-ger-WAYAQR,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,0,filter-ger-WAYSMA,SINY
+Office of Vice Provost for Undergraduate Education,Stanford in New York,9,filter-ger-WAYSI,SINY
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,2,filter-ger-WAYAII,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,0,filter-ger-WAYCE,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,1,filter-ger-WAYEDP,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,1,filter-ger-WAYER,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,0,filter-ger-WAYFR,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,0,filter-ger-WAYAQR,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,0,filter-ger-WAYSMA,SLE
+Office of Vice Provost for Undergraduate Education,Structured Liberal Education,0,filter-ger-WAYSI,SLE
+Office of Vice Provost for Undergraduate Education,Thinking Matters,5,filter-ger-WAYAII,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,0,filter-ger-WAYCE,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,2,filter-ger-WAYEDP,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,1,filter-ger-WAYER,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,0,filter-ger-WAYFR,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,0,filter-ger-WAYAQR,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,3,filter-ger-WAYSMA,THINK
+Office of Vice Provost for Undergraduate Education,Thinking Matters,3,filter-ger-WAYSI,THINK
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYAII,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYCE,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYEDP,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYER,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYFR,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYAQR,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYSMA,UAR
+Office of Vice Provost for Undergraduate Education,Undergraduate Advising and Research,0,filter-ger-WAYSI,UAR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",8,filter-ger-WAYAII,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",17,filter-ger-WAYCE,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",10,filter-ger-WAYEDP,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",4,filter-ger-WAYER,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",0,filter-ger-WAYFR,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",0,filter-ger-WAYAQR,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",0,filter-ger-WAYSMA,PWR
+Office of Vice Provost for Undergraduate Education,"Writing & Rhetoric, Program in",6,filter-ger-WAYSI,PWR
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYAII,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYCE,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYEDP,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYER,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYFR,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYAQR,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYSMA,VPTL
+Office of Vice Provost for Teaching and Learning,Teaching and Learning,0,filter-ger-WAYSI,VPTL
