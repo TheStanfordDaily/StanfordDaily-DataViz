@@ -1,8 +1,10 @@
+import os.path
+import time
 from typing import Any
 from os import PathLike
 import pandas as pd
 from tqdm import tqdm
-from explorecourses import CourseConnection, School, Department, filters
+from explorecourses import CourseConnection, School, Department, filters, Attribute
 
 ways_nice_names = {
     filters.WAY_AII: "Aesthetic and Interpretive Inquiry",
@@ -15,15 +17,6 @@ ways_nice_names = {
     filters.WAY_SI: "Social Inquiry"
 }
 connect = CourseConnection()
-
-year = "2023-2024"
-# for school in connect.get_schools(year):
-#     for dept in school.departments:
-#         for req_filter in [filters.WAY_AII, filters.WAY_CE, filters.WAY_ED, filters.WAY_ER, filters.WAY_FR, filters.WAY_AQR, filters.WAY_SMA, filters.WAY_SI]:
-#             courses = connect.get_courses_by_query(dept.code, req_filter, year=year)
-#             print(f"{dept.name} has {len(courses)} {req_filter}")
-            # for course in courses:
-            #     print(course)
 
 # column chart of all depts across a given ways requirement
 # stacked column chart of all depts across a given ways requirement
@@ -41,10 +34,13 @@ def create_dataframe(connect: CourseConnection, school: School, ways: list[str],
             # Append the number of courses to the list.
             num_courses.append(len(courses))
 
-        # Add the list of number of courses to the dictionary with the department as the key
+        # Add the list of number of courses to the dictionary with the department as the key.
         data[dept] = num_courses
 
-    return pd.DataFrame(data, index=ways)
+    df = pd.DataFrame(data, index=ways)
+    df["School"] = [school.name]*len(data)
+
+    return df
 
 
 # for school in connect.get_schools(year):
@@ -86,6 +82,7 @@ def create_dataframe_pack(connect: CourseConnection, school: School, ways: list[
 
     return pd.DataFrame(data)
 
+
 def export_all_pack_to_csv(connect: CourseConnection, year: Any, ways: list[str], filename: str | PathLike[str]):
     dfs = []
 
@@ -97,5 +94,38 @@ def export_all_pack_to_csv(connect: CourseConnection, year: Any, ways: list[str]
     result = pd.concat(dfs, ignore_index=True)
     result.to_csv(filename, index=False)
 
+
 ways = [filters.WAY_AII, filters.WAY_CE, filters.WAY_EDP, filters.WAY_ER, filters.WAY_FR, filters.WAY_AQR, filters.WAY_SMA, filters.WAY_SI]
-export_all_pack_to_csv(connect, year, ways, "all_pack.csv")
+# export_all_pack_to_csv(connect, year, ways, "all_pack.csv")
+# export_all_schools_to_csv(connect, year, ways, "all_schools.csv")
+file_names = {
+    "Graduate School of Business": "gsb",
+    "School of Education": "education",
+    "School of Engineering": "engineering",
+    "School of Humanities & Sciences": "hs",
+    "Law School": "law",
+    "School of Medicine": "medicine",
+    "Office of Vice Provost for Undergraduate Education": "vpue"
+}
+
+def read_year(year: str):
+    if not os.path.exists(year):
+        os.mkdir(year)
+
+    for school in connect.get_schools(year):
+        if school.name not in file_names:
+            continue
+        courses = []
+        for dept in tqdm(school.departments, desc=f"{school.name} ({year})"):
+            dept_courses = connect.get_courses_by_department(dept.code, year=year)
+            for course in dept_courses:
+                courses.append(course)
+            time.sleep(2)
+
+        pd.DataFrame(courses).to_json(f"{year}/{file_names[school.name]}.json", index=False)
+        time.sleep(10)
+
+read_year("2023-2024")
+
+for i in range(2014, 2024):
+    read_year(f"{i}-{i + 1}")
