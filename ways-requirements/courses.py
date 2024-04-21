@@ -108,7 +108,7 @@ file_names = {
     "Office of Vice Provost for Undergraduate Education": "vpue"
 }
 
-def read_year(year: str):
+def rw_year(year: str):
     if not os.path.exists(year):
         os.mkdir(year)
 
@@ -122,10 +122,10 @@ def read_year(year: str):
                 courses.append(course)
             time.sleep(2)
 
-        pd.DataFrame(courses).to_json(f"{year}/{file_names[school.name]}.json", index=False)
+        pd.DataFrame(courses).to_json(f"{year}/{file_names[school.name]}.json")
         time.sleep(10)
 
-read_year("2023-2024")
 
-for i in range(2014, 2024):
-    read_year(f"{i}-{i + 1}")
+if __name__ == "__main__":
+    for i in range(2018, 2024):
+        rw_year(f"{i}-{i + 1}")
