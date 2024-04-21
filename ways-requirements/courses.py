@@ -118,8 +118,7 @@ def rw_year(year: str):
         courses = []
         for dept in tqdm(school.departments, desc=f"{school.name} ({year})"):
             dept_courses = connect.get_courses_by_department(dept.code, year=year)
-            for course in dept_courses:
-                courses.append(course)
+            courses.extend(dept_courses)
             time.sleep(2)
 
         pd.DataFrame(courses).to_json(f"{year}/{file_names[school.name]}.json")
