@@ -4,7 +4,7 @@ from typing import Any
 from os import PathLike
 import pandas as pd
 from tqdm import tqdm
-from explorecourses import CourseConnection, School, Department, filters, Attribute
+from explorecourses import CourseConnection, School, Department, filters, Attribute, Course
 
 ways_nice_names = {
     filters.WAY_AII: "Aesthetic and Interpretive Inquiry",

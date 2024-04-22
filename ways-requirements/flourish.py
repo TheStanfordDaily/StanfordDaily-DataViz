@@ -12,17 +12,25 @@ def glob_json(folder: str | PathLike) -> pd.DataFrame:
     return pd.DataFrame(result)
 
 
-def ways_value_counts(year: str, department_code: str | None = None, drop_duplicates: bool = False) -> pd.DataFrame:
+def ways_value_counts(year: str, department_code: str | None = None, drop_duplicates: bool = True) -> pd.DataFrame:
     df = glob_json(year)
 
     if department_code is not None:
         df = df[df["subject"] == department_code]
     if drop_duplicates:
         df = df.drop_duplicates(subset=["course_id"])
+    # df = df[df["active"]]
+    # print(df["sections"].values[0][0]["term"])
+    df = df[df['sections'].apply(lambda sections: any('2023-2024' in section['term'] for section in sections))]
+    print(df[df["title"].str.contains("History Goes Pop")])
+    print(df)
+    # Filter the DataFrame to only include rows where at least one objective has a code of "WAY-CE"
+    # df = df[df["objectives"].apply(lambda objectives: any("WAY" in obj["code"] for obj in objectives))]
+    # print(df)
 
     gers = df["gers"]
     exploded = gers.explode()
-    counts = exploded[exploded.str.startswith("WAY")].value_counts().reset_index()
+    counts = exploded[exploded.str.contains("WAY")].value_counts().reset_index()
     counts.columns = ["Requirement", "Count"]
     counts["Year"] = year
 
@@ -58,8 +66,14 @@ def write_time_major_composition(start: int, stop: int, department_codes: list[s
 """
 Note, the min unit count chart is not comprehensive, as it does not feature all undergraduate majors, only ones whose estimates were readily available on department websites
 Chords between departments to see how strong cross listing for certain ones that would also be interesting
+Ratio number of units for major against number of ways requirements that major satisfies
 """
 
 if __name__ == "__main__":
-    department_codes = ['EARTHSYS', 'ENERGY', 'ENVRES', 'EPS', 'ESS', 'OCEANS', 'GEOPHYS', 'SUSTAIN', 'SUST', 'ACCT', 'ALP', 'BUSGEN', 'MGTECON', 'FINANCE', 'GSBGEN', 'GSBGID', 'HRMGT', 'MKTG', 'OIT', 'OB', 'POLECON', 'STRAMGT', 'EDUC', 'AA', 'BIOE', 'CHEMENG', 'CEE', 'CME', 'CS', 'DESIGN', 'DESINST', 'EE', 'ENGR', 'MS&E', 'MATSCI', 'ME', 'SCCM', 'AFRICAAM', 'AMELANG', 'AFRICAST', 'AMSTUD', 'ANTHRO', 'APPPHYS', 'ARABLANG', 'ARCHLGY', 'ARTHIST', 'ARTSINST', 'ARTSTUDI', 'ASNAMST', 'ASNLANG', 'BIO', 'BIOHOPK', 'BIOPHYS', 'CATLANG', 'CHEM', 'CHILATST', 'CHINA', 'CHINLANG', 'CLASSICS', 'COMM', 'COMPLIT', 'CSRE', 'DANCE', 'DATASCI', 'DLCL', 'TAPS', 'EALC', 'EASTASN', 'ECON', 'ENGLISH', 'EFSLANG', 'ETHICSOC', 'FEMGEN', 'FILMPROD', 'FILMEDIA', 'FRENLANG', 'FRENCH', 'GERLANG', 'GERMAN', 'GLOBAL', 'HISTORY', 'HPS', 'HUMBIO', 'HUMRTS', 'HUMCORE', 'HUMSCI', 'ILAC', 'IIS', 'INTLPOL', 'INTNLREL', 'ITALLANG', 'ITALIAN', 'JAPAN', 'JAPANLNG', 'JEWISHST', 'KOREA', 'KORLANG', 'LATINAM', 'LINGUIST', 'MLA', 'MCS', 'MATH', 'MEDVLST', 'MTL', 'MUSIC', 'NATIVEAM', 'PHIL', 'PHYSICS', 'POLISCI', 'PORTLANG', 'PSYCH', 'PUBLPOL', 'RELIGST', 'REES', 'STS', 'SLAVLANG', 'SLAVIC', 'SOC', 'SPANLANG', 'ILAC', 'SPECLANG', 'SIW', 'STATS', 'SYMSYS', 'TAPS', 'TIBETLNG', 'URBANST', 'LAW', 'LAWGEN', 'ANES', 'BIOC', 'BIODS', 'BIOMEDIN', 'BMP', 'BIOS', 'CBIO', 'CTS', 'CSB', 'CHPR', 'COMPMED', 'DERM', 'DBIO', 'EMED', 'EPI', 'FAMMED', 'GENE', 'HRP', 'IMMUNOL', 'LEAD', 'LIFE', 'MED', 'INDE', 'MI', 'MCP', 'NBIO', 'NENS', 'NEPR', 'NSUR', 'OBGYN', 'OPHT', 'ORTHO', 'OTOHNS', 'PATH', 'PEDS', 'PAS', 'PSYC', 'RADO', 'RAD', 'SOMGEN', 'STEMREM', 'SBIO', 'SURG', 'UROL', 'WELLNESS', 'CTL', 'COLLEGE', 'ESF', 'ITALIC', 'SOAR', 'ORALCOMM', 'OSPGEN', 'OSPAUSTL', 'OSPBARCL', 'OSPBEIJ', 'OSPBER', 'OSPCPTWN', 'OSPFLOR', 'OSPHONGK', 'OSPISTAN', 'OSPKYOTO', 'OSPKYOCT', 'OSPMADRD', 'OSPOXFRD', 'OSPPARIS', 'OSPSANTG', 'RESPROG', 'ROTCAF', 'ROTCARMY', 'ROTCNAVY', 'SINY', 'SLE', 'THINK', 'UAR', 'PWR', 'VPTL']
-    write_time_major_composition(2014, 2024, department_codes)
+    # department_codes = ["EARTHSYS", "ENERGY", "ENVRES", "EPS", "ESS", "OCEANS", "GEOPHYS", "SUSTAIN", "SUST", "ACCT", "ALP", "BUSGEN", "MGTECON", "FINANCE", "GSBGEN", "GSBGID", "HRMGT", "MKTG", "OIT", "OB", "POLECON", "STRAMGT", "EDUC", "AA", "BIOE", "CHEMENG", "CEE", "CME", "CS", "DESIGN", "DESINST", "EE", "ENGR", "MS&E", "MATSCI", "ME", "SCCM", "AFRICAAM", "AMELANG", "AFRICAST", "AMSTUD", "ANTHRO", "APPPHYS", "ARABLANG", "ARCHLGY", "ARTHIST", "ARTSINST", "ARTSTUDI", "ASNAMST", "ASNLANG", "BIO", "BIOHOPK", "BIOPHYS", "CATLANG", "CHEM", "CHILATST", "CHINA", "CHINLANG", "CLASSICS", "COMM", "COMPLIT", "CSRE", "DANCE", "DATASCI", "DLCL", "TAPS", "EALC", "EASTASN", "ECON", "ENGLISH", "EFSLANG", "ETHICSOC", "FEMGEN", "FILMPROD", "FILMEDIA", "FRENLANG", "FRENCH", "GERLANG", "GERMAN", "GLOBAL", "HISTORY", "HPS", "HUMBIO", "HUMRTS", "HUMCORE", "HUMSCI", "ILAC", "IIS", "INTLPOL", "INTNLREL", "ITALLANG", "ITALIAN", "JAPAN", "JAPANLNG", "JEWISHST", "KOREA", "KORLANG", "LATINAM", "LINGUIST", "MLA", "MCS", "MATH", "MEDVLST", "MTL", "MUSIC", "NATIVEAM", "PHIL", "PHYSICS", "POLISCI", "PORTLANG", "PSYCH", "PUBLPOL", "RELIGST", "REES", "STS", "SLAVLANG", "SLAVIC", "SOC", "SPANLANG", "ILAC", "SPECLANG", "SIW", "STATS", "SYMSYS", "TAPS", "TIBETLNG", "URBANST", "LAW", "LAWGEN", "ANES", "BIOC", "BIODS", "BIOMEDIN", "BMP", "BIOS", "CBIO", "CTS", "CSB", "CHPR", "COMPMED", "DERM", "DBIO", "EMED", "EPI", "FAMMED", "GENE", "HRP", "IMMUNOL", "LEAD", "LIFE", "MED", "INDE", "MI", "MCP", "NBIO", "NENS", "NEPR", "NSUR", "OBGYN", "OPHT", "ORTHO", "OTOHNS", "PATH", "PEDS", "PAS", "PSYC", "RADO", "RAD", "SOMGEN", "STEMREM", "SBIO", "SURG", "UROL", "WELLNESS", "CTL", "COLLEGE", "ESF", "ITALIC", "SOAR", "ORALCOMM", "OSPGEN", "OSPAUSTL", "OSPBARCL", "OSPBEIJ", "OSPBER", "OSPCPTWN", "OSPFLOR", "OSPHONGK", "OSPISTAN", "OSPKYOTO", "OSPKYOCT", "OSPMADRD", "OSPOXFRD", "OSPPARIS", "OSPSANTG", "RESPROG", "ROTCAF", "ROTCARMY", "ROTCNAVY", "SINY", "SLE", "THINK", "UAR", "PWR", "VPTL"]
+    # write_time_major_composition(2014, 2024, department_codes)
+    # print(time_series(["2023-2024"], "HISTORY"))
+    # print(ways_value_counts("2023-2024", "HISTORY", drop_duplicates=True))
+    history = glob_json("2023-2024")
+    history = history[history["subject"] == "HISTORY"]
+    print(ways_value_counts("2023-2024", "HISTORY"))
