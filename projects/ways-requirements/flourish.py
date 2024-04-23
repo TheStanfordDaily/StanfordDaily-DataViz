@@ -3,6 +3,7 @@ import pandas as pd
 from os import PathLike
 from glob import glob
 from tqdm import tqdm
+import itertools
 
 
 def glob_json(folder: str | PathLike) -> pd.DataFrame:
@@ -74,6 +75,19 @@ if __name__ == "__main__":
     # write_time_major_composition(2014, 2024, department_codes)
     # print(time_series(["2023-2024"], "HISTORY"))
     # print(ways_value_counts("2023-2024", "HISTORY", drop_duplicates=True))
-    history = glob_json("2023-2024")
-    history = history[history["subject"] == "HISTORY"]
-    print(ways_value_counts("2023-2024", "HISTORY"))
+    df = glob_json("/Users/matthewturk/Desktop/ways-data/2023-2024")
+    df = df.dropna(subset=["gers"])
+
+    subject = df["subject"] == "HISTORY"
+    # req = df["gers"].apply(lambda x: "WAY-CE" in x) # df["gers"].astype(str).str.contains("WAY-CE")
+    # df = df.drop_duplicates(subset=["course_id"])
+    req = df["gers"].astype(str).str.contains("WAY")
+    has_sections = df["sections"].apply(lambda x: len(x) > 0)
+
+    df = df[has_sections & req]
+    # df = df[subject & req]
+    # df = df["sections"]
+    print(df["gers"])
+    # for row in df["sections"]:
+    #     if len(row) > 0:
+    #         print(row)

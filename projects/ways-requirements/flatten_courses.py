@@ -3,6 +3,7 @@ from tqdm import tqdm
 from explorecourses import CourseConnection, School, Department, filters, Attribute, Course
 import ast
 from enum import Enum
+import itertools
 
 def convert_string_to_list(string):
     try:
@@ -20,6 +21,9 @@ def flatten_courses(courses):
         sections = ", ".join(str(section) for section in course.sections) if course.sections else ""
         tags = ", ".join(str(tag) for tag in course.tags) if course.tags else ""
         attributes = ", ".join(str(attr) for attr in course.attributes) if course.attributes else ""
+        # print(course.sections[0].term
+        if course.attributes:
+            print(course.attributes[0].value)
 
         # Flatten the course into a dictionary suitable for DataFrame.
         # Note that description is not included, so as to keep file size down.
@@ -40,7 +44,7 @@ def flatten_courses(courses):
             'tags': tags,
             'attributes': attributes,
             'course_id': course.course_id,
-            'active': course.active,
+            'active': any("2023" in c.term for c in course.sections),
             'offer_num': course.offer_num,
             'academic_group': course.academic_group,
             'academic_org': course.academic_org,
@@ -58,23 +62,30 @@ def flatten_courses(courses):
 # df.to_csv('courses.csv', index=False)
 
 def get_year(year: str, connect: CourseConnection = CourseConnection()) -> pd.DataFrame:
+    i = 0
     course_list = []
     for school in connect.get_schools(year):
         for dept in tqdm(school.departments, desc=f"{school.name} ({year})"):
             courses = connect.get_courses_by_department(dept.code, year=year)
             for course in courses:
                 course_list.append(course)
+                # print([s.term for s in course.sections])
+                # print(course.year)
+        i += 1
+        if i > 10:
+            break
 
     return flatten_courses(course_list)
 
-# df = flatten_courses(course_list)
-# df.to_csv("2017-2018.csv", index=False)
 
-df = pd.read_csv("2017-2018.csv").dropna(subset=["gers"]) # .drop_duplicates(subset=["course_id"])
-# df['gers'] = df['gers'].apply(convert_string_to_list)
-# print(df["gers"].explode().value_counts())
+year = "2023-2024"
+df = get_year(year)
+# df.to_csv(f"{year}.csv", index=False)
 
-def count_ways(df: pd.DataFrame, way: str) -> int:
-    return len(df[df["gers"].str.contains(way)].index)
-
-print(count_ways(df[df["subject"] == "HISTORY"], "WAY-SI"))
+df = pd.read_csv(f"{year}.csv") # .drop_duplicates(subset=["course_id"])
+# masks
+subject = df["subject"] == "HISTORY"
+req = df["gers"].str.contains("WAY-CE")
+df = df[subject & req]
+print(df)
+print(df["active"])
