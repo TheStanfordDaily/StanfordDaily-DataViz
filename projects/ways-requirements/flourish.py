@@ -5,6 +5,242 @@ from glob import glob
 from tqdm import tqdm
 import itertools
 
+req_names = [
+    "WAY-SI",
+    "WAY-EDP",
+    "WAY-A-II",
+    "WAY-CE",
+    "WAY-SMA",
+    "WAY-FR",
+    "WAY-AQR",
+    "WAY-ER"
+]
+
+req_abbrev_to_full = {
+    "WAY-SI": "Social Inquiry",
+    "WAY-EDP": "Exploring Difference and Power",
+    "WAY-A-II": "Aesthetic and Interpretive Inquiry",
+    "WAY-CE": "Creative Expression",
+    "WAY-SMA": "Scientific Method and Analysis",
+    "WAY-FR": "Formal Reasoning",
+    "WAY-AQR": "Applied Quantitative Reasoning",
+    "WAY-ER": "Ethical Reasoning"
+}
+
+department_code_to_full = {
+    "ATHLETIC": "Athletics and Club Sports",
+    "KIN": "Kinesiology",
+    "OUTDOOR": "Outdoor Education",
+    "PHYSWELL": "Physical Wellness",
+    "EARTHSYS": "Earth Systems",
+    "ENERGY": "Energy Science and Engineering",
+    "ENVRES": "Environment and Resources",
+    "EPS": "Earth and Planetary Sciences",
+    "ESS": "Earth System Science",
+    "OCEANS": "Oceans",
+    "GEOPHYS": "Geophysics",
+    "SUSTAIN": "Sustainability",
+    "SUST": "Sustainability Science and Practice",
+    "ACCT": "Accounting",
+    "ALP": "Action Learning Programs",
+    "BUSGEN": "Business General Pathways",
+    "MGTECON": "Economic Analysis & Policy",
+    "FINANCE": "Finance",
+    "GSBGEN": "GSB General & Interdisciplinary",
+    "GSBGID": "GSB Interdisciplinary",
+    "HRMGT": "Human Resource Management",
+    "MKTG": "Marketing",
+    "OIT": "Operations Information & Technology",
+    "OB": "Organizational Behavior",
+    "POLECON": "Political Economics",
+    "STRAMGT": "Strategic Management",
+    "EDUC": "Education",
+    "AA": "Aeronautics & Astronautics",
+    "BIOE": "Bioengineering",
+    "CHEMENG": "Chemical Engineering",
+    "CEE": "Civil & Environmental Engineering",
+    "CME": "Computational & Mathematical Engineering",
+    "CS": "Computer Science",
+    "DESIGN": "Design",
+    "DESINST": "Design Institute",
+    "EE": "Electrical Engineering",
+    "ENGR": "Engineering",
+    "MS&E": "Management Science & Engineering",
+    "MATSCI": "Materials Science & Engineer",
+    "ME": "Mechanical Engineering",
+    "SCCM": "Scientific Computing & Comput'l Math",
+    "AFRICAAM": "African & African American Studies",
+    "AMELANG": "African & Middle Eastern Languages",
+    "AFRICAST": "African Studies",
+    "AMSTUD": "American Studies",
+    "ANTHRO": "Anthropology",
+    "APPPHYS": "Applied Physics",
+    "ARABLANG": "Arabic Language",
+    "ARCHLGY": "Archaeology",
+    "ARTHIST": "Art History",
+    "ARTSINST": "Arts Institute",
+    "ARTSTUDI": "Art Studio",
+    "ASNAMST": "Asian American Studies",
+    "ASNLANG": "Asian Languages",
+    "BIO": "Biology",
+    "BIOHOPK": "Biology/Hopkins Marine",
+    "BIOPHYS": "Biophysics",
+    "CATLANG": "Catalan Language Courses",
+    "CHEM": "Chemistry",
+    "CHILATST": "Chicana/o-Latina/o Studies",
+    "CHINA": "Chinese",
+    "CHINLANG": "Chinese Language",
+    "CLASSICS": "Classics",
+    "COMM": "Communication",
+    "COMPLIT": "Comparative Literature",
+    "CSRE": "Comparative Studies in Race & Ethnicity",
+    "DANCE": "Dance",
+    "DATASCI": "Data Science",
+    "DLCL": "Division of Literatures, Cultures, & Languages",
+    # "TAPS": "Drama",
+    "EALC": "East Asian Languages & Cultures",
+    "EASTASN": "East Asian Studies",
+    "ECON": "Economics",
+    "ENGLISH": "English",
+    "EFSLANG": "English for Foreign Students",
+    "ETHICSOC": "Ethics in Society",
+    "FEMGEN": "Feminist, Gender and Sexuality Studies",
+    "FILMPROD": "Film Production",
+    "FILMEDIA": "Film and Media Studies",
+    "FRENLANG": "French Language",
+    "FRENCH": "French Studies",
+    "GERLANG": "German Language",
+    "GERMAN": "German Studies",
+    "GLOBAL": "Global Studies",
+    "HISTORY": "History",
+    "HPS": "History & Philosophy of Science",
+    "HUMBIO": "Human Biology",
+    "HUMRTS": "Human Rights",
+    "HUMCORE": "Humanities Core",
+    "HUMSCI": "Humanities & Sciences",
+    "ILAC": "Iberian & Latin American Cultures",
+    "IIS": "Institute for International Studies (FSI)",
+    "INTLPOL": "International Policy",
+    "INTNLREL": "International Relations",
+    "ITALLANG": "Italian Language",
+    "ITALIAN": "Italian Studies",
+    "JAPAN": "Japanese",
+    "JAPANLNG": "Japanese Language",
+    "JEWISHST": "Jewish Studies",
+    "KOREA": "Korean",
+    "KORLANG": "Korean Language",
+    "LATINAM": "Latin American Studies",
+    "LINGUIST": "Linguistics",
+    "MLA": "Master of Liberal Arts",
+    "MCS": "Mathematical & Computational Science",
+    "MATH": "Mathematics",
+    "MEDVLST": "Medieval Studies",
+    "MTL": "Modern Thought & Literature",
+    "MUSIC": "Music",
+    "NATIVEAM": "Native American Studies",
+    "PHIL": "Philosophy",
+    "PHYSICS": "Physics",
+    "POLISCI": "Political Science",
+    "PORTLANG": "Portuguese Language",
+    "PSYCH": "Psychology",
+    "PUBLPOL": "Public Policy",
+    "RELIGST": "Religious Studies",
+    "REES": "Russian, East European, & Eurasian Studies",
+    "STS": "Science, Technology, & Society",
+    "SLAVLANG": "Slavic Language",
+    "SLAVIC": "Slavic Studies",
+    "SOC": "Sociology",
+    "SPANLANG": "Spanish Language",
+    # "ILAC": "Spanish, Portuguese, & Catalan Literature",
+    "SPECLANG": "Special Language Program",
+    "SIW": "Stanford in Washington",
+    "STATS": "Statistics",
+    "SYMSYS": "Symbolic Systems",
+    "TAPS": "Theater and Performance Studies",
+    "TIBETLNG": "Tibetan Language",
+    "URBANST": "Urban Studies",
+    "LAW": "Law",
+    "LAWGEN": "Law, Nonprofessional",
+    "ANES": "Anesthesia",
+    "BIOC": "Biochemistry",
+    "BIODS": "Biomedical Data Science",
+    "BIOMEDIN": "Biomedical Informatics",
+    "BMP": "Biomedical Physics",
+    "BIOS": "Biosciences Interdisciplinary",
+    "CBIO": "Cancer Biology",
+    "CTS": "Cardiothoracic Surgery",
+    "CSB": "Chemical & Systems Biology",
+    "CHPR": "Community Health and Prevention Research",
+    "COMPMED": "Comparative Medicine",
+    "DERM": "Dermatology",
+    "DBIO": "Developmental Biology",
+    "EMED": "Emergency Medicine",
+    "EPI": "Epidemiology",
+    "FAMMED": "Family and Community Medicine",
+    "GENE": "Genetics",
+    "HRP": "Health Research & Policy",
+    "IMMUNOL": "Immunology",
+    "LEAD": "Leadership Innovations",
+    "LIFE": "Lifeworks",
+    "MED": "Medicine",
+    "INDE": "Medicine Interdisciplinary",
+    "MI": "Microbiology & Immunology",
+    "MCP": "Molecular & Cellular Physiology",
+    "NBIO": "Neurobiology",
+    "NENS": "Neurology & Neurological Sciences",
+    "NEPR": "Neurosciences Program",
+    "NSUR": "Neurosurgery",
+    "OBGYN": "Obstetrics & Gynecology",
+    "OPHT": "Ophthalmology",
+    "ORTHO": "Orthopedic Surgery",
+    "OTOHNS": "Otolaryngology",
+    "PATH": "Pathology",
+    "PEDS": "Pediatrics",
+    "PAS": "Physician Assistant Studies",
+    "PSYC": "Psychiatry",
+    "RADO": "Radiation Oncology",
+    "RAD": "Radiology",
+    "SOMGEN": "School of Medicine General",
+    "STEMREM": "Stem Cell Biology and Regenerative Medicine",
+    "SBIO": "Structural Biology",
+    "SURG": "Surgery",
+    "UROL": "Urology",
+    "WELLNESS": "Wellness Education",
+    "CTL": "Center for Teaching and Learning",
+    "COLLEGE": "Civic, Liberal, and Global Education",
+    "ESF": "Education as Self-Fashioning",
+    "ITALIC": "Immersion in the Arts",
+    "SOAR": "Online Bridge Course",
+    "ORALCOMM": "Oral Communications",
+    "OSPGEN": "Overseas Studies General",
+    "OSPAUSTL": "Overseas Studies in Australia",
+    "OSPBARCL": "Overseas Studies in Barcelona (CASB)",
+    "OSPBEIJ": "Overseas Studies in Beijing",
+    "OSPBER": "Overseas Studies in Berlin",
+    "OSPCPTWN": "Overseas Studies in Cape Town",
+    "OSPFLOR": "Overseas Studies in Florence",
+    "OSPHONGK": "Overseas Studies in Hong Kong",
+    "OSPISTAN": "Overseas Studies in Istanbul",
+    "OSPKYOTO": "Overseas Studies in Kyoto",
+    "OSPKYOCT": "Overseas Studies in Kyoto (KCJS)",
+    "OSPMADRD": "Overseas Studies in Madrid",
+    "OSPOXFRD": "Overseas Studies in Oxford",
+    "OSPPARIS": "Overseas Studies in Paris",
+    "OSPSANTG": "Overseas Studies in Santiago",
+    "RESPROG": "Residential Programs",
+    "ROTCAF": "ROTC Air Force",
+    "ROTCARMY": "ROTC Army",
+    "ROTCNAVY": "ROTC Navy",
+    "SINY": "Stanford in New York",
+    "SLE": "Structured Liberal Education",
+    "THINK": "Thinking Matters",
+    "UAR": "Undergraduate Advising and Research",
+    "PWR": "Writing & Rhetoric, Program in",
+    "VPTL": "Teaching and Learning"
+}
+
+department_codes = ["EARTHSYS", "ENERGY", "ENVRES", "EPS", "ESS", "OCEANS", "GEOPHYS", "SUSTAIN", "SUST", "ACCT", "ALP", "BUSGEN", "MGTECON", "FINANCE", "GSBGEN", "GSBGID", "HRMGT", "MKTG", "OIT", "OB", "POLECON", "STRAMGT", "EDUC", "AA", "BIOE", "CHEMENG", "CEE", "CME", "CS", "DESIGN", "DESINST", "EE", "ENGR", "MS&E", "MATSCI", "ME", "SCCM", "AFRICAAM", "AMELANG", "AFRICAST", "AMSTUD", "ANTHRO", "APPPHYS", "ARABLANG", "ARCHLGY", "ARTHIST", "ARTSINST", "ARTSTUDI", "ASNAMST", "ASNLANG", "BIO", "BIOHOPK", "BIOPHYS", "CATLANG", "CHEM", "CHILATST", "CHINA", "CHINLANG", "CLASSICS", "COMM", "COMPLIT", "CSRE", "DANCE", "DATASCI", "DLCL", "TAPS", "EALC", "EASTASN", "ECON", "ENGLISH", "EFSLANG", "ETHICSOC", "FEMGEN", "FILMPROD", "FILMEDIA", "FRENLANG", "FRENCH", "GERLANG", "GERMAN", "GLOBAL", "HISTORY", "HPS", "HUMBIO", "HUMRTS", "HUMCORE", "HUMSCI", "ILAC", "IIS", "INTLPOL", "INTNLREL", "ITALLANG", "ITALIAN", "JAPAN", "JAPANLNG", "JEWISHST", "KOREA", "KORLANG", "LATINAM", "LINGUIST", "MLA", "MCS", "MATH", "MEDVLST", "MTL", "MUSIC", "NATIVEAM", "PHIL", "PHYSICS", "POLISCI", "PORTLANG", "PSYCH", "PUBLPOL", "RELIGST", "REES", "STS", "SLAVLANG", "SLAVIC", "SOC", "SPANLANG", "ILAC", "SPECLANG", "SIW", "STATS", "SYMSYS", "TAPS", "TIBETLNG", "URBANST", "LAW", "LAWGEN", "ANES", "BIOC", "BIODS", "BIOMEDIN", "BMP", "BIOS", "CBIO", "CTS", "CSB", "CHPR", "COMPMED", "DERM", "DBIO", "EMED", "EPI", "FAMMED", "GENE", "HRP", "IMMUNOL", "LEAD", "LIFE", "MED", "INDE", "MI", "MCP", "NBIO", "NENS", "NEPR", "NSUR", "OBGYN", "OPHT", "ORTHO", "OTOHNS", "PATH", "PEDS", "PAS", "PSYC", "RADO", "RAD", "SOMGEN", "STEMREM", "SBIO", "SURG", "UROL", "WELLNESS", "CTL", "COLLEGE", "ESF", "ITALIC", "SOAR", "ORALCOMM", "OSPGEN", "OSPAUSTL", "OSPBARCL", "OSPBEIJ", "OSPBER", "OSPCPTWN", "OSPFLOR", "OSPHONGK", "OSPISTAN", "OSPKYOTO", "OSPKYOCT", "OSPMADRD", "OSPOXFRD", "OSPPARIS", "OSPSANTG", "RESPROG", "ROTCAF", "ROTCARMY", "ROTCNAVY", "SINY", "SLE", "THINK", "UAR", "PWR", "VPTL"]
+
 
 def glob_json(folder: str | PathLike) -> pd.DataFrame:
     result = []
@@ -76,9 +312,8 @@ def scatter_plot(start: int, stop: int) -> pd.DataFrame:
     for year in years_list(start, stop):
         df = glob_json(f"/Users/matthewturk/Desktop/ways-data/{year}")
         # df = df.dropna(subset=["gers"]).drop_duplicates(subset=["course_id"])
-        has_sections = df["sections"].apply(lambda x: len(x) > 0)
         req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
-        df = df[has_sections & req]
+        df = df[req]
         print(len(df.index))
         row = dict(df["gers"].explode().value_counts())
         row = {key: value for key, value in row.items() if "WAY-" in key}
@@ -90,33 +325,49 @@ def scatter_plot(start: int, stop: int) -> pd.DataFrame:
 
 def bar_race(start: int, stop: int) -> pd.DataFrame:
     data = dict()
-    req_names = [
-        "WAY-SI",
-        "WAY-EDP",
-        "WAY-A-II",
-        "WAY-CE",
-        "WAY-SMA"
-        "WAY-FR",
-        "WAY-AQR",
-        "WAY-ER"
-    ]
 
     for year in tqdm(years_list(start, stop)):
-        df = glob_json(f"/Users/matthewturk/Desktop/ways-data/{year}").dropna(subset=["gers"])
+        df = glob_json(f"/Users/matthewturk/Desktop/ways-data/{year}")
         has_sections = df["sections"].apply(lambda x: len(x) > 0)
         column = []
 
         for name in req_names:
-            req = df["gers"].apply(lambda r: any(g == name for g in r))
+            # print(df["gers"].value_counts())
+            req = df["gers"].apply(lambda r: name in r)
             # print(req_name, len(df[has_sections & req].index))
             column.append(len(df[has_sections & req].index))
+
         data[year] = column
 
     return pd.DataFrame(data, index=req_names)
 
+def ways_layers(year: str) -> pd.DataFrame:
+    data = []
+
+    df = glob_json(year)
+
+
+    for code in tqdm(department_codes):
+        for name in req_names:
+            req = df["gers"].apply(lambda r: name in r)
+            subject = df["subject"] == code
+            has_schedule = df["sections"].apply(lambda r: len(r) > 0)
+            fdf = df[has_schedule & subject & req] #.drop_duplicates(subset=["course_id"])
+
+            if code == "HISTORY":
+                print(fdf[req & subject]["title"].unique())
+            row = {
+                "Requirement": req_abbrev_to_full[name],
+                "Department": department_code_to_full[code],
+                "Department Code": code,
+                "Number of Courses": len(fdf.index)
+            }
+            if all(d != row for d in data):
+                data.append(row)
+
+    return pd.DataFrame(data)
 
 if __name__ == "__main__":
-    # department_codes = ["EARTHSYS", "ENERGY", "ENVRES", "EPS", "ESS", "OCEANS", "GEOPHYS", "SUSTAIN", "SUST", "ACCT", "ALP", "BUSGEN", "MGTECON", "FINANCE", "GSBGEN", "GSBGID", "HRMGT", "MKTG", "OIT", "OB", "POLECON", "STRAMGT", "EDUC", "AA", "BIOE", "CHEMENG", "CEE", "CME", "CS", "DESIGN", "DESINST", "EE", "ENGR", "MS&E", "MATSCI", "ME", "SCCM", "AFRICAAM", "AMELANG", "AFRICAST", "AMSTUD", "ANTHRO", "APPPHYS", "ARABLANG", "ARCHLGY", "ARTHIST", "ARTSINST", "ARTSTUDI", "ASNAMST", "ASNLANG", "BIO", "BIOHOPK", "BIOPHYS", "CATLANG", "CHEM", "CHILATST", "CHINA", "CHINLANG", "CLASSICS", "COMM", "COMPLIT", "CSRE", "DANCE", "DATASCI", "DLCL", "TAPS", "EALC", "EASTASN", "ECON", "ENGLISH", "EFSLANG", "ETHICSOC", "FEMGEN", "FILMPROD", "FILMEDIA", "FRENLANG", "FRENCH", "GERLANG", "GERMAN", "GLOBAL", "HISTORY", "HPS", "HUMBIO", "HUMRTS", "HUMCORE", "HUMSCI", "ILAC", "IIS", "INTLPOL", "INTNLREL", "ITALLANG", "ITALIAN", "JAPAN", "JAPANLNG", "JEWISHST", "KOREA", "KORLANG", "LATINAM", "LINGUIST", "MLA", "MCS", "MATH", "MEDVLST", "MTL", "MUSIC", "NATIVEAM", "PHIL", "PHYSICS", "POLISCI", "PORTLANG", "PSYCH", "PUBLPOL", "RELIGST", "REES", "STS", "SLAVLANG", "SLAVIC", "SOC", "SPANLANG", "ILAC", "SPECLANG", "SIW", "STATS", "SYMSYS", "TAPS", "TIBETLNG", "URBANST", "LAW", "LAWGEN", "ANES", "BIOC", "BIODS", "BIOMEDIN", "BMP", "BIOS", "CBIO", "CTS", "CSB", "CHPR", "COMPMED", "DERM", "DBIO", "EMED", "EPI", "FAMMED", "GENE", "HRP", "IMMUNOL", "LEAD", "LIFE", "MED", "INDE", "MI", "MCP", "NBIO", "NENS", "NEPR", "NSUR", "OBGYN", "OPHT", "ORTHO", "OTOHNS", "PATH", "PEDS", "PAS", "PSYC", "RADO", "RAD", "SOMGEN", "STEMREM", "SBIO", "SURG", "UROL", "WELLNESS", "CTL", "COLLEGE", "ESF", "ITALIC", "SOAR", "ORALCOMM", "OSPGEN", "OSPAUSTL", "OSPBARCL", "OSPBEIJ", "OSPBER", "OSPCPTWN", "OSPFLOR", "OSPHONGK", "OSPISTAN", "OSPKYOTO", "OSPKYOCT", "OSPMADRD", "OSPOXFRD", "OSPPARIS", "OSPSANTG", "RESPROG", "ROTCAF", "ROTCARMY", "ROTCNAVY", "SINY", "SLE", "THINK", "UAR", "PWR", "VPTL"]
     # write_time_major_composition(2014, 2024, department_codes)
     # print(time_series(["2023-2024"], "HISTORY"))
     # print(ways_value_counts("2023-2024", "HISTORY", drop_duplicates=True))
@@ -137,4 +388,8 @@ if __name__ == "__main__":
     #     if len(row) > 0:
     #         print(row)
     # scatter_plot(2014, 2024).to_csv("growth_of_ways.csv", index=False)
-    print(bar_race(2014, 2024))
+    # bar_race(2014, 2024).to_csv("bar_race.csv")
+    ways_layers("2023-2024").to_csv("ways_layers.csv", index=False)
+    # df = glob_json("2018-2019")
+    # req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
+    # print(df[req].drop_duplicates(subset=["course_id"]))
