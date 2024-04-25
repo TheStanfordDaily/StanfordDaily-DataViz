@@ -341,29 +341,52 @@ def bar_race(start: int, stop: int) -> pd.DataFrame:
 
     return pd.DataFrame(data, index=req_names)
 
-def ways_layers(year: str) -> pd.DataFrame:
+
+def ways_distribution(year: str) -> pd.DataFrame:
     data = []
-
     df = glob_json(year)
-
+    has_ways = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
 
     for code in tqdm(department_codes):
-        for name in req_names:
-            req = df["gers"].apply(lambda r: name in r)
-            subject = df["subject"] == code
-            has_schedule = df["sections"].apply(lambda r: len(r) > 0)
-            fdf = df[has_schedule & subject & req] #.drop_duplicates(subset=["course_id"])
+        subject = df["subject"] == code
+        has_schedule = df["sections"].apply(lambda r: len(r) > 0)
+        ddf = df[has_schedule & subject & has_ways]
+        exploded = ddf["gers"].explode()
 
-            if code == "HISTORY":
-                print(fdf[req & subject]["title"].unique())
-            row = {
-                "Requirement": req_abbrev_to_full[name],
-                "Department": department_code_to_full[code],
-                "Department Code": code,
-                "Number of Courses": len(fdf.index)
-            }
-            if all(d != row for d in data):
-                data.append(row)
+        value_counts = exploded.value_counts()
+        row = dict(value_counts)
+        row = {req_abbrev_to_full[key]: value for key, value in row.items() if key.startswith("WAY-")}
+
+        for name in req_abbrev_to_full.values():
+            if name not in row:
+                row[name] = None
+
+        row["Department"] = department_code_to_full[code]
+        data.append(row)
+
+    return pd.DataFrame(data)
+
+def ways_layers(start: int, stop: int) -> pd.DataFrame:
+    data = []
+    df = glob_json("2023-2024")
+
+    for year in years_list(start, stop):
+        for code in tqdm(department_codes):
+            for name in req_names:
+                req = df["gers"].apply(lambda r: name in r)
+                subject = df["subject"] == code
+                has_schedule = df["sections"].apply(lambda r: len(r) > 0)
+                fdf = df[has_schedule & subject & req] # .drop_duplicates(subset=["course_id"])
+                row = {
+                    "Requirement": req_abbrev_to_full[name],
+                    "Department": department_code_to_full[code],
+                    "Department Code": code,
+                    "Number of Courses": len(fdf.index),
+                    "Year": year
+                }
+
+                if all(d != row for d in data):
+                    data.append(row)
 
     return pd.DataFrame(data)
 
@@ -389,7 +412,47 @@ if __name__ == "__main__":
     #         print(row)
     # scatter_plot(2014, 2024).to_csv("growth_of_ways.csv", index=False)
     # bar_race(2014, 2024).to_csv("bar_race.csv")
-    ways_layers("2023-2024").to_csv("ways_layers.csv", index=False)
+    # ways_layers(2023, 2024).to_csv("ways_layers.csv", index=False)
     # df = glob_json("2018-2019")
     # req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
     # print(df[req].drop_duplicates(subset=["course_id"]))
+    # exploded = ways_distribution("2023-2024")["gers"].explode()
+    # ways_distribution("2023-2024").to_csv("ways_distribution.csv", index=False)
+
+    # data = []
+    # for year in years_list(2014, 2024):
+    #     row = {"Year": year}
+    #     for name in tqdm(req_names):
+    #         df = glob_json(year)
+    #         req = df["gers"].apply(lambda r: name in r)
+    #         has_sections = df["sections"].apply(lambda r: len(r) > 0)
+    #         df = df[has_sections & req]
+    #         df = df.drop_duplicates(subset=["course_id"])
+    #         row[req_abbrev_to_full[name]] = len(df.index)
+    #     data.append(row)
+    # pd.DataFrame(data).to_csv("growth_of_ways.csv")
+    df = glob_json("2023-2024")
+    within_doerr = df["academic_group"] == "SUSTN"
+    within_hs = df["academic_group"] == "H&S"
+    within_soe = df["academic_group"] == "ENGR"
+    req = df["gers"].apply(lambda r: any(x.startswith("WAY-") for x in r))
+    ug = df["academic_career"] == "UG"
+    has_sections = df["sections"].apply(lambda r: len(r) > 0)
+    # dept = df["subject"] == "GEOPHYS"
+    base_filters = has_sections & req
+    doerr_counts = df[within_doerr & base_filters].groupby("subject").size()
+    hs_counts = df[within_hs & base_filters].groupby("subject").size()
+    soe_counts = df[within_soe & base_filters].groupby("subject").size()
+
+    print("Doerr School of Sustainability")
+    print(f"Mean: {doerr_counts.mean()}")
+    print(f"Median: {doerr_counts.median()}")
+    print(f"Standard Deviation: {doerr_counts.std()}")
+    print("School of Humanities and Sciences")
+    print(f"Mean: {hs_counts.mean()}")
+    print(f"Median: {hs_counts.median()}")
+    print(f"Standard Deviation: {hs_counts.std()}")
+    print("School of Engineering")
+    print(f"Mean: {soe_counts.mean()}")
+    print(f"Median: {soe_counts.median()}")
+    print(f"Standard Deviation: {soe_counts.std()}")
