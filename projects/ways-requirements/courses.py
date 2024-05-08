@@ -95,7 +95,7 @@ def export_all_pack_to_csv(connect: CourseConnection, year: Any, ways: list[str]
     result.to_csv(filename, index=False)
 
 
-ways = [filters.WAY_AII, filters.WAY_CE, filters.WAY_EDP, filters.WAY_ER, filters.WAY_FR, filters.WAY_AQR, filters.WAY_SMA, filters.WAY_SI]
+ways = [filters.WAY_AII, filters.WAY_CE, filters.WAY_EDP, filters.WAY_ER, filters.WAY_FR, filters.WAY_AQR, filters.WAY_SMA, filters.WAY_SI, filters.TIME_EARLY_MORNING, filters.TIME_MORNING, filters.TIME_LUNCHTIME, filters.TIME_AFTERNOON, filters.TIME_EVENING]
 # export_all_pack_to_csv(connect, year, ways, "all_pack.csv")
 # export_all_schools_to_csv(connect, year, ways, "all_schools.csv")
 file_names = {
@@ -105,7 +105,9 @@ file_names = {
     "School of Humanities & Sciences": "hs",
     "Law School": "law",
     "School of Medicine": "medicine",
-    "Office of Vice Provost for Undergraduate Education": "vpue"
+    "Office of Vice Provost for Undergraduate Education": "vpue",
+    "Doerr School of Sustainability": "doerr",
+    "School of Earth, Energy and Environmental Sciences": "eees"
 }
 
 def rw_year(year: str):
@@ -113,18 +115,29 @@ def rw_year(year: str):
         os.mkdir(year)
 
     for school in connect.get_schools(year):
-        if school.name not in file_names:
+        lowercased = school.name.lower()
+        if not ("doerr" in lowercased or "sustain" in lowercased or "environment" in lowercased):
             continue
         courses = []
         for dept in tqdm(school.departments, desc=f"{school.name} ({year})"):
             dept_courses = connect.get_courses_by_department(dept.code, year=year)
             courses.extend(dept_courses)
-            time.sleep(2)
+            time.sleep(10)
 
         pd.DataFrame(courses).to_json(f"{year}/{file_names[school.name]}.json")
         time.sleep(10)
 
 
 if __name__ == "__main__":
-    for i in range(2018, 2024):
-        rw_year(f"{i}-{i + 1}")
+    # school = connect.get_school("Doerr School of Sustainability")
+    # courses = []
+    # schools = [s for s in connect.get_schools("2023-2024") if s.name == "Doerr School of Sustainability"]
+    # doerr = schools[0]
+    # for dept in doerr.departments:
+    #     courses.extend(connect.get_courses_by_department(dept, year="2023-2024"))
+    #     time.sleep(10)
+    #
+    # pd.DataFrame(courses).to_json("2023-2024/doerr.json")
+    # for i in range(2017, 2023):
+    #     rw_year(f"{i}-{i + 1}")
+    rw_year("2017-2018")

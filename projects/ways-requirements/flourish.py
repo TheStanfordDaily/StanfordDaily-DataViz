@@ -44,33 +44,33 @@ department_code_to_full = {
     "ACCT": "Accounting",
     "ALP": "Action Learning Programs",
     "BUSGEN": "Business General Pathways",
-    "MGTECON": "Economic Analysis & Policy",
+    "MGTECON": "Economic Analysis and Policy",
     "FINANCE": "Finance",
-    "GSBGEN": "GSB General & Interdisciplinary",
+    "GSBGEN": "GSB General and Interdisciplinary",
     "GSBGID": "GSB Interdisciplinary",
     "HRMGT": "Human Resource Management",
     "MKTG": "Marketing",
-    "OIT": "Operations Information & Technology",
+    "OIT": "Operations Information and Technology",
     "OB": "Organizational Behavior",
     "POLECON": "Political Economics",
     "STRAMGT": "Strategic Management",
     "EDUC": "Education",
-    "AA": "Aeronautics & Astronautics",
+    "AA": "Aeronautics and Astronautics",
     "BIOE": "Bioengineering",
     "CHEMENG": "Chemical Engineering",
-    "CEE": "Civil & Environmental Engineering",
-    "CME": "Computational & Mathematical Engineering",
+    "CEE": "Civil and Environmental Engineering",
+    "CME": "Computational and Mathematical Engineering",
     "CS": "Computer Science",
     "DESIGN": "Design",
     "DESINST": "Design Institute",
     "EE": "Electrical Engineering",
     "ENGR": "Engineering",
-    "MS&E": "Management Science & Engineering",
-    "MATSCI": "Materials Science & Engineer",
+    "MS&E": "Management Science and Engineering",
+    "MATSCI": "Materials Science and Engineering",
     "ME": "Mechanical Engineering",
-    "SCCM": "Scientific Computing & Comput'l Math",
-    "AFRICAAM": "African & African American Studies",
-    "AMELANG": "African & Middle Eastern Languages",
+    "SCCM": "Scientific Computing and Computational Math",
+    "AFRICAAM": "African and African American Studies",
+    "AMELANG": "African and Middle Eastern Languages",
     "AFRICAST": "African Studies",
     "AMSTUD": "American Studies",
     "ANTHRO": "Anthropology",
@@ -93,12 +93,12 @@ department_code_to_full = {
     "CLASSICS": "Classics",
     "COMM": "Communication",
     "COMPLIT": "Comparative Literature",
-    "CSRE": "Comparative Studies in Race & Ethnicity",
+    "CSRE": "Comparative Studies in Race and Ethnicity",
     "DANCE": "Dance",
     "DATASCI": "Data Science",
-    "DLCL": "Division of Literatures, Cultures, & Languages",
+    "DLCL": "Division of Literatures, Cultures, and Languages",
     # "TAPS": "Drama",
-    "EALC": "East Asian Languages & Cultures",
+    "EALC": "East Asian Languages and Cultures",
     "EASTASN": "East Asian Studies",
     "ECON": "Economics",
     "ENGLISH": "English",
@@ -113,12 +113,12 @@ department_code_to_full = {
     "GERMAN": "German Studies",
     "GLOBAL": "Global Studies",
     "HISTORY": "History",
-    "HPS": "History & Philosophy of Science",
+    "HPS": "History and Philosophy of Science",
     "HUMBIO": "Human Biology",
     "HUMRTS": "Human Rights",
     "HUMCORE": "Humanities Core",
-    "HUMSCI": "Humanities & Sciences",
-    "ILAC": "Iberian & Latin American Cultures",
+    "HUMSCI": "Humanities and Sciences",
+    "ILAC": "Iberian and Latin American Cultures",
     "IIS": "Institute for International Studies (FSI)",
     "INTLPOL": "International Policy",
     "INTNLREL": "International Relations",
@@ -132,10 +132,10 @@ department_code_to_full = {
     "LATINAM": "Latin American Studies",
     "LINGUIST": "Linguistics",
     "MLA": "Master of Liberal Arts",
-    "MCS": "Mathematical & Computational Science",
+    "MCS": "Mathematical and Computational Science",
     "MATH": "Mathematics",
     "MEDVLST": "Medieval Studies",
-    "MTL": "Modern Thought & Literature",
+    "MTL": "Modern Thought and Literature",
     "MUSIC": "Music",
     "NATIVEAM": "Native American Studies",
     "PHIL": "Philosophy",
@@ -145,13 +145,13 @@ department_code_to_full = {
     "PSYCH": "Psychology",
     "PUBLPOL": "Public Policy",
     "RELIGST": "Religious Studies",
-    "REES": "Russian, East European, & Eurasian Studies",
-    "STS": "Science, Technology, & Society",
+    "REES": "Russian, East European, and Eurasian Studies",
+    "STS": "Science, Technology, and Society",
     "SLAVLANG": "Slavic Language",
     "SLAVIC": "Slavic Studies",
     "SOC": "Sociology",
     "SPANLANG": "Spanish Language",
-    # "ILAC": "Spanish, Portuguese, & Catalan Literature",
+    # "ILAC": "Spanish, Portuguese, and Catalan Literature",
     "SPECLANG": "Special Language Program",
     "SIW": "Stanford in Washington",
     "STATS": "Statistics",
@@ -169,7 +169,7 @@ department_code_to_full = {
     "BIOS": "Biosciences Interdisciplinary",
     "CBIO": "Cancer Biology",
     "CTS": "Cardiothoracic Surgery",
-    "CSB": "Chemical & Systems Biology",
+    "CSB": "Chemical and Systems Biology",
     "CHPR": "Community Health and Prevention Research",
     "COMPMED": "Comparative Medicine",
     "DERM": "Dermatology",
@@ -178,19 +178,19 @@ department_code_to_full = {
     "EPI": "Epidemiology",
     "FAMMED": "Family and Community Medicine",
     "GENE": "Genetics",
-    "HRP": "Health Research & Policy",
+    "HRP": "Health Research and Policy",
     "IMMUNOL": "Immunology",
     "LEAD": "Leadership Innovations",
     "LIFE": "Lifeworks",
     "MED": "Medicine",
     "INDE": "Medicine Interdisciplinary",
-    "MI": "Microbiology & Immunology",
-    "MCP": "Molecular & Cellular Physiology",
+    "MI": "Microbiology and Immunology",
+    "MCP": "Molecular and Cellular Physiology",
     "NBIO": "Neurobiology",
-    "NENS": "Neurology & Neurological Sciences",
+    "NENS": "Neurology and Neurological Sciences",
     "NEPR": "Neurosciences Program",
     "NSUR": "Neurosurgery",
-    "OBGYN": "Obstetrics & Gynecology",
+    "OBGYN": "Obstetrics and Gynecology",
     "OPHT": "Ophthalmology",
     "ORTHO": "Orthopedic Surgery",
     "OTOHNS": "Otolaryngology",
@@ -235,7 +235,7 @@ department_code_to_full = {
     "SLE": "Structured Liberal Education",
     "THINK": "Thinking Matters",
     "UAR": "Undergraduate Advising and Research",
-    "PWR": "Writing & Rhetoric, Program in",
+    "PWR": "Program in Writing and Rhetoric",
     "VPTL": "Teaching and Learning"
 }
 
@@ -310,10 +310,11 @@ def scatter_plot(start: int, stop: int) -> pd.DataFrame:
     data = []
 
     for year in years_list(start, stop):
-        df = glob_json(f"/Users/matthewturk/Desktop/ways-data/{year}")
+        df = glob_json(year)
         # df = df.dropna(subset=["gers"]).drop_duplicates(subset=["course_id"])
+        has_section = df["sections"].apply(lambda r: len(r) > 0)
         req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
-        df = df[req]
+        df = df[has_section & req]
         print(len(df.index))
         row = dict(df["gers"].explode().value_counts())
         row = {key: value for key, value in row.items() if "WAY-" in key}
@@ -390,47 +391,8 @@ def ways_layers(start: int, stop: int) -> pd.DataFrame:
 
     return pd.DataFrame(data)
 
-if __name__ == "__main__":
-    # write_time_major_composition(2014, 2024, department_codes)
-    # print(time_series(["2023-2024"], "HISTORY"))
-    # print(ways_value_counts("2023-2024", "HISTORY", drop_duplicates=True))
-    # subject = df["subject"] == "HISTORY"
-    # req = df["gers"].apply(lambda x: "WAY-CE" in x) # df["gers"].astype(str).str.contains("WAY-CE")
-    # df = df.drop_duplicates(subset=["course_id"])
-    # req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r)) # df["gers"].astype(str).str.contains("WAY")
 
-    # df = df[has_sections & req]
-    # df = df[subject & req]
-    # df = df["sections"]
-    # 1,876 courses in 2023-24 school year satisfy ways.
-    # if you account for cross listings, that number is then 1,266.
-    # row = dict(df["gers"].explode().value_counts())
-    # row = {key: value for key, value in row.items() if "WAY-" in key}
-    # print(row)
-    # for row in df["sections"]:
-    #     if len(row) > 0:
-    #         print(row)
-    # scatter_plot(2014, 2024).to_csv("growth_of_ways.csv", index=False)
-    # bar_race(2014, 2024).to_csv("bar_race.csv")
-    # ways_layers(2023, 2024).to_csv("ways_layers.csv", index=False)
-    # df = glob_json("2018-2019")
-    # req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
-    # print(df[req].drop_duplicates(subset=["course_id"]))
-    # exploded = ways_distribution("2023-2024")["gers"].explode()
-    # ways_distribution("2023-2024").to_csv("ways_distribution.csv", index=False)
-
-    # data = []
-    # for year in years_list(2014, 2024):
-    #     row = {"Year": year}
-    #     for name in tqdm(req_names):
-    #         df = glob_json(year)
-    #         req = df["gers"].apply(lambda r: name in r)
-    #         has_sections = df["sections"].apply(lambda r: len(r) > 0)
-    #         df = df[has_sections & req]
-    #         df = df.drop_duplicates(subset=["course_id"])
-    #         row[req_abbrev_to_full[name]] = len(df.index)
-    #     data.append(row)
-    # pd.DataFrame(data).to_csv("growth_of_ways.csv")
+def print_statistical_summary():
     df = glob_json("2023-2024")
     within_doerr = df["academic_group"] == "SUSTN"
     within_hs = df["academic_group"] == "H&S"
@@ -456,3 +418,46 @@ if __name__ == "__main__":
     print(f"Mean: {soe_counts.mean()}")
     print(f"Median: {soe_counts.median()}")
     print(f"Standard Deviation: {soe_counts.std()}")
+
+
+if __name__ == "__main__":
+    # write_time_major_composition(2014, 2024, department_codes)
+    # print(time_series(["2023-2024"], "HISTORY"))
+    # print(ways_value_counts("2023-2024", "HISTORY", drop_duplicates=True))
+    # subject = df["subject"] == "HISTORY"
+    # req = df["gers"].apply(lambda x: "WAY-CE" in x) # df["gers"].astype(str).str.contains("WAY-CE")
+    # df = df.drop_duplicates(subset=["course_id"])
+    # req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r)) # df["gers"].astype(str).str.contains("WAY")
+
+    # df = df[has_sections & req]
+    # df = df[subject & req]
+    # df = df["sections"]
+    # 1,876 courses in 2023-24 school year satisfy ways.
+    # if you account for cross listings, that number is then 1,266.
+    # row = dict(df["gers"].explode().value_counts())
+    # row = {key: value for key, value in row.items() if "WAY-" in key}
+    # print(row)
+    # for row in df["sections"]:
+    #     if len(row) > 0:
+    #         print(row)
+    scatter_plot(2014, 2024).to_csv("growth_of_ways.csv", index=False)
+    # bar_race(2014, 2024).to_csv("bar_race.csv")
+    # ways_layers(2023, 2024).to_csv("ways_layers.csv", index=False)
+    # df = glob_json("2018-2019")
+    # req = df["gers"].apply(lambda r: any(g.startswith("WAY-") for g in r))
+    # print(df[req].drop_duplicates(subset=["course_id"]))
+    # exploded = ways_distribution("2023-2024")["gers"].explode()
+    # ways_distribution("2023-2024").to_csv("ways_distribution.csv", index=False)
+
+    # data = []
+    # for year in years_list(2014, 2024):
+    #     row = {"Year": year}
+    #     for name in tqdm(req_names):
+    #         df = glob_json(year)
+    #         req = df["gers"].apply(lambda r: name in r)
+    #         has_sections = df["sections"].apply(lambda r: len(r) > 0)
+    #         df = df[has_sections & req]
+    #         df = df.drop_duplicates(subset=["course_id"])
+    #         row[req_abbrev_to_full[name]] = len(df.index)
+    #     data.append(row)
+    # pd.DataFrame(data).to_csv("growth_of_ways.csv")
