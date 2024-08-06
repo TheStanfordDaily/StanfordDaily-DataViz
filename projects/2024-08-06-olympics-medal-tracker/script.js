@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
 
     // Inject HTML
-    const container = document.createElement('div');
+    const container = document.getElementById('medal-tracker-content');
     container.innerHTML = `
         <div class="medal-table-container">
             <div class="medal-table">
