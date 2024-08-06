@@ -1,3 +1,5 @@
+console.log("Medal-tracker js running...");
+
 document.addEventListener('DOMContentLoaded', function() {
     // Inject CSS
     const style = document.createElement('style');
