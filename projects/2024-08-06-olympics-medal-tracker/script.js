@@ -159,7 +159,6 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     `;
-    document.body.appendChild(container);
 
     d3.csv("./output.csv").then(function(data) {
         const educationData = d3.group(data, d => d.education || "None");
