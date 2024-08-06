@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="medal-count gold">G</div>
                     <div class="medal-count silver">S</div>
                     <div class="medal-count bronze">B</div>
-                    <div class="medal-count total"><img src="./assets/medalAll.svg" alt="Total Medals" class="total-medal-icon"></div>
+                    <div class="medal-count total"><img src="https://stanforddaily.com/wp-content/uploads/2024/08/medalAll.svg" alt="Total Medals" class="total-medal-icon"></div>
                     <div></div>
                 </div>
                 <div id="medal-table-rows"></div>
@@ -276,7 +276,7 @@ function toggleAthleteDetails(educationKey, index) {
  * @param {boolean} isVisible - Whether the details are currently visible.
  */
 function updateToggleButton(button, isVisible) {
-    button.innerHTML = `<img src="./assets/${isVisible ? 'expand' : 'collapse'}.svg" alt="${isVisible ? 'Expand' : 'Collapse'}" class="expand-icon">`;
+    button.innerHTML = `<img src="${isVisible ? 'https://stanforddaily.com/wp-content/uploads/2024/08/expand.svg' : 'https://stanforddaily.com/wp-content/uploads/2024/08/collapse.svg'}" alt="${isVisible ? 'Expand' : 'Collapse'}" class="expand-icon">`;
     button.classList.toggle('black-background', !isVisible);
 }
 
