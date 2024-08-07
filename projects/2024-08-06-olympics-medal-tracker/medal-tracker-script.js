@@ -4,16 +4,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inject CSS
     const style = document.createElement('style');
     style.textContent = `
-        body {
+        .medal-table-container {
             font-family: 'Fira Sans', sans-serif;
             font-weight: 300;
             font-size: larger;
             background-color: #f5f5f5;
-        }
-        .medal-table-container {
-            width: 100%;
-            max-width: 750px;
-            margin: 0 auto;
+            width: 150%;
+            margin: 0 auto; 
+            border: 2vmin #f5f5f5 solid; 
+            position: relative; 
+            left: -10vw;
         }
         .medal-table {
             width: 100%;
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             background-color: black;
             color: white;
         }
-        button {
+        .toggle-button {
             margin-left: auto;
             display: flex;
             justify-content: center;
@@ -208,8 +208,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="medal-count">${totals.silver}</div>
                 <div class="medal-count">${totals.bronze}</div>
                 <div class="medal-count">${totals.total}</div>
-                <button onclick="toggleEducationDetails('${educationKey}')">
-                    <img src="./assets/expand.svg" alt="Expand" class="expand-collapse">
+                <button onclick="toggleEducationDetails('${educationKey}')" class="toggle-button">
+                    <img src="https://stanforddaily.com/wp-content/uploads/2024/08/expand.svg" alt="Expand" class="expand-collapse">
                 </button>
             `);
 
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="medal-count">${athlete.medals_bronze}</div>
                     <div class="medal-count">${+athlete.medals_gold + +athlete.medals_silver + +athlete.medals_bronze}</div>
                     <button onclick="toggleAthleteDetails('${educationKey}', ${athleteIndex})">
-                        <img src="./assets/expand.svg" alt="Expand" class="expand-collapse">
+                        <img src="https://stanforddaily.com/wp-content/uploads/2024/08/expand.svg" alt="Expand" class="expand-collapse">
                     </button>
                 `);
 
@@ -277,7 +277,7 @@ function toggleAthleteDetails(educationKey, index) {
  * @param {boolean} isVisible - Whether the details are currently visible.
  */
 function updateToggleButton(button, isVisible) {
-    button.innerHTML = `<img src="${isVisible ? 'https://stanforddaily.com/wp-content/uploads/2024/08/expand.svg' : 'https://stanforddaily.com/wp-content/uploads/2024/08/collapse.svg'}" alt="${isVisible ? 'Expand' : 'Collapse'}" class="expand-icon">`;
+    button.innerHTML = `<img src="${isVisible ? 'https://stanforddaily.com/wp-content/uploads/2024/08/expand.svg' : 'https://stanforddaily.com/wp-content/uploads/2024/08/collapse.svg'}" alt="${isVisible ? 'Expand' : 'Collapse'}" class="expand-collapse">`;
     button.classList.toggle('black-background', !isVisible);
 }
 
