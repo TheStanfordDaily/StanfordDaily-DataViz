@@ -60,13 +60,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         .total-medal-icon,
         .expand-collapse {
-            width: 20px;
-            height: 20px;
+            max-width: none !important;
             vertical-align: middle;
             cursor: pointer;
         }
         .black-background {
-            background-color: black;
+            background-color: black !important;
             color: white;
         }
         .toggle-button {
