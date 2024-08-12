@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     `;
 
-    d3.csv("https://stanforddaily.com/wp-content/uploads/2024/08/2024-olympics-medals.csv").then(function(data) {
+    d3.csv("https://raw.githubusercontent.com/TheStanfordDaily/StanfordDaily-DataViz/tree/main/projects/2024-08-06-olympics-medal-tracker/medals.csv").then(function(data) {
         const educationData = d3.group(data, d => d.education || "None");
         const medalTableRows = d3.select("#medal-table-rows");
 
